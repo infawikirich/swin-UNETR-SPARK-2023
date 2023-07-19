@@ -1,0 +1,11 @@
+Libraries imported successfully
+Number of slices:  1
+Slices dtype:  <class 'pydicom.dataset.FileDataset'>
+Volume Shape (Row, Column) 256 256
+[2K[2K0
+interactive(children=(IntSlider(value=0, description='x', max=0), Output()), _dom_classes=('widget-interact',))
+Patient ID: 1010
+Patient ID 1010
+Numpy array image shape is:  (1, 256, 216)
+Transformed image pixel value range (min, max):  (0.0, 738.0)
+Scaled image pixel value range (min, max):  (0.0, 1.0)
