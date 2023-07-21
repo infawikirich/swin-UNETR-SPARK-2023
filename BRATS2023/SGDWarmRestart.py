@@ -188,7 +188,7 @@ model = SwinUNETR(
     img_size=roi,
     in_channels=4,
     out_channels=3,
-    feature_size=48,
+    feature_size=60,
     drop_rate=0.0,
     attn_drop_rate=0.0,
     dropout_path_rate=0.0,
@@ -197,7 +197,11 @@ model = SwinUNETR(
 
 # Optimize and loss function
 torch.backends.cudnn.benchmark = True
-dice_loss = DiceLoss(to_onehot_y=False, sigmoid=True)
+# dice_loss = DiceLoss(to_onehot_y=False, sigmoid=True)
+
+# I have replaced the DiceLoss with CrossEntropyLoss
+dice_loss = torch.nn.CrossEntropyLoss()
+
 post_sigmoid = Activations(sigmoid=True)
 post_pred = AsDiscrete(argmax=False, threshold=0.5)
 dice_acc = DiceMetric(include_background=True, reduction=MetricReduction.MEAN_BATCH, get_not_nans=True)
@@ -225,7 +229,13 @@ def train_epoch(model, loader, optimizer, epoch, loss_func):
         data, target = batch_data["image"].to(device), batch_data["label"].to(device)
         optimizer.zero_grad()   # added this line to prevent GPU out of memory
         logits = model(data)
+
+        # convert ground truth labels to Long tensor (integers)
+        target = target.to(torch.long)
+
+        # compute the CrossEntropyLoss
         loss = loss_func(logits, target)
+        # loss = loss_func(logits, target)
         loss.backward()
         optimizer.step()
         run_loss.update(loss.item(), n=batch_size)  

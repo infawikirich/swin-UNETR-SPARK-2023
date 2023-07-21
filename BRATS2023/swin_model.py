@@ -185,7 +185,7 @@ model = SwinUNETR(
     img_size=roi,
     in_channels=4,
     out_channels=3,
-    feature_size=48,
+    feature_size=60,    # changed from 48 to 60
     drop_rate=0.0,
     attn_drop_rate=0.0,
     dropout_path_rate=0.0,
@@ -206,8 +206,14 @@ model_inferer = partial(
     overlap=infer_overlap,
 )
 
-optimizer = torch.optim.AdamW(model.parameters(), lr=1e-4, weight_decay=1e-5)
-scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=max_epochs)
+# optimizer = torch.optim.Rdam(model.parameters(), lr=1e-4, weight_decay=1e-5)
+# scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=max_epochs)
+optimizer = torch.optim.Adadelta(model.parameters(), lr=0.1, rho=0.9, eps=1e-8, weight_decay=1e-5)
+# optimizer = torch.optim.Adamax(model.parameters(), lr=1e-4, eps=1e-6, weight_decay=1e-5)
+# scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=max_epochs)
+scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=5, gamma=0.01)
+
+
 
 # Train and validate epoch
 def train_epoch(model, loader, optimizer, epoch, loss_func):
