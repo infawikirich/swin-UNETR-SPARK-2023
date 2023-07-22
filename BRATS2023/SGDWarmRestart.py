@@ -158,7 +158,7 @@ val_every = 2     # changed from 10 to 2
 train_loader, val_loader = get_loader(batch_size, data_dir, json_list, fold, roi)
 
 # set parameters for CosineAnealingWarmRestart
-T_O = 5
+# T_O = 5
 
 
 # check data shape and visualize
@@ -189,9 +189,9 @@ model = SwinUNETR(
     in_channels=4,
     out_channels=3,
     feature_size=60,
-    drop_rate=0.0,
-    attn_drop_rate=0.0,
-    dropout_path_rate=0.0,
+    drop_rate=0.7,     # changed from 0.0 to 0.7
+    attn_drop_rate=0.5,    # changed from 0.0 to 0.0
+    dropout_path_rate=0.2,     # changed from 0.0 to 0.0
     use_checkpoint=True,
 ).to(device)
 
@@ -231,7 +231,7 @@ def train_epoch(model, loader, optimizer, epoch, loss_func):
         logits = model(data)
 
         # convert ground truth labels to Long tensor (integers)
-        target = target.to(torch.long)
+        target = target.to(torch.float)
 
         # compute the CrossEntropyLoss
         loss = loss_func(logits, target)
