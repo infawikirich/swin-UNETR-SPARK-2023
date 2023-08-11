@@ -1,0 +1,51 @@
+None
+
+    The model was run for 10 epoch.
+    The validation was done at 10 epoch.
+    Optimizer - Adadelta, lr=1e-5, weight_decay=1e-4, rho=0.99
+    Scheduler - StepLR(step_size = 1, gamma=0.97)
+    drop_rate = 0.0
+    infer_overlap = 0.7
+    I use the softmax in Diceloss calculation
+    
+      
+
+MONAI version: 1.2.0rc7+9.g84940298
+Numpy version: 1.24.2
+Pytorch version: 1.13.1
+MONAI flags: HAS_EXT = False, USE_COMPILED = False, USE_META_DICT = False
+MONAI rev id: 84940298bff9ff1f54845eb8ae7422c0092c09c1
+MONAI __file__: /home/guest185/hackathon_38/lib/python3.8/site-packages/monai/__init__.py
+
+Optional dependencies:
+Pytorch Ignite version: 0.4.2
+ITK version: NOT INSTALLED or UNKNOWN VERSION.
+Nibabel version: 5.1.0
+scikit-image version: 0.19.3
+Pillow version: 9.5.0
+Tensorboard version: 2.13.0
+gdown version: 4.7.1
+TorchVision version: 0.14.1
+tqdm version: 4.65.0
+lmdb version: 1.2.1
+psutil version: 5.9.4
+pandas version: 1.5.3
+einops version: 0.6.1
+transformers version: 4.21.3
+mlflow version: NOT INSTALLED or UNKNOWN VERSION.
+pynrrd version: 1.0.0
+
+For details about installing the optional dependencies, please visit:
+    https://docs.monai.io/en/latest/installation.html#installing-the-recommended-dependencies
+
+/tmp/tmpldeqdbep
+image shape: (240, 240, 155), label shape: (240, 240, 155)
+Thu Aug  3 07:59:15 2023 Epoch: 0
+In the future `np.bool` will be defined as the corresponding NumPy scalar.
+In the future `np.bool` will be defined as the corresponding NumPy scalar.
+In the future `np.bool` will be defined as the corresponding NumPy scalar.
+In the future `np.bool` will be defined as the corresponding NumPy scalar.
+monai.transforms.io.dictionary LoadImaged.__init__:image_only: Current default value of argument `image_only=False` has been deprecated since version 1.1. It will be changed to `image_only=True` in version 1.3.
+In the future `np.bool` will be defined as the corresponding NumPy scalar.
+In the future `np.bool` will be defined as the corresponding NumPy scalar.
+slurmstepd: error: *** JOB 9872123 ON gra707 CANCELLED AT 2023-08-03T19:59:32 DUE TO TIME LIMIT ***

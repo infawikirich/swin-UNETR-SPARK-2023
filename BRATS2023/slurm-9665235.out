@@ -1,0 +1,2298 @@
+None
+MONAI version: 1.2.0rc7+9.g84940298
+Numpy version: 1.24.2
+Pytorch version: 1.13.1
+MONAI flags: HAS_EXT = False, USE_COMPILED = False, USE_META_DICT = False
+MONAI rev id: 84940298bff9ff1f54845eb8ae7422c0092c09c1
+MONAI __file__: /home/guest185/hackathon_38/lib/python3.8/site-packages/monai/__init__.py
+
+Optional dependencies:
+Pytorch Ignite version: 0.4.2
+ITK version: NOT INSTALLED or UNKNOWN VERSION.
+Nibabel version: 5.1.0
+scikit-image version: 0.19.3
+Pillow version: 9.5.0
+Tensorboard version: 2.13.0
+gdown version: 4.7.1
+TorchVision version: 0.14.1
+tqdm version: 4.65.0
+lmdb version: 1.2.1
+psutil version: 5.9.4
+pandas version: 1.5.3
+einops version: 0.6.1
+transformers version: 4.21.3
+mlflow version: NOT INSTALLED or UNKNOWN VERSION.
+pynrrd version: 1.0.0
+
+For details about installing the optional dependencies, please visit:
+    https://docs.monai.io/en/latest/installation.html#installing-the-recommended-dependencies
+
+/tmp/tmpvl208j9i
+image shape: (240, 240, 155), label shape: (240, 240, 155)
+Mon Jul 24 02:44:38 2023 Epoch: 0
+In the future `np.bool` will be defined as the corresponding NumPy scalar.
+In the future `np.bool` will be defined as the corresponding NumPy scalar.
+In the future `np.bool` will be defined as the corresponding NumPy scalar.
+In the future `np.bool` will be defined as the corresponding NumPy scalar.
+monai.transforms.io.dictionary LoadImaged.__init__:image_only: Current default value of argument `image_only=False` has been deprecated since version 1.1. It will be changed to `image_only=True` in version 1.3.
+In the future `np.bool` will be defined as the corresponding NumPy scalar.
+In the future `np.bool` will be defined as the corresponding NumPy scalar.
+Epoch 0/15 0/1000 loss: 0.9502 time 45.54s
+Epoch 0/15 1/1000 loss: 0.9738 time 4.46s
+Epoch 0/15 2/1000 loss: 0.9726 time 4.79s
+Epoch 0/15 3/1000 loss: 0.9774 time 4.40s
+Epoch 0/15 4/1000 loss: 0.9777 time 4.41s
+Epoch 0/15 5/1000 loss: 0.9742 time 4.43s
+Epoch 0/15 6/1000 loss: 0.9717 time 4.44s
+Epoch 0/15 7/1000 loss: 0.9716 time 4.45s
+Epoch 0/15 8/1000 loss: 0.9710 time 4.46s
+Epoch 0/15 9/1000 loss: 0.9711 time 4.45s
+Epoch 0/15 10/1000 loss: 0.9709 time 4.48s
+Epoch 0/15 11/1000 loss: 0.9711 time 4.49s
+Epoch 0/15 12/1000 loss: 0.9722 time 4.49s
+Epoch 0/15 13/1000 loss: 0.9716 time 4.47s
+Epoch 0/15 14/1000 loss: 0.9721 time 4.48s
+Epoch 0/15 15/1000 loss: 0.9700 time 4.49s
+Epoch 0/15 16/1000 loss: 0.9693 time 4.47s
+Epoch 0/15 17/1000 loss: 0.9688 time 4.47s
+Epoch 0/15 18/1000 loss: 0.9697 time 4.46s
+Epoch 0/15 19/1000 loss: 0.9671 time 4.47s
+Epoch 0/15 20/1000 loss: 0.9668 time 4.47s
+Epoch 0/15 21/1000 loss: 0.9662 time 4.46s
+Epoch 0/15 22/1000 loss: 0.9655 time 4.46s
+Epoch 0/15 23/1000 loss: 0.9641 time 4.47s
+Epoch 0/15 24/1000 loss: 0.9631 time 4.47s
+Epoch 0/15 25/1000 loss: 0.9631 time 4.45s
+Epoch 0/15 26/1000 loss: 0.9632 time 4.45s
+Epoch 0/15 27/1000 loss: 0.9625 time 4.45s
+Epoch 0/15 28/1000 loss: 0.9636 time 4.43s
+Epoch 0/15 29/1000 loss: 0.9643 time 4.43s
+Epoch 0/15 30/1000 loss: 0.9641 time 4.42s
+Epoch 0/15 31/1000 loss: 0.9624 time 4.42s
+Epoch 0/15 32/1000 loss: 0.9612 time 4.43s
+Epoch 0/15 33/1000 loss: 0.9610 time 4.41s
+Epoch 0/15 34/1000 loss: 0.9610 time 4.41s
+Epoch 0/15 35/1000 loss: 0.9619 time 4.41s
+Epoch 0/15 36/1000 loss: 0.9626 time 4.41s
+Epoch 0/15 37/1000 loss: 0.9610 time 4.42s
+Epoch 0/15 38/1000 loss: 0.9612 time 4.39s
+Epoch 0/15 39/1000 loss: 0.9601 time 4.40s
+Epoch 0/15 40/1000 loss: 0.9602 time 4.40s
+Epoch 0/15 41/1000 loss: 0.9598 time 4.39s
+Epoch 0/15 42/1000 loss: 0.9595 time 4.39s
+Epoch 0/15 43/1000 loss: 0.9591 time 4.39s
+Epoch 0/15 44/1000 loss: 0.9594 time 4.38s
+Epoch 0/15 45/1000 loss: 0.9589 time 4.40s
+Epoch 0/15 46/1000 loss: 0.9569 time 4.39s
+Epoch 0/15 47/1000 loss: 0.9565 time 4.38s
+Epoch 0/15 48/1000 loss: 0.9568 time 4.38s
+Epoch 0/15 49/1000 loss: 0.9569 time 4.37s
+Epoch 0/15 50/1000 loss: 0.9573 time 4.36s
+Epoch 0/15 51/1000 loss: 0.9570 time 4.38s
+Epoch 0/15 52/1000 loss: 0.9573 time 4.38s
+Epoch 0/15 53/1000 loss: 0.9572 time 4.38s
+Epoch 0/15 54/1000 loss: 0.9562 time 4.37s
+Epoch 0/15 55/1000 loss: 0.9560 time 4.39s
+Epoch 0/15 56/1000 loss: 0.9563 time 4.36s
+Epoch 0/15 57/1000 loss: 0.9560 time 4.37s
+Epoch 0/15 58/1000 loss: 0.9558 time 4.37s
+Epoch 0/15 59/1000 loss: 0.9552 time 4.37s
+Epoch 0/15 60/1000 loss: 0.9550 time 4.38s
+Epoch 0/15 61/1000 loss: 0.9557 time 4.37s
+Epoch 0/15 62/1000 loss: 0.9563 time 4.37s
+Epoch 0/15 63/1000 loss: 0.9570 time 4.37s
+Epoch 0/15 64/1000 loss: 0.9567 time 4.38s
+Epoch 0/15 65/1000 loss: 0.9571 time 4.37s
+Epoch 0/15 66/1000 loss: 0.9569 time 4.37s
+Epoch 0/15 67/1000 loss: 0.9567 time 4.37s
+Epoch 0/15 68/1000 loss: 0.9572 time 4.38s
+Epoch 0/15 69/1000 loss: 0.9569 time 4.38s
+Epoch 0/15 70/1000 loss: 0.9569 time 4.37s
+Epoch 0/15 71/1000 loss: 0.9568 time 4.38s
+Epoch 0/15 72/1000 loss: 0.9565 time 4.37s
+Epoch 0/15 73/1000 loss: 0.9564 time 4.37s
+Epoch 0/15 74/1000 loss: 0.9553 time 4.37s
+Epoch 0/15 75/1000 loss: 0.9543 time 4.37s
+Epoch 0/15 76/1000 loss: 0.9547 time 4.37s
+Epoch 0/15 77/1000 loss: 0.9547 time 4.37s
+Epoch 0/15 78/1000 loss: 0.9542 time 4.37s
+Epoch 0/15 79/1000 loss: 0.9540 time 4.37s
+Epoch 0/15 80/1000 loss: 0.9537 time 4.37s
+Epoch 0/15 81/1000 loss: 0.9539 time 4.38s
+Epoch 0/15 82/1000 loss: 0.9534 time 4.37s
+Epoch 0/15 83/1000 loss: 0.9535 time 4.38s
+Epoch 0/15 84/1000 loss: 0.9533 time 4.38s
+Epoch 0/15 85/1000 loss: 0.9536 time 4.38s
+Epoch 0/15 86/1000 loss: 0.9534 time 4.38s
+Epoch 0/15 87/1000 loss: 0.9529 time 4.37s
+Epoch 0/15 88/1000 loss: 0.9525 time 4.37s
+Epoch 0/15 89/1000 loss: 0.9519 time 4.37s
+Epoch 0/15 90/1000 loss: 0.9520 time 4.37s
+Epoch 0/15 91/1000 loss: 0.9511 time 4.37s
+Epoch 0/15 92/1000 loss: 0.9508 time 4.37s
+Epoch 0/15 93/1000 loss: 0.9508 time 4.37s
+Epoch 0/15 94/1000 loss: 0.9507 time 4.37s
+Epoch 0/15 95/1000 loss: 0.9506 time 4.37s
+Epoch 0/15 96/1000 loss: 0.9507 time 4.37s
+Epoch 0/15 97/1000 loss: 0.9511 time 4.37s
+Epoch 0/15 98/1000 loss: 0.9510 time 4.38s
+Epoch 0/15 99/1000 loss: 0.9504 time 4.38s
+Epoch 0/15 100/1000 loss: 0.9505 time 4.38s
+Epoch 0/15 101/1000 loss: 0.9501 time 4.37s
+Epoch 0/15 102/1000 loss: 0.9502 time 4.38s
+Epoch 0/15 103/1000 loss: 0.9505 time 4.37s
+Epoch 0/15 104/1000 loss: 0.9503 time 4.37s
+Epoch 0/15 105/1000 loss: 0.9501 time 4.37s
+Epoch 0/15 106/1000 loss: 0.9504 time 4.37s
+Epoch 0/15 107/1000 loss: 0.9503 time 4.37s
+Epoch 0/15 108/1000 loss: 0.9501 time 4.38s
+Epoch 0/15 109/1000 loss: 0.9501 time 4.37s
+Epoch 0/15 110/1000 loss: 0.9498 time 4.37s
+Epoch 0/15 111/1000 loss: 0.9501 time 4.37s
+Epoch 0/15 112/1000 loss: 0.9499 time 4.38s
+Epoch 0/15 113/1000 loss: 0.9500 time 4.37s
+Epoch 0/15 114/1000 loss: 0.9500 time 4.38s
+Epoch 0/15 115/1000 loss: 0.9504 time 4.38s
+Epoch 0/15 116/1000 loss: 0.9501 time 4.38s
+Epoch 0/15 117/1000 loss: 0.9495 time 4.38s
+Epoch 0/15 118/1000 loss: 0.9491 time 4.37s
+Epoch 0/15 119/1000 loss: 0.9489 time 4.37s
+Epoch 0/15 120/1000 loss: 0.9490 time 4.36s
+Epoch 0/15 121/1000 loss: 0.9494 time 4.37s
+Epoch 0/15 122/1000 loss: 0.9495 time 4.37s
+Epoch 0/15 123/1000 loss: 0.9499 time 4.37s
+Epoch 0/15 124/1000 loss: 0.9502 time 4.37s
+Epoch 0/15 125/1000 loss: 0.9498 time 4.37s
+Epoch 0/15 126/1000 loss: 0.9498 time 4.38s
+Epoch 0/15 127/1000 loss: 0.9493 time 4.37s
+Epoch 0/15 128/1000 loss: 0.9490 time 4.37s
+Epoch 0/15 129/1000 loss: 0.9491 time 4.37s
+Epoch 0/15 130/1000 loss: 0.9493 time 4.38s
+Epoch 0/15 131/1000 loss: 0.9495 time 4.38s
+Epoch 0/15 132/1000 loss: 0.9493 time 4.38s
+Epoch 0/15 133/1000 loss: 0.9494 time 4.37s
+Epoch 0/15 134/1000 loss: 0.9487 time 4.37s
+Epoch 0/15 135/1000 loss: 0.9486 time 4.37s
+Epoch 0/15 136/1000 loss: 0.9488 time 4.37s
+Epoch 0/15 137/1000 loss: 0.9489 time 4.37s
+Epoch 0/15 138/1000 loss: 0.9491 time 4.37s
+Epoch 0/15 139/1000 loss: 0.9489 time 4.37s
+Epoch 0/15 140/1000 loss: 0.9487 time 4.37s
+Epoch 0/15 141/1000 loss: 0.9490 time 4.37s
+Epoch 0/15 142/1000 loss: 0.9488 time 4.37s
+Epoch 0/15 143/1000 loss: 0.9484 time 4.37s
+Epoch 0/15 144/1000 loss: 0.9478 time 4.37s
+Epoch 0/15 145/1000 loss: 0.9480 time 4.38s
+Epoch 0/15 146/1000 loss: 0.9475 time 4.38s
+Epoch 0/15 147/1000 loss: 0.9476 time 4.37s
+Epoch 0/15 148/1000 loss: 0.9480 time 4.36s
+Epoch 0/15 149/1000 loss: 0.9482 time 4.37s
+Epoch 0/15 150/1000 loss: 0.9481 time 4.37s
+Epoch 0/15 151/1000 loss: 0.9478 time 4.37s
+Epoch 0/15 152/1000 loss: 0.9478 time 4.37s
+Epoch 0/15 153/1000 loss: 0.9475 time 4.37s
+Epoch 0/15 154/1000 loss: 0.9471 time 4.37s
+Epoch 0/15 155/1000 loss: 0.9469 time 4.37s
+Epoch 0/15 156/1000 loss: 0.9466 time 4.37s
+Epoch 0/15 157/1000 loss: 0.9469 time 4.37s
+Epoch 0/15 158/1000 loss: 0.9466 time 4.38s
+Epoch 0/15 159/1000 loss: 0.9466 time 4.37s
+Epoch 0/15 160/1000 loss: 0.9468 time 4.38s
+Epoch 0/15 161/1000 loss: 0.9467 time 4.36s
+Epoch 0/15 162/1000 loss: 0.9466 time 4.36s
+Epoch 0/15 163/1000 loss: 0.9462 time 4.38s
+Epoch 0/15 164/1000 loss: 0.9462 time 4.37s
+Epoch 0/15 165/1000 loss: 0.9465 time 4.37s
+Epoch 0/15 166/1000 loss: 0.9463 time 4.37s
+Epoch 0/15 167/1000 loss: 0.9462 time 4.37s
+Epoch 0/15 168/1000 loss: 0.9460 time 4.37s
+Epoch 0/15 169/1000 loss: 0.9458 time 4.37s
+Epoch 0/15 170/1000 loss: 0.9455 time 4.37s
+Epoch 0/15 171/1000 loss: 0.9457 time 4.37s
+Epoch 0/15 172/1000 loss: 0.9458 time 4.37s
+Epoch 0/15 173/1000 loss: 0.9458 time 4.37s
+Epoch 0/15 174/1000 loss: 0.9458 time 4.37s
+Epoch 0/15 175/1000 loss: 0.9460 time 4.38s
+Epoch 0/15 176/1000 loss: 0.9462 time 4.36s
+Epoch 0/15 177/1000 loss: 0.9463 time 4.38s
+Epoch 0/15 178/1000 loss: 0.9463 time 4.36s
+Epoch 0/15 179/1000 loss: 0.9464 time 4.37s
+Epoch 0/15 180/1000 loss: 0.9465 time 4.37s
+Epoch 0/15 181/1000 loss: 0.9466 time 4.37s
+Epoch 0/15 182/1000 loss: 0.9467 time 4.37s
+Epoch 0/15 183/1000 loss: 0.9469 time 4.35s
+Epoch 0/15 184/1000 loss: 0.9469 time 4.37s
+Epoch 0/15 185/1000 loss: 0.9471 time 4.35s
+Epoch 0/15 186/1000 loss: 0.9471 time 4.37s
+Epoch 0/15 187/1000 loss: 0.9472 time 4.35s
+Epoch 0/15 188/1000 loss: 0.9470 time 4.37s
+Epoch 0/15 189/1000 loss: 0.9471 time 4.35s
+Epoch 0/15 190/1000 loss: 0.9470 time 4.37s
+Epoch 0/15 191/1000 loss: 0.9472 time 4.36s
+Epoch 0/15 192/1000 loss: 0.9470 time 4.38s
+Epoch 0/15 193/1000 loss: 0.9467 time 4.36s
+Epoch 0/15 194/1000 loss: 0.9465 time 4.36s
+Epoch 0/15 195/1000 loss: 0.9464 time 4.37s
+Epoch 0/15 196/1000 loss: 0.9464 time 4.37s
+Epoch 0/15 197/1000 loss: 0.9463 time 4.37s
+Epoch 0/15 198/1000 loss: 0.9461 time 4.37s
+Epoch 0/15 199/1000 loss: 0.9459 time 4.37s
+Epoch 0/15 200/1000 loss: 0.9459 time 4.37s
+Epoch 0/15 201/1000 loss: 0.9457 time 4.37s
+Epoch 0/15 202/1000 loss: 0.9454 time 4.37s
+Epoch 0/15 203/1000 loss: 0.9456 time 4.37s
+Epoch 0/15 204/1000 loss: 0.9457 time 4.37s
+Epoch 0/15 205/1000 loss: 0.9458 time 4.35s
+Epoch 0/15 206/1000 loss: 0.9456 time 4.38s
+Epoch 0/15 207/1000 loss: 0.9454 time 4.38s
+Epoch 0/15 208/1000 loss: 0.9452 time 4.38s
+Epoch 0/15 209/1000 loss: 0.9454 time 4.38s
+Epoch 0/15 210/1000 loss: 0.9453 time 4.35s
+Epoch 0/15 211/1000 loss: 0.9453 time 4.37s
+Epoch 0/15 212/1000 loss: 0.9454 time 4.37s
+Epoch 0/15 213/1000 loss: 0.9452 time 4.37s
+Epoch 0/15 214/1000 loss: 0.9454 time 4.37s
+Epoch 0/15 215/1000 loss: 0.9455 time 4.35s
+Epoch 0/15 216/1000 loss: 0.9457 time 4.37s
+Epoch 0/15 217/1000 loss: 0.9459 time 4.35s
+Epoch 0/15 218/1000 loss: 0.9461 time 4.37s
+Epoch 0/15 219/1000 loss: 0.9463 time 4.35s
+Epoch 0/15 220/1000 loss: 0.9462 time 4.37s
+Epoch 0/15 221/1000 loss: 0.9462 time 4.37s
+Epoch 0/15 222/1000 loss: 0.9462 time 4.36s
+Epoch 0/15 223/1000 loss: 0.9462 time 4.38s
+Epoch 0/15 224/1000 loss: 0.9463 time 4.38s
+Epoch 0/15 225/1000 loss: 0.9463 time 4.37s
+Epoch 0/15 226/1000 loss: 0.9464 time 4.36s
+Epoch 0/15 227/1000 loss: 0.9463 time 4.37s
+Epoch 0/15 228/1000 loss: 0.9464 time 4.37s
+Epoch 0/15 229/1000 loss: 0.9466 time 4.36s
+Epoch 0/15 230/1000 loss: 0.9463 time 4.37s
+Epoch 0/15 231/1000 loss: 0.9464 time 4.37s
+Epoch 0/15 232/1000 loss: 0.9462 time 4.37s
+Epoch 0/15 233/1000 loss: 0.9458 time 4.37s
+Epoch 0/15 234/1000 loss: 0.9457 time 4.37s
+Epoch 0/15 235/1000 loss: 0.9458 time 4.35s
+Epoch 0/15 236/1000 loss: 0.9452 time 4.37s
+Epoch 0/15 237/1000 loss: 0.9452 time 4.35s
+Epoch 0/15 238/1000 loss: 0.9454 time 4.36s
+Epoch 0/15 239/1000 loss: 0.9455 time 4.36s
+Epoch 0/15 240/1000 loss: 0.9455 time 4.38s
+Epoch 0/15 241/1000 loss: 0.9453 time 4.37s
+Epoch 0/15 242/1000 loss: 0.9451 time 4.37s
+Epoch 0/15 243/1000 loss: 0.9450 time 4.37s
+Epoch 0/15 244/1000 loss: 0.9452 time 4.37s
+Epoch 0/15 245/1000 loss: 0.9450 time 4.36s
+Epoch 0/15 246/1000 loss: 0.9450 time 4.36s
+Epoch 0/15 247/1000 loss: 0.9450 time 4.36s
+Epoch 0/15 248/1000 loss: 0.9449 time 4.37s
+Epoch 0/15 249/1000 loss: 0.9449 time 4.37s
+Epoch 0/15 250/1000 loss: 0.9446 time 4.37s
+Epoch 0/15 251/1000 loss: 0.9446 time 4.36s
+Epoch 0/15 252/1000 loss: 0.9447 time 4.35s
+Epoch 0/15 253/1000 loss: 0.9447 time 4.36s
+Epoch 0/15 254/1000 loss: 0.9448 time 4.36s
+Epoch 0/15 255/1000 loss: 0.9449 time 4.36s
+Epoch 0/15 256/1000 loss: 0.9447 time 4.36s
+Epoch 0/15 257/1000 loss: 0.9447 time 4.35s
+Epoch 0/15 258/1000 loss: 0.9448 time 4.35s
+Epoch 0/15 259/1000 loss: 0.9447 time 4.35s
+Epoch 0/15 260/1000 loss: 0.9447 time 4.37s
+Epoch 0/15 261/1000 loss: 0.9447 time 4.36s
+Epoch 0/15 262/1000 loss: 0.9445 time 4.37s
+Epoch 0/15 263/1000 loss: 0.9446 time 4.35s
+Epoch 0/15 264/1000 loss: 0.9448 time 4.35s
+Epoch 0/15 265/1000 loss: 0.9446 time 4.37s
+Epoch 0/15 266/1000 loss: 0.9446 time 4.35s
+Epoch 0/15 267/1000 loss: 0.9444 time 4.37s
+Epoch 0/15 268/1000 loss: 0.9444 time 4.36s
+Epoch 0/15 269/1000 loss: 0.9445 time 4.36s
+Epoch 0/15 270/1000 loss: 0.9445 time 4.36s
+Epoch 0/15 271/1000 loss: 0.9444 time 4.36s
+Epoch 0/15 272/1000 loss: 0.9443 time 4.37s
+Epoch 0/15 273/1000 loss: 0.9441 time 4.36s
+Epoch 0/15 274/1000 loss: 0.9442 time 4.36s
+Epoch 0/15 275/1000 loss: 0.9442 time 4.37s
+Epoch 0/15 276/1000 loss: 0.9442 time 4.37s
+Epoch 0/15 277/1000 loss: 0.9441 time 4.36s
+Epoch 0/15 278/1000 loss: 0.9442 time 4.36s
+Epoch 0/15 279/1000 loss: 0.9440 time 4.36s
+Epoch 0/15 280/1000 loss: 0.9440 time 4.36s
+Epoch 0/15 281/1000 loss: 0.9441 time 4.36s
+Epoch 0/15 282/1000 loss: 0.9440 time 4.35s
+Epoch 0/15 283/1000 loss: 0.9439 time 4.37s
+Epoch 0/15 284/1000 loss: 0.9439 time 4.37s
+Epoch 0/15 285/1000 loss: 0.9440 time 4.36s
+Epoch 0/15 286/1000 loss: 0.9439 time 4.36s
+Epoch 0/15 287/1000 loss: 0.9439 time 4.36s
+Epoch 0/15 288/1000 loss: 0.9439 time 4.37s
+Epoch 0/15 289/1000 loss: 0.9439 time 4.37s
+Epoch 0/15 290/1000 loss: 0.9440 time 4.36s
+Epoch 0/15 291/1000 loss: 0.9441 time 4.35s
+Epoch 0/15 292/1000 loss: 0.9436 time 4.37s
+Epoch 0/15 293/1000 loss: 0.9435 time 4.37s
+Epoch 0/15 294/1000 loss: 0.9434 time 4.35s
+Epoch 0/15 295/1000 loss: 0.9433 time 4.35s
+Epoch 0/15 296/1000 loss: 0.9435 time 4.37s
+Epoch 0/15 297/1000 loss: 0.9436 time 4.35s
+Epoch 0/15 298/1000 loss: 0.9430 time 4.36s
+Epoch 0/15 299/1000 loss: 0.9431 time 4.36s
+Epoch 0/15 300/1000 loss: 0.9431 time 4.36s
+Epoch 0/15 301/1000 loss: 0.9432 time 4.36s
+Epoch 0/15 302/1000 loss: 0.9428 time 4.36s
+Epoch 0/15 303/1000 loss: 0.9425 time 4.37s
+Epoch 0/15 304/1000 loss: 0.9426 time 4.35s
+Epoch 0/15 305/1000 loss: 0.9424 time 4.37s
+Epoch 0/15 306/1000 loss: 0.9426 time 4.36s
+Epoch 0/15 307/1000 loss: 0.9424 time 4.37s
+Epoch 0/15 308/1000 loss: 0.9424 time 4.35s
+Epoch 0/15 309/1000 loss: 0.9425 time 4.35s
+Epoch 0/15 310/1000 loss: 0.9426 time 4.35s
+Epoch 0/15 311/1000 loss: 0.9425 time 4.37s
+Epoch 0/15 312/1000 loss: 0.9427 time 4.35s
+Epoch 0/15 313/1000 loss: 0.9426 time 4.35s
+Epoch 0/15 314/1000 loss: 0.9424 time 4.37s
+Epoch 0/15 315/1000 loss: 0.9422 time 4.36s
+Epoch 0/15 316/1000 loss: 0.9422 time 4.37s
+Epoch 0/15 317/1000 loss: 0.9423 time 4.36s
+Epoch 0/15 318/1000 loss: 0.9423 time 4.37s
+Epoch 0/15 319/1000 loss: 0.9423 time 4.35s
+Epoch 0/15 320/1000 loss: 0.9422 time 4.37s
+Epoch 0/15 321/1000 loss: 0.9422 time 4.35s
+Epoch 0/15 322/1000 loss: 0.9421 time 4.35s
+Epoch 0/15 323/1000 loss: 0.9421 time 4.36s
+Epoch 0/15 324/1000 loss: 0.9420 time 4.36s
+Epoch 0/15 325/1000 loss: 0.9420 time 4.37s
+Epoch 0/15 326/1000 loss: 0.9419 time 4.36s
+Epoch 0/15 327/1000 loss: 0.9414 time 4.37s
+Epoch 0/15 328/1000 loss: 0.9413 time 4.37s
+Epoch 0/15 329/1000 loss: 0.9412 time 4.36s
+Epoch 0/15 330/1000 loss: 0.9412 time 4.37s
+Epoch 0/15 331/1000 loss: 0.9413 time 4.36s
+Epoch 0/15 332/1000 loss: 0.9413 time 4.36s
+Epoch 0/15 333/1000 loss: 0.9411 time 4.36s
+Epoch 0/15 334/1000 loss: 0.9412 time 4.36s
+Epoch 0/15 335/1000 loss: 0.9412 time 4.35s
+Epoch 0/15 336/1000 loss: 0.9414 time 4.37s
+Epoch 0/15 337/1000 loss: 0.9412 time 4.37s
+Epoch 0/15 338/1000 loss: 0.9413 time 4.36s
+Epoch 0/15 339/1000 loss: 0.9414 time 4.35s
+Epoch 0/15 340/1000 loss: 0.9415 time 4.37s
+Epoch 0/15 341/1000 loss: 0.9415 time 4.36s
+Epoch 0/15 342/1000 loss: 0.9413 time 4.35s
+Epoch 0/15 343/1000 loss: 0.9412 time 4.37s
+Epoch 0/15 344/1000 loss: 0.9410 time 4.35s
+Epoch 0/15 345/1000 loss: 0.9409 time 4.37s
+Epoch 0/15 346/1000 loss: 0.9408 time 4.36s
+Epoch 0/15 347/1000 loss: 0.9407 time 4.36s
+Epoch 0/15 348/1000 loss: 0.9407 time 4.36s
+Epoch 0/15 349/1000 loss: 0.9408 time 4.36s
+Epoch 0/15 350/1000 loss: 0.9408 time 4.37s
+Epoch 0/15 351/1000 loss: 0.9407 time 4.35s
+Epoch 0/15 352/1000 loss: 0.9408 time 4.37s
+Epoch 0/15 353/1000 loss: 0.9408 time 4.36s
+Epoch 0/15 354/1000 loss: 0.9409 time 4.35s
+Epoch 0/15 355/1000 loss: 0.9409 time 4.35s
+Epoch 0/15 356/1000 loss: 0.9410 time 4.35s
+Epoch 0/15 357/1000 loss: 0.9410 time 4.35s
+Epoch 0/15 358/1000 loss: 0.9409 time 4.36s
+Epoch 0/15 359/1000 loss: 0.9410 time 4.36s
+Epoch 0/15 360/1000 loss: 0.9408 time 4.36s
+Epoch 0/15 361/1000 loss: 0.9408 time 4.36s
+Epoch 0/15 362/1000 loss: 0.9408 time 4.38s
+Epoch 0/15 363/1000 loss: 0.9409 time 4.36s
+Epoch 0/15 364/1000 loss: 0.9406 time 4.38s
+Epoch 0/15 365/1000 loss: 0.9407 time 4.37s
+Epoch 0/15 366/1000 loss: 0.9407 time 4.37s
+Epoch 0/15 367/1000 loss: 0.9406 time 4.35s
+Epoch 0/15 368/1000 loss: 0.9406 time 4.37s
+Epoch 0/15 369/1000 loss: 0.9407 time 4.35s
+Epoch 0/15 370/1000 loss: 0.9407 time 4.35s
+Epoch 0/15 371/1000 loss: 0.9406 time 4.37s
+Epoch 0/15 372/1000 loss: 0.9405 time 4.37s
+Epoch 0/15 373/1000 loss: 0.9406 time 4.37s
+Epoch 0/15 374/1000 loss: 0.9405 time 4.37s
+Epoch 0/15 375/1000 loss: 0.9405 time 4.35s
+Epoch 0/15 376/1000 loss: 0.9405 time 4.37s
+Epoch 0/15 377/1000 loss: 0.9406 time 4.36s
+Epoch 0/15 378/1000 loss: 0.9403 time 4.38s
+Epoch 0/15 379/1000 loss: 0.9402 time 4.38s
+Epoch 0/15 380/1000 loss: 0.9398 time 4.36s
+Epoch 0/15 381/1000 loss: 0.9397 time 4.37s
+Epoch 0/15 382/1000 loss: 0.9398 time 4.35s
+Epoch 0/15 383/1000 loss: 0.9399 time 4.36s
+Epoch 0/15 384/1000 loss: 0.9399 time 4.37s
+Epoch 0/15 385/1000 loss: 0.9398 time 4.36s
+Epoch 0/15 386/1000 loss: 0.9400 time 4.37s
+Epoch 0/15 387/1000 loss: 0.9398 time 4.37s
+Epoch 0/15 388/1000 loss: 0.9398 time 4.37s
+Epoch 0/15 389/1000 loss: 0.9399 time 4.35s
+Epoch 0/15 390/1000 loss: 0.9397 time 4.37s
+Epoch 0/15 391/1000 loss: 0.9397 time 4.35s
+Epoch 0/15 392/1000 loss: 0.9398 time 4.36s
+Epoch 0/15 393/1000 loss: 0.9398 time 4.36s
+Epoch 0/15 394/1000 loss: 0.9396 time 4.36s
+Epoch 0/15 395/1000 loss: 0.9396 time 4.36s
+Epoch 0/15 396/1000 loss: 0.9395 time 4.37s
+Epoch 0/15 397/1000 loss: 0.9394 time 4.35s
+Epoch 0/15 398/1000 loss: 0.9394 time 4.37s
+Epoch 0/15 399/1000 loss: 0.9392 time 4.37s
+Epoch 0/15 400/1000 loss: 0.9391 time 4.35s
+Epoch 0/15 401/1000 loss: 0.9391 time 4.37s
+Epoch 0/15 402/1000 loss: 0.9392 time 4.36s
+Epoch 0/15 403/1000 loss: 0.9391 time 4.37s
+Epoch 0/15 404/1000 loss: 0.9391 time 4.37s
+Epoch 0/15 405/1000 loss: 0.9392 time 4.35s
+Epoch 0/15 406/1000 loss: 0.9390 time 4.35s
+Epoch 0/15 407/1000 loss: 0.9389 time 4.36s
+Epoch 0/15 408/1000 loss: 0.9389 time 4.36s
+Epoch 0/15 409/1000 loss: 0.9389 time 4.35s
+Epoch 0/15 410/1000 loss: 0.9387 time 4.37s
+Epoch 0/15 411/1000 loss: 0.9386 time 4.36s
+Epoch 0/15 412/1000 loss: 0.9386 time 4.37s
+Epoch 0/15 413/1000 loss: 0.9386 time 4.35s
+Epoch 0/15 414/1000 loss: 0.9384 time 4.37s
+Epoch 0/15 415/1000 loss: 0.9385 time 4.35s
+Epoch 0/15 416/1000 loss: 0.9386 time 4.37s
+Epoch 0/15 417/1000 loss: 0.9387 time 4.36s
+Epoch 0/15 418/1000 loss: 0.9385 time 4.37s
+Epoch 0/15 419/1000 loss: 0.9385 time 4.36s
+Epoch 0/15 420/1000 loss: 0.9385 time 4.35s
+Epoch 0/15 421/1000 loss: 0.9384 time 4.37s
+Epoch 0/15 422/1000 loss: 0.9385 time 4.36s
+Epoch 0/15 423/1000 loss: 0.9386 time 4.36s
+Epoch 0/15 424/1000 loss: 0.9386 time 4.36s
+Epoch 0/15 425/1000 loss: 0.9387 time 4.36s
+Epoch 0/15 426/1000 loss: 0.9384 time 4.36s
+Epoch 0/15 427/1000 loss: 0.9384 time 4.35s
+Epoch 0/15 428/1000 loss: 0.9384 time 4.37s
+Epoch 0/15 429/1000 loss: 0.9384 time 4.35s
+Epoch 0/15 430/1000 loss: 0.9385 time 4.35s
+Epoch 0/15 431/1000 loss: 0.9386 time 4.36s
+Epoch 0/15 432/1000 loss: 0.9386 time 4.37s
+Epoch 0/15 433/1000 loss: 0.9387 time 4.35s
+Epoch 0/15 434/1000 loss: 0.9387 time 4.35s
+Epoch 0/15 435/1000 loss: 0.9386 time 4.35s
+Epoch 0/15 436/1000 loss: 0.9385 time 4.35s
+Epoch 0/15 437/1000 loss: 0.9384 time 4.35s
+Epoch 0/15 438/1000 loss: 0.9384 time 4.37s
+Epoch 0/15 439/1000 loss: 0.9383 time 4.36s
+Epoch 0/15 440/1000 loss: 0.9383 time 4.36s
+Epoch 0/15 441/1000 loss: 0.9383 time 4.36s
+Epoch 0/15 442/1000 loss: 0.9382 time 4.35s
+Epoch 0/15 443/1000 loss: 0.9382 time 4.35s
+Epoch 0/15 444/1000 loss: 0.9382 time 4.37s
+Epoch 0/15 445/1000 loss: 0.9382 time 4.35s
+Epoch 0/15 446/1000 loss: 0.9381 time 4.37s
+Epoch 0/15 447/1000 loss: 0.9381 time 4.35s
+Epoch 0/15 448/1000 loss: 0.9381 time 4.35s
+Epoch 0/15 449/1000 loss: 0.9381 time 4.37s
+Epoch 0/15 450/1000 loss: 0.9381 time 4.37s
+Epoch 0/15 451/1000 loss: 0.9381 time 4.37s
+Epoch 0/15 452/1000 loss: 0.9381 time 4.37s
+Epoch 0/15 453/1000 loss: 0.9380 time 4.36s
+Epoch 0/15 454/1000 loss: 0.9379 time 4.36s
+Epoch 0/15 455/1000 loss: 0.9378 time 4.36s
+Epoch 0/15 456/1000 loss: 0.9378 time 4.36s
+Epoch 0/15 457/1000 loss: 0.9378 time 4.36s
+Epoch 0/15 458/1000 loss: 0.9378 time 4.37s
+Epoch 0/15 459/1000 loss: 0.9378 time 4.35s
+Epoch 0/15 460/1000 loss: 0.9378 time 4.35s
+Epoch 0/15 461/1000 loss: 0.9378 time 4.37s
+Epoch 0/15 462/1000 loss: 0.9378 time 4.35s
+Epoch 0/15 463/1000 loss: 0.9379 time 4.35s
+Epoch 0/15 464/1000 loss: 0.9378 time 4.37s
+Epoch 0/15 465/1000 loss: 0.9379 time 4.35s
+Epoch 0/15 466/1000 loss: 0.9379 time 4.37s
+Epoch 0/15 467/1000 loss: 0.9379 time 4.36s
+Epoch 0/15 468/1000 loss: 0.9379 time 4.37s
+Epoch 0/15 469/1000 loss: 0.9378 time 4.36s
+Epoch 0/15 470/1000 loss: 0.9378 time 4.35s
+Epoch 0/15 471/1000 loss: 0.9377 time 4.37s
+Epoch 0/15 472/1000 loss: 0.9376 time 4.36s
+Epoch 0/15 473/1000 loss: 0.9376 time 4.36s
+Epoch 0/15 474/1000 loss: 0.9376 time 4.37s
+Epoch 0/15 475/1000 loss: 0.9377 time 4.35s
+Epoch 0/15 476/1000 loss: 0.9375 time 4.37s
+Epoch 0/15 477/1000 loss: 0.9376 time 4.35s
+Epoch 0/15 478/1000 loss: 0.9375 time 4.35s
+Epoch 0/15 479/1000 loss: 0.9376 time 4.35s
+Epoch 0/15 480/1000 loss: 0.9377 time 4.35s
+Epoch 0/15 481/1000 loss: 0.9378 time 4.37s
+Epoch 0/15 482/1000 loss: 0.9378 time 4.35s
+Epoch 0/15 483/1000 loss: 0.9379 time 4.35s
+Epoch 0/15 484/1000 loss: 0.9378 time 4.37s
+Epoch 0/15 485/1000 loss: 0.9379 time 4.36s
+Epoch 0/15 486/1000 loss: 0.9378 time 4.36s
+Epoch 0/15 487/1000 loss: 0.9379 time 4.36s
+Epoch 0/15 488/1000 loss: 0.9377 time 4.35s
+Epoch 0/15 489/1000 loss: 0.9378 time 4.36s
+Epoch 0/15 490/1000 loss: 0.9377 time 4.37s
+Epoch 0/15 491/1000 loss: 0.9378 time 4.35s
+Epoch 0/15 492/1000 loss: 0.9377 time 4.37s
+Epoch 0/15 493/1000 loss: 0.9377 time 4.35s
+Epoch 0/15 494/1000 loss: 0.9377 time 4.36s
+Epoch 0/15 495/1000 loss: 0.9377 time 4.37s
+Epoch 0/15 496/1000 loss: 0.9377 time 4.37s
+Epoch 0/15 497/1000 loss: 0.9375 time 4.37s
+Epoch 0/15 498/1000 loss: 0.9372 time 4.37s
+Epoch 0/15 499/1000 loss: 0.9372 time 4.35s
+Epoch 0/15 500/1000 loss: 0.9371 time 4.36s
+Epoch 0/15 501/1000 loss: 0.9371 time 4.36s
+Epoch 0/15 502/1000 loss: 0.9370 time 4.36s
+Epoch 0/15 503/1000 loss: 0.9368 time 4.36s
+Epoch 0/15 504/1000 loss: 0.9368 time 4.35s
+Epoch 0/15 505/1000 loss: 0.9369 time 4.35s
+Epoch 0/15 506/1000 loss: 0.9367 time 4.37s
+Epoch 0/15 507/1000 loss: 0.9366 time 4.35s
+Epoch 0/15 508/1000 loss: 0.9365 time 4.37s
+Epoch 0/15 509/1000 loss: 0.9364 time 4.37s
+Epoch 0/15 510/1000 loss: 0.9365 time 4.37s
+Epoch 0/15 511/1000 loss: 0.9364 time 4.37s
+Epoch 0/15 512/1000 loss: 0.9363 time 4.37s
+Epoch 0/15 513/1000 loss: 0.9363 time 4.35s
+Epoch 0/15 514/1000 loss: 0.9361 time 4.37s
+Epoch 0/15 515/1000 loss: 0.9362 time 4.36s
+Epoch 0/15 516/1000 loss: 0.9362 time 4.36s
+Epoch 0/15 517/1000 loss: 0.9363 time 4.36s
+Epoch 0/15 518/1000 loss: 0.9363 time 4.36s
+Epoch 0/15 519/1000 loss: 0.9362 time 4.35s
+Epoch 0/15 520/1000 loss: 0.9363 time 4.37s
+Epoch 0/15 521/1000 loss: 0.9362 time 4.35s
+Epoch 0/15 522/1000 loss: 0.9362 time 4.37s
+Epoch 0/15 523/1000 loss: 0.9361 time 4.37s
+Epoch 0/15 524/1000 loss: 0.9360 time 4.37s
+Epoch 0/15 525/1000 loss: 0.9359 time 4.35s
+Epoch 0/15 526/1000 loss: 0.9359 time 4.37s
+Epoch 0/15 527/1000 loss: 0.9358 time 4.37s
+Epoch 0/15 528/1000 loss: 0.9358 time 4.37s
+Epoch 0/15 529/1000 loss: 0.9356 time 4.35s
+Epoch 0/15 530/1000 loss: 0.9355 time 4.37s
+Epoch 0/15 531/1000 loss: 0.9354 time 4.38s
+Epoch 0/15 532/1000 loss: 0.9354 time 4.36s
+Epoch 0/15 533/1000 loss: 0.9354 time 4.36s
+Epoch 0/15 534/1000 loss: 0.9354 time 4.36s
+Epoch 0/15 535/1000 loss: 0.9353 time 4.36s
+Epoch 0/15 536/1000 loss: 0.9352 time 4.36s
+Epoch 0/15 537/1000 loss: 0.9353 time 4.35s
+Epoch 0/15 538/1000 loss: 0.9352 time 4.37s
+Epoch 0/15 539/1000 loss: 0.9350 time 4.35s
+Epoch 0/15 540/1000 loss: 0.9351 time 4.37s
+Epoch 0/15 541/1000 loss: 0.9351 time 4.37s
+Epoch 0/15 542/1000 loss: 0.9351 time 4.37s
+Epoch 0/15 543/1000 loss: 0.9347 time 4.37s
+Epoch 0/15 544/1000 loss: 0.9347 time 4.37s
+Epoch 0/15 545/1000 loss: 0.9346 time 4.37s
+Epoch 0/15 546/1000 loss: 0.9347 time 4.36s
+Epoch 0/15 547/1000 loss: 0.9348 time 4.36s
+Epoch 0/15 548/1000 loss: 0.9346 time 4.36s
+Epoch 0/15 549/1000 loss: 0.9345 time 4.38s
+Epoch 0/15 550/1000 loss: 0.9344 time 4.36s
+Epoch 0/15 551/1000 loss: 0.9344 time 4.36s
+Epoch 0/15 552/1000 loss: 0.9345 time 4.37s
+Epoch 0/15 553/1000 loss: 0.9345 time 4.36s
+Epoch 0/15 554/1000 loss: 0.9344 time 4.37s
+Epoch 0/15 555/1000 loss: 0.9344 time 4.36s
+Epoch 0/15 556/1000 loss: 0.9343 time 4.36s
+Epoch 0/15 557/1000 loss: 0.9343 time 4.37s
+Epoch 0/15 558/1000 loss: 0.9343 time 4.35s
+Epoch 0/15 559/1000 loss: 0.9342 time 4.36s
+Epoch 0/15 560/1000 loss: 0.9343 time 4.36s
+Epoch 0/15 561/1000 loss: 0.9343 time 4.35s
+Epoch 0/15 562/1000 loss: 0.9342 time 4.36s
+Epoch 0/15 563/1000 loss: 0.9341 time 4.35s
+Epoch 0/15 564/1000 loss: 0.9341 time 4.38s
+Epoch 0/15 565/1000 loss: 0.9339 time 4.36s
+Epoch 0/15 566/1000 loss: 0.9340 time 4.35s
+Epoch 0/15 567/1000 loss: 0.9340 time 4.35s
+Epoch 0/15 568/1000 loss: 0.9340 time 4.35s
+Epoch 0/15 569/1000 loss: 0.9340 time 4.35s
+Epoch 0/15 570/1000 loss: 0.9341 time 4.35s
+Epoch 0/15 571/1000 loss: 0.9340 time 4.35s
+Epoch 0/15 572/1000 loss: 0.9340 time 4.37s
+Epoch 0/15 573/1000 loss: 0.9338 time 4.37s
+Epoch 0/15 574/1000 loss: 0.9337 time 4.35s
+Epoch 0/15 575/1000 loss: 0.9336 time 4.37s
+Epoch 0/15 576/1000 loss: 0.9335 time 4.37s
+Epoch 0/15 577/1000 loss: 0.9334 time 4.37s
+Epoch 0/15 578/1000 loss: 0.9333 time 4.36s
+Epoch 0/15 579/1000 loss: 0.9333 time 4.36s
+Epoch 0/15 580/1000 loss: 0.9332 time 4.38s
+Epoch 0/15 581/1000 loss: 0.9332 time 4.36s
+Epoch 0/15 582/1000 loss: 0.9331 time 4.35s
+Epoch 0/15 583/1000 loss: 0.9331 time 4.35s
+Epoch 0/15 584/1000 loss: 0.9329 time 4.35s
+Epoch 0/15 585/1000 loss: 0.9328 time 4.35s
+Epoch 0/15 586/1000 loss: 0.9328 time 4.35s
+Epoch 0/15 587/1000 loss: 0.9329 time 4.37s
+Epoch 0/15 588/1000 loss: 0.9329 time 4.37s
+Epoch 0/15 589/1000 loss: 0.9327 time 4.36s
+Epoch 0/15 590/1000 loss: 0.9327 time 4.37s
+Epoch 0/15 591/1000 loss: 0.9326 time 4.35s
+Epoch 0/15 592/1000 loss: 0.9327 time 4.35s
+Epoch 0/15 593/1000 loss: 0.9327 time 4.37s
+Epoch 0/15 594/1000 loss: 0.9328 time 4.34s
+Epoch 0/15 595/1000 loss: 0.9328 time 4.36s
+Epoch 0/15 596/1000 loss: 0.9328 time 4.36s
+Epoch 0/15 597/1000 loss: 0.9328 time 4.37s
+Epoch 0/15 598/1000 loss: 0.9328 time 4.36s
+Epoch 0/15 599/1000 loss: 0.9329 time 4.36s
+Epoch 0/15 600/1000 loss: 0.9328 time 4.37s
+Epoch 0/15 601/1000 loss: 0.9327 time 4.37s
+Epoch 0/15 602/1000 loss: 0.9326 time 4.37s
+Epoch 0/15 603/1000 loss: 0.9326 time 4.37s
+Epoch 0/15 604/1000 loss: 0.9327 time 4.35s
+Epoch 0/15 605/1000 loss: 0.9328 time 4.35s
+Epoch 0/15 606/1000 loss: 0.9328 time 4.35s
+Epoch 0/15 607/1000 loss: 0.9327 time 4.37s
+Epoch 0/15 608/1000 loss: 0.9327 time 4.35s
+Epoch 0/15 609/1000 loss: 0.9326 time 4.36s
+Epoch 0/15 610/1000 loss: 0.9325 time 4.36s
+Epoch 0/15 611/1000 loss: 0.9325 time 4.36s
+Epoch 0/15 612/1000 loss: 0.9324 time 4.35s
+Epoch 0/15 613/1000 loss: 0.9325 time 4.37s
+Epoch 0/15 614/1000 loss: 0.9323 time 4.37s
+Epoch 0/15 615/1000 loss: 0.9323 time 4.37s
+Epoch 0/15 616/1000 loss: 0.9322 time 4.37s
+Epoch 0/15 617/1000 loss: 0.9322 time 4.36s
+Epoch 0/15 618/1000 loss: 0.9323 time 4.36s
+Epoch 0/15 619/1000 loss: 0.9323 time 4.35s
+Epoch 0/15 620/1000 loss: 0.9323 time 4.37s
+Epoch 0/15 621/1000 loss: 0.9322 time 4.37s
+Epoch 0/15 622/1000 loss: 0.9321 time 4.37s
+Epoch 0/15 623/1000 loss: 0.9321 time 4.37s
+Epoch 0/15 624/1000 loss: 0.9320 time 4.37s
+Epoch 0/15 625/1000 loss: 0.9319 time 4.36s
+Epoch 0/15 626/1000 loss: 0.9320 time 4.36s
+Epoch 0/15 627/1000 loss: 0.9320 time 4.36s
+Epoch 0/15 628/1000 loss: 0.9319 time 4.37s
+Epoch 0/15 629/1000 loss: 0.9319 time 4.37s
+Epoch 0/15 630/1000 loss: 0.9318 time 4.37s
+Epoch 0/15 631/1000 loss: 0.9318 time 4.35s
+Epoch 0/15 632/1000 loss: 0.9318 time 4.37s
+Epoch 0/15 633/1000 loss: 0.9317 time 4.37s
+Epoch 0/15 634/1000 loss: 0.9316 time 4.36s
+Epoch 0/15 635/1000 loss: 0.9316 time 4.37s
+Epoch 0/15 636/1000 loss: 0.9315 time 4.37s
+Epoch 0/15 637/1000 loss: 0.9315 time 4.35s
+Epoch 0/15 638/1000 loss: 0.9316 time 4.35s
+Epoch 0/15 639/1000 loss: 0.9317 time 4.36s
+Epoch 0/15 640/1000 loss: 0.9316 time 4.37s
+Epoch 0/15 641/1000 loss: 0.9316 time 4.36s
+Epoch 0/15 642/1000 loss: 0.9316 time 4.36s
+Epoch 0/15 643/1000 loss: 0.9315 time 4.36s
+Epoch 0/15 644/1000 loss: 0.9315 time 4.37s
+Epoch 0/15 645/1000 loss: 0.9315 time 4.37s
+Epoch 0/15 646/1000 loss: 0.9314 time 4.36s
+Epoch 0/15 647/1000 loss: 0.9314 time 4.36s
+Epoch 0/15 648/1000 loss: 0.9313 time 4.36s
+Epoch 0/15 649/1000 loss: 0.9314 time 4.35s
+Epoch 0/15 650/1000 loss: 0.9314 time 4.37s
+Epoch 0/15 651/1000 loss: 0.9314 time 4.36s
+Epoch 0/15 652/1000 loss: 0.9313 time 4.36s
+Epoch 0/15 653/1000 loss: 0.9312 time 4.35s
+Epoch 0/15 654/1000 loss: 0.9312 time 4.36s
+Epoch 0/15 655/1000 loss: 0.9312 time 4.34s
+Epoch 0/15 656/1000 loss: 0.9312 time 4.36s
+Epoch 0/15 657/1000 loss: 0.9312 time 4.36s
+Epoch 0/15 658/1000 loss: 0.9311 time 4.38s
+Epoch 0/15 659/1000 loss: 0.9311 time 4.37s
+Epoch 0/15 660/1000 loss: 0.9311 time 4.37s
+Epoch 0/15 661/1000 loss: 0.9311 time 4.37s
+Epoch 0/15 662/1000 loss: 0.9311 time 4.36s
+Epoch 0/15 663/1000 loss: 0.9311 time 4.36s
+Epoch 0/15 664/1000 loss: 0.9311 time 4.35s
+Epoch 0/15 665/1000 loss: 0.9311 time 4.37s
+Epoch 0/15 666/1000 loss: 0.9311 time 4.37s
+Epoch 0/15 667/1000 loss: 0.9310 time 4.37s
+Epoch 0/15 668/1000 loss: 0.9310 time 4.37s
+Epoch 0/15 669/1000 loss: 0.9310 time 4.35s
+Epoch 0/15 670/1000 loss: 0.9308 time 4.37s
+Epoch 0/15 671/1000 loss: 0.9309 time 4.36s
+Epoch 0/15 672/1000 loss: 0.9308 time 4.38s
+Epoch 0/15 673/1000 loss: 0.9307 time 4.36s
+Epoch 0/15 674/1000 loss: 0.9307 time 4.36s
+Epoch 0/15 675/1000 loss: 0.9307 time 4.37s
+Epoch 0/15 676/1000 loss: 0.9307 time 4.37s
+Epoch 0/15 677/1000 loss: 0.9307 time 4.37s
+Epoch 0/15 678/1000 loss: 0.9307 time 4.37s
+Epoch 0/15 679/1000 loss: 0.9306 time 4.37s
+Epoch 0/15 680/1000 loss: 0.9307 time 4.36s
+Epoch 0/15 681/1000 loss: 0.9306 time 4.37s
+Epoch 0/15 682/1000 loss: 0.9305 time 4.37s
+Epoch 0/15 683/1000 loss: 0.9306 time 4.35s
+Epoch 0/15 684/1000 loss: 0.9307 time 4.37s
+Epoch 0/15 685/1000 loss: 0.9308 time 4.37s
+Epoch 0/15 686/1000 loss: 0.9307 time 4.36s
+Epoch 0/15 687/1000 loss: 0.9306 time 4.37s
+Epoch 0/15 688/1000 loss: 0.9305 time 4.38s
+Epoch 0/15 689/1000 loss: 0.9304 time 4.36s
+Epoch 0/15 690/1000 loss: 0.9303 time 4.37s
+Epoch 0/15 691/1000 loss: 0.9302 time 4.37s
+Epoch 0/15 692/1000 loss: 0.9301 time 4.36s
+Epoch 0/15 693/1000 loss: 0.9300 time 4.37s
+Epoch 0/15 694/1000 loss: 0.9300 time 4.37s
+Epoch 0/15 695/1000 loss: 0.9299 time 4.38s
+Epoch 0/15 696/1000 loss: 0.9299 time 4.38s
+Epoch 0/15 697/1000 loss: 0.9298 time 4.37s
+Epoch 0/15 698/1000 loss: 0.9299 time 4.37s
+Epoch 0/15 699/1000 loss: 0.9299 time 4.37s
+Epoch 0/15 700/1000 loss: 0.9299 time 4.37s
+Epoch 0/15 701/1000 loss: 0.9299 time 4.36s
+Epoch 0/15 702/1000 loss: 0.9299 time 4.38s
+Epoch 0/15 703/1000 loss: 0.9298 time 4.36s
+Epoch 0/15 704/1000 loss: 0.9297 time 4.38s
+Epoch 0/15 705/1000 loss: 0.9297 time 4.38s
+Epoch 0/15 706/1000 loss: 0.9297 time 4.37s
+Epoch 0/15 707/1000 loss: 0.9297 time 4.37s
+Epoch 0/15 708/1000 loss: 0.9297 time 4.37s
+Epoch 0/15 709/1000 loss: 0.9296 time 4.37s
+Epoch 0/15 710/1000 loss: 0.9297 time 4.37s
+Epoch 0/15 711/1000 loss: 0.9297 time 4.37s
+Epoch 0/15 712/1000 loss: 0.9297 time 4.36s
+Epoch 0/15 713/1000 loss: 0.9296 time 4.37s
+Epoch 0/15 714/1000 loss: 0.9295 time 4.37s
+Epoch 0/15 715/1000 loss: 0.9295 time 4.37s
+Epoch 0/15 716/1000 loss: 0.9296 time 4.37s
+Epoch 0/15 717/1000 loss: 0.9295 time 4.36s
+Epoch 0/15 718/1000 loss: 0.9296 time 4.36s
+Epoch 0/15 719/1000 loss: 0.9295 time 4.36s
+Epoch 0/15 720/1000 loss: 0.9294 time 4.38s
+Epoch 0/15 721/1000 loss: 0.9293 time 4.37s
+Epoch 0/15 722/1000 loss: 0.9292 time 4.37s
+Epoch 0/15 723/1000 loss: 0.9291 time 4.37s
+Epoch 0/15 724/1000 loss: 0.9291 time 4.37s
+Epoch 0/15 725/1000 loss: 0.9291 time 4.37s
+Epoch 0/15 726/1000 loss: 0.9290 time 4.36s
+Epoch 0/15 727/1000 loss: 0.9290 time 4.37s
+Epoch 0/15 728/1000 loss: 0.9289 time 4.37s
+Epoch 0/15 729/1000 loss: 0.9290 time 4.37s
+Epoch 0/15 730/1000 loss: 0.9290 time 4.37s
+Epoch 0/15 731/1000 loss: 0.9287 time 4.36s
+Epoch 0/15 732/1000 loss: 0.9287 time 4.37s
+Epoch 0/15 733/1000 loss: 0.9287 time 4.36s
+Epoch 0/15 734/1000 loss: 0.9285 time 4.38s
+Epoch 0/15 735/1000 loss: 0.9286 time 4.37s
+Epoch 0/15 736/1000 loss: 0.9286 time 4.36s
+Epoch 0/15 737/1000 loss: 0.9285 time 4.37s
+Epoch 0/15 738/1000 loss: 0.9286 time 4.35s
+Epoch 0/15 739/1000 loss: 0.9285 time 4.37s
+Epoch 0/15 740/1000 loss: 0.9285 time 4.37s
+Epoch 0/15 741/1000 loss: 0.9285 time 4.36s
+Epoch 0/15 742/1000 loss: 0.9285 time 4.37s
+Epoch 0/15 743/1000 loss: 0.9285 time 4.36s
+Epoch 0/15 744/1000 loss: 0.9285 time 4.37s
+Epoch 0/15 745/1000 loss: 0.9284 time 4.37s
+Epoch 0/15 746/1000 loss: 0.9284 time 4.37s
+Epoch 0/15 747/1000 loss: 0.9283 time 4.37s
+Epoch 0/15 748/1000 loss: 0.9283 time 4.37s
+Epoch 0/15 749/1000 loss: 0.9282 time 4.38s
+Epoch 0/15 750/1000 loss: 0.9281 time 4.36s
+Epoch 0/15 751/1000 loss: 0.9281 time 4.36s
+Epoch 0/15 752/1000 loss: 0.9282 time 4.37s
+Epoch 0/15 753/1000 loss: 0.9282 time 4.37s
+Epoch 0/15 754/1000 loss: 0.9283 time 4.35s
+Epoch 0/15 755/1000 loss: 0.9281 time 4.37s
+Epoch 0/15 756/1000 loss: 0.9280 time 4.37s
+Epoch 0/15 757/1000 loss: 0.9278 time 4.37s
+Epoch 0/15 758/1000 loss: 0.9279 time 4.37s
+Epoch 0/15 759/1000 loss: 0.9280 time 4.36s
+Epoch 0/15 760/1000 loss: 0.9280 time 4.36s
+Epoch 0/15 761/1000 loss: 0.9280 time 4.36s
+Epoch 0/15 762/1000 loss: 0.9280 time 4.36s
+Epoch 0/15 763/1000 loss: 0.9279 time 4.36s
+Epoch 0/15 764/1000 loss: 0.9279 time 4.38s
+Epoch 0/15 765/1000 loss: 0.9278 time 4.36s
+Epoch 0/15 766/1000 loss: 0.9279 time 4.36s
+Epoch 0/15 767/1000 loss: 0.9279 time 4.35s
+Epoch 0/15 768/1000 loss: 0.9278 time 4.37s
+Epoch 0/15 769/1000 loss: 0.9277 time 4.36s
+Epoch 0/15 770/1000 loss: 0.9276 time 4.36s
+Epoch 0/15 771/1000 loss: 0.9276 time 4.37s
+Epoch 0/15 772/1000 loss: 0.9275 time 4.37s
+Epoch 0/15 773/1000 loss: 0.9275 time 4.37s
+Epoch 0/15 774/1000 loss: 0.9275 time 4.36s
+Epoch 0/15 775/1000 loss: 0.9275 time 4.37s
+Epoch 0/15 776/1000 loss: 0.9274 time 4.37s
+Epoch 0/15 777/1000 loss: 0.9275 time 4.36s
+Epoch 0/15 778/1000 loss: 0.9274 time 4.37s
+Epoch 0/15 779/1000 loss: 0.9274 time 4.36s
+Epoch 0/15 780/1000 loss: 0.9273 time 4.37s
+Epoch 0/15 781/1000 loss: 0.9272 time 4.36s
+Epoch 0/15 782/1000 loss: 0.9272 time 4.38s
+Epoch 0/15 783/1000 loss: 0.9271 time 4.35s
+Epoch 0/15 784/1000 loss: 0.9271 time 4.37s
+Epoch 0/15 785/1000 loss: 0.9270 time 4.35s
+Epoch 0/15 786/1000 loss: 0.9269 time 4.37s
+Epoch 0/15 787/1000 loss: 0.9269 time 4.37s
+Epoch 0/15 788/1000 loss: 0.9270 time 4.37s
+Epoch 0/15 789/1000 loss: 0.9268 time 4.35s
+Epoch 0/15 790/1000 loss: 0.9267 time 4.37s
+Epoch 0/15 791/1000 loss: 0.9267 time 4.37s
+Epoch 0/15 792/1000 loss: 0.9268 time 4.36s
+Epoch 0/15 793/1000 loss: 0.9268 time 4.36s
+Epoch 0/15 794/1000 loss: 0.9268 time 4.36s
+Epoch 0/15 795/1000 loss: 0.9269 time 4.36s
+Epoch 0/15 796/1000 loss: 0.9269 time 4.38s
+Epoch 0/15 797/1000 loss: 0.9269 time 4.36s
+Epoch 0/15 798/1000 loss: 0.9269 time 4.35s
+Epoch 0/15 799/1000 loss: 0.9269 time 4.36s
+Epoch 0/15 800/1000 loss: 0.9270 time 4.36s
+Epoch 0/15 801/1000 loss: 0.9271 time 4.35s
+Epoch 0/15 802/1000 loss: 0.9269 time 4.37s
+Epoch 0/15 803/1000 loss: 0.9268 time 4.37s
+Epoch 0/15 804/1000 loss: 0.9269 time 4.36s
+Epoch 0/15 805/1000 loss: 0.9269 time 4.37s
+Epoch 0/15 806/1000 loss: 0.9268 time 4.37s
+Epoch 0/15 807/1000 loss: 0.9269 time 4.37s
+Epoch 0/15 808/1000 loss: 0.9268 time 4.36s
+Epoch 0/15 809/1000 loss: 0.9267 time 4.37s
+Epoch 0/15 810/1000 loss: 0.9267 time 4.37s
+Epoch 0/15 811/1000 loss: 0.9265 time 4.37s
+Epoch 0/15 812/1000 loss: 0.9265 time 4.36s
+Epoch 0/15 813/1000 loss: 0.9264 time 4.35s
+Epoch 0/15 814/1000 loss: 0.9264 time 4.35s
+Epoch 0/15 815/1000 loss: 0.9263 time 4.35s
+Epoch 0/15 816/1000 loss: 0.9263 time 4.37s
+Epoch 0/15 817/1000 loss: 0.9262 time 4.35s
+Epoch 0/15 818/1000 loss: 0.9260 time 4.37s
+Epoch 0/15 819/1000 loss: 0.9261 time 4.35s
+Epoch 0/15 820/1000 loss: 0.9262 time 4.37s
+Epoch 0/15 821/1000 loss: 0.9262 time 4.35s
+Epoch 0/15 822/1000 loss: 0.9261 time 4.37s
+Epoch 0/15 823/1000 loss: 0.9260 time 4.37s
+Epoch 0/15 824/1000 loss: 0.9259 time 4.37s
+Epoch 0/15 825/1000 loss: 0.9259 time 4.38s
+Epoch 0/15 826/1000 loss: 0.9259 time 4.36s
+Epoch 0/15 827/1000 loss: 0.9258 time 4.37s
+Epoch 0/15 828/1000 loss: 0.9258 time 4.38s
+Epoch 0/15 829/1000 loss: 0.9258 time 4.35s
+Epoch 0/15 830/1000 loss: 0.9256 time 4.37s
+Epoch 0/15 831/1000 loss: 0.9254 time 4.37s
+Epoch 0/15 832/1000 loss: 0.9255 time 4.35s
+Epoch 0/15 833/1000 loss: 0.9255 time 4.37s
+Epoch 0/15 834/1000 loss: 0.9256 time 4.37s
+Epoch 0/15 835/1000 loss: 0.9255 time 4.37s
+Epoch 0/15 836/1000 loss: 0.9255 time 4.37s
+Epoch 0/15 837/1000 loss: 0.9256 time 4.37s
+Epoch 0/15 838/1000 loss: 0.9256 time 4.37s
+Epoch 0/15 839/1000 loss: 0.9255 time 4.37s
+Epoch 0/15 840/1000 loss: 0.9255 time 4.37s
+Epoch 0/15 841/1000 loss: 0.9256 time 4.36s
+Epoch 0/15 842/1000 loss: 0.9256 time 4.36s
+Epoch 0/15 843/1000 loss: 0.9255 time 4.37s
+Epoch 0/15 844/1000 loss: 0.9255 time 4.37s
+Epoch 0/15 845/1000 loss: 0.9255 time 4.37s
+Epoch 0/15 846/1000 loss: 0.9255 time 4.37s
+Epoch 0/15 847/1000 loss: 0.9255 time 4.37s
+Epoch 0/15 848/1000 loss: 0.9256 time 4.36s
+Epoch 0/15 849/1000 loss: 0.9255 time 4.36s
+Epoch 0/15 850/1000 loss: 0.9255 time 4.36s
+Epoch 0/15 851/1000 loss: 0.9255 time 4.37s
+Epoch 0/15 852/1000 loss: 0.9255 time 4.37s
+Epoch 0/15 853/1000 loss: 0.9255 time 4.37s
+Epoch 0/15 854/1000 loss: 0.9255 time 4.36s
+Epoch 0/15 855/1000 loss: 0.9256 time 4.36s
+Epoch 0/15 856/1000 loss: 0.9256 time 4.36s
+Epoch 0/15 857/1000 loss: 0.9256 time 4.36s
+Epoch 0/15 858/1000 loss: 0.9256 time 4.36s
+Epoch 0/15 859/1000 loss: 0.9255 time 4.37s
+Epoch 0/15 860/1000 loss: 0.9255 time 4.37s
+Epoch 0/15 861/1000 loss: 0.9256 time 4.37s
+Epoch 0/15 862/1000 loss: 0.9255 time 4.36s
+Epoch 0/15 863/1000 loss: 0.9255 time 4.37s
+Epoch 0/15 864/1000 loss: 0.9255 time 4.37s
+Epoch 0/15 865/1000 loss: 0.9254 time 4.35s
+Epoch 0/15 866/1000 loss: 0.9253 time 4.37s
+Epoch 0/15 867/1000 loss: 0.9253 time 4.37s
+Epoch 0/15 868/1000 loss: 0.9252 time 4.37s
+Epoch 0/15 869/1000 loss: 0.9251 time 4.37s
+Epoch 0/15 870/1000 loss: 0.9250 time 4.37s
+Epoch 0/15 871/1000 loss: 0.9250 time 4.36s
+Epoch 0/15 872/1000 loss: 0.9251 time 4.38s
+Epoch 0/15 873/1000 loss: 0.9251 time 4.38s
+Epoch 0/15 874/1000 loss: 0.9250 time 4.36s
+Epoch 0/15 875/1000 loss: 0.9249 time 4.37s
+Epoch 0/15 876/1000 loss: 0.9248 time 4.37s
+Epoch 0/15 877/1000 loss: 0.9247 time 4.37s
+Epoch 0/15 878/1000 loss: 0.9247 time 4.37s
+Epoch 0/15 879/1000 loss: 0.9247 time 4.37s
+Epoch 0/15 880/1000 loss: 0.9248 time 4.35s
+Epoch 0/15 881/1000 loss: 0.9249 time 4.37s
+Epoch 0/15 882/1000 loss: 0.9248 time 4.37s
+Epoch 0/15 883/1000 loss: 0.9247 time 4.37s
+Epoch 0/15 884/1000 loss: 0.9248 time 4.36s
+Epoch 0/15 885/1000 loss: 0.9247 time 4.38s
+Epoch 0/15 886/1000 loss: 0.9247 time 4.35s
+Epoch 0/15 887/1000 loss: 0.9246 time 4.37s
+Epoch 0/15 888/1000 loss: 0.9245 time 4.36s
+Epoch 0/15 889/1000 loss: 0.9245 time 4.36s
+Epoch 0/15 890/1000 loss: 0.9245 time 4.36s
+Epoch 0/15 891/1000 loss: 0.9245 time 4.35s
+Epoch 0/15 892/1000 loss: 0.9245 time 4.36s
+Epoch 0/15 893/1000 loss: 0.9245 time 4.36s
+Epoch 0/15 894/1000 loss: 0.9245 time 4.36s
+Epoch 0/15 895/1000 loss: 0.9245 time 4.37s
+Epoch 0/15 896/1000 loss: 0.9246 time 4.37s
+Epoch 0/15 897/1000 loss: 0.9245 time 4.37s
+Epoch 0/15 898/1000 loss: 0.9245 time 4.36s
+Epoch 0/15 899/1000 loss: 0.9246 time 4.35s
+Epoch 0/15 900/1000 loss: 0.9245 time 4.37s
+Epoch 0/15 901/1000 loss: 0.9245 time 4.36s
+Epoch 0/15 902/1000 loss: 0.9245 time 4.36s
+Epoch 0/15 903/1000 loss: 0.9245 time 4.38s
+Epoch 0/15 904/1000 loss: 0.9245 time 4.36s
+Epoch 0/15 905/1000 loss: 0.9245 time 4.36s
+Epoch 0/15 906/1000 loss: 0.9244 time 4.37s
+Epoch 0/15 907/1000 loss: 0.9245 time 4.35s
+Epoch 0/15 908/1000 loss: 0.9244 time 4.37s
+Epoch 0/15 909/1000 loss: 0.9245 time 4.35s
+Epoch 0/15 910/1000 loss: 0.9244 time 4.37s
+Epoch 0/15 911/1000 loss: 0.9244 time 4.37s
+Epoch 0/15 912/1000 loss: 0.9243 time 4.35s
+Epoch 0/15 913/1000 loss: 0.9243 time 4.37s
+Epoch 0/15 914/1000 loss: 0.9243 time 4.36s
+Epoch 0/15 915/1000 loss: 0.9243 time 4.36s
+Epoch 0/15 916/1000 loss: 0.9242 time 4.37s
+Epoch 0/15 917/1000 loss: 0.9241 time 4.37s
+Epoch 0/15 918/1000 loss: 0.9241 time 4.36s
+Epoch 0/15 919/1000 loss: 0.9241 time 4.36s
+Epoch 0/15 920/1000 loss: 0.9241 time 4.36s
+Epoch 0/15 921/1000 loss: 0.9239 time 4.37s
+Epoch 0/15 922/1000 loss: 0.9239 time 4.37s
+Epoch 0/15 923/1000 loss: 0.9237 time 4.37s
+Epoch 0/15 924/1000 loss: 0.9237 time 4.37s
+Epoch 0/15 925/1000 loss: 0.9237 time 4.37s
+Epoch 0/15 926/1000 loss: 0.9236 time 4.37s
+Epoch 0/15 927/1000 loss: 0.9235 time 4.37s
+Epoch 0/15 928/1000 loss: 0.9235 time 4.37s
+Epoch 0/15 929/1000 loss: 0.9235 time 4.36s
+Epoch 0/15 930/1000 loss: 0.9234 time 4.37s
+Epoch 0/15 931/1000 loss: 0.9233 time 4.37s
+Epoch 0/15 932/1000 loss: 0.9234 time 4.37s
+Epoch 0/15 933/1000 loss: 0.9232 time 4.38s
+Epoch 0/15 934/1000 loss: 0.9233 time 4.36s
+Epoch 0/15 935/1000 loss: 0.9232 time 4.36s
+Epoch 0/15 936/1000 loss: 0.9231 time 4.36s
+Epoch 0/15 937/1000 loss: 0.9231 time 4.36s
+Epoch 0/15 938/1000 loss: 0.9230 time 4.37s
+Epoch 0/15 939/1000 loss: 0.9230 time 4.36s
+Epoch 0/15 940/1000 loss: 0.9231 time 4.35s
+Epoch 0/15 941/1000 loss: 0.9231 time 4.37s
+Epoch 0/15 942/1000 loss: 0.9231 time 4.37s
+Epoch 0/15 943/1000 loss: 0.9232 time 4.36s
+Epoch 0/15 944/1000 loss: 0.9232 time 4.37s
+Epoch 0/15 945/1000 loss: 0.9232 time 4.37s
+Epoch 0/15 946/1000 loss: 0.9231 time 4.37s
+Epoch 0/15 947/1000 loss: 0.9231 time 4.35s
+Epoch 0/15 948/1000 loss: 0.9231 time 4.36s
+Epoch 0/15 949/1000 loss: 0.9229 time 4.36s
+Epoch 0/15 950/1000 loss: 0.9230 time 4.37s
+Epoch 0/15 951/1000 loss: 0.9230 time 4.36s
+Epoch 0/15 952/1000 loss: 0.9230 time 4.36s
+Epoch 0/15 953/1000 loss: 0.9229 time 4.36s
+Epoch 0/15 954/1000 loss: 0.9228 time 4.36s
+Epoch 0/15 955/1000 loss: 0.9227 time 4.37s
+Epoch 0/15 956/1000 loss: 0.9227 time 4.36s
+Epoch 0/15 957/1000 loss: 0.9227 time 4.37s
+Epoch 0/15 958/1000 loss: 0.9227 time 4.35s
+Epoch 0/15 959/1000 loss: 0.9226 time 4.35s
+Epoch 0/15 960/1000 loss: 0.9225 time 4.35s
+Epoch 0/15 961/1000 loss: 0.9224 time 4.37s
+Epoch 0/15 962/1000 loss: 0.9223 time 4.37s
+Epoch 0/15 963/1000 loss: 0.9222 time 4.37s
+Epoch 0/15 964/1000 loss: 0.9222 time 4.37s
+Epoch 0/15 965/1000 loss: 0.9222 time 4.36s
+Epoch 0/15 966/1000 loss: 0.9221 time 4.35s
+Epoch 0/15 967/1000 loss: 0.9221 time 4.36s
+Epoch 0/15 968/1000 loss: 0.9221 time 4.35s
+Epoch 0/15 969/1000 loss: 0.9220 time 4.37s
+Epoch 0/15 970/1000 loss: 0.9219 time 4.37s
+Epoch 0/15 971/1000 loss: 0.9218 time 4.36s
+Epoch 0/15 972/1000 loss: 0.9217 time 4.37s
+Epoch 0/15 973/1000 loss: 0.9218 time 4.37s
+Epoch 0/15 974/1000 loss: 0.9217 time 4.37s
+Epoch 0/15 975/1000 loss: 0.9218 time 4.37s
+Epoch 0/15 976/1000 loss: 0.9218 time 4.37s
+Epoch 0/15 977/1000 loss: 0.9217 time 4.37s
+Epoch 0/15 978/1000 loss: 0.9217 time 4.37s
+Epoch 0/15 979/1000 loss: 0.9218 time 4.35s
+Epoch 0/15 980/1000 loss: 0.9217 time 4.36s
+Epoch 0/15 981/1000 loss: 0.9218 time 4.35s
+Epoch 0/15 982/1000 loss: 0.9217 time 4.36s
+Epoch 0/15 983/1000 loss: 0.9216 time 4.35s
+Epoch 0/15 984/1000 loss: 0.9217 time 4.37s
+Epoch 0/15 985/1000 loss: 0.9216 time 4.37s
+Epoch 0/15 986/1000 loss: 0.9216 time 4.35s
+Epoch 0/15 987/1000 loss: 0.9215 time 4.36s
+Epoch 0/15 988/1000 loss: 0.9214 time 4.36s
+Epoch 0/15 989/1000 loss: 0.9214 time 4.36s
+Epoch 0/15 990/1000 loss: 0.9214 time 4.37s
+Epoch 0/15 991/1000 loss: 0.9213 time 4.36s
+Epoch 0/15 992/1000 loss: 0.9212 time 4.36s
+Epoch 0/15 993/1000 loss: 0.9213 time 4.36s
+Epoch 0/15 994/1000 loss: 0.9213 time 4.36s
+Epoch 0/15 995/1000 loss: 0.9213 time 4.37s
+Epoch 0/15 996/1000 loss: 0.9213 time 4.36s
+Epoch 0/15 997/1000 loss: 0.9213 time 4.37s
+Epoch 0/15 998/1000 loss: 0.9212 time 4.36s
+Epoch 0/15 999/1000 loss: 0.9212 time 4.37s
+Final training  0/14 loss: 0.9212 time 4410.18s
+Val 0/15 0/250 , dice_tc: 0.013520108 , dice_wt: 0.19886424 , dice_et: 0.0 , time 46.41s
+Val 0/15 1/250 , dice_tc: 0.006863513 , dice_wt: 0.12697941 , dice_et: 0.0 , time 33.75s
+Val 0/15 2/250 , dice_tc: 0.009218898 , dice_wt: 0.27181736 , dice_et: 0.0 , time 33.76s
+Val 0/15 3/250 , dice_tc: 0.007555697 , dice_wt: 0.26782396 , dice_et: 0.0 , time 33.80s
+Val 0/15 4/250 , dice_tc: 0.021884164 , dice_wt: 0.2917419 , dice_et: 0.0 , time 33.83s
+Val 0/15 5/250 , dice_tc: 0.018313743 , dice_wt: 0.29793942 , dice_et: 0.0 , time 33.85s
+Val 0/15 6/250 , dice_tc: 0.0425914 , dice_wt: 0.3520598 , dice_et: 0.0 , time 33.87s
+Val 0/15 7/250 , dice_tc: 0.03926653 , dice_wt: 0.32895175 , dice_et: 0.0 , time 33.88s
+Val 0/15 8/250 , dice_tc: 0.03926653 , dice_wt: 0.30500543 , dice_et: 0.0 , time 33.87s
+Val 0/15 9/250 , dice_tc: 0.041965637 , dice_wt: 0.3059528 , dice_et: 0.0 , time 33.89s
+Val 0/15 10/250 , dice_tc: 0.041326117 , dice_wt: 0.31633818 , dice_et: 0.0 , time 33.87s
+Val 0/15 11/250 , dice_tc: 0.041865923 , dice_wt: 0.33330992 , dice_et: 0.0 , time 33.89s
+Val 0/15 12/250 , dice_tc: 0.038712617 , dice_wt: 0.35122365 , dice_et: 0.0 , time 33.86s
+Val 0/15 13/250 , dice_tc: 0.036863573 , dice_wt: 0.33870205 , dice_et: 0.0 , time 33.86s
+Val 0/15 14/250 , dice_tc: 0.037090946 , dice_wt: 0.33800334 , dice_et: 0.0 , time 33.87s
+Val 0/15 15/250 , dice_tc: 0.03534724 , dice_wt: 0.36759612 , dice_et: 0.0 , time 33.87s
+Val 0/15 16/250 , dice_tc: 0.033146877 , dice_wt: 0.34852478 , dice_et: 0.0 , time 33.88s
+Val 0/15 17/250 , dice_tc: 0.031253684 , dice_wt: 0.35164192 , dice_et: 0.0 , time 33.86s
+Val 0/15 18/250 , dice_tc: 0.03131874 , dice_wt: 0.36568856 , dice_et: 0.0 , time 33.85s
+Val 0/15 19/250 , dice_tc: 0.03012046 , dice_wt: 0.36270523 , dice_et: 0.0 , time 33.90s
+Val 0/15 20/250 , dice_tc: 0.029226765 , dice_wt: 0.35587525 , dice_et: 0.0 , time 33.85s
+Val 0/15 21/250 , dice_tc: 0.028556276 , dice_wt: 0.3634653 , dice_et: 0.0 , time 33.86s
+Val 0/15 22/250 , dice_tc: 0.027278425 , dice_wt: 0.3630558 , dice_et: 0.0 , time 33.87s
+Val 0/15 23/250 , dice_tc: 0.026895627 , dice_wt: 0.36328432 , dice_et: 0.0 , time 33.87s
+Val 0/15 24/250 , dice_tc: 0.02752495 , dice_wt: 0.36641663 , dice_et: 0.0 , time 33.88s
+Val 0/15 25/250 , dice_tc: 0.02656858 , dice_wt: 0.36591026 , dice_et: 0.0 , time 33.89s
+Val 0/15 26/250 , dice_tc: 0.0271217 , dice_wt: 0.3714577 , dice_et: 0.0 , time 33.88s
+Val 0/15 27/250 , dice_tc: 0.026139973 , dice_wt: 0.38031077 , dice_et: 0.0 , time 33.90s
+Val 0/15 28/250 , dice_tc: 0.026134934 , dice_wt: 0.37312195 , dice_et: 0.0 , time 33.89s
+Val 0/15 29/250 , dice_tc: 0.02704802 , dice_wt: 0.3822886 , dice_et: 0.0 , time 33.87s
+Val 0/15 30/250 , dice_tc: 0.02638951 , dice_wt: 0.37815323 , dice_et: 0.0 , time 33.92s
+Val 0/15 31/250 , dice_tc: 0.025571983 , dice_wt: 0.36717397 , dice_et: 0.0 , time 33.87s
+Val 0/15 32/250 , dice_tc: 0.025732167 , dice_wt: 0.36482584 , dice_et: 0.0 , time 33.87s
+Val 0/15 33/250 , dice_tc: 0.02602783 , dice_wt: 0.37581012 , dice_et: 0.0 , time 33.89s
+Val 0/15 34/250 , dice_tc: 0.02855067 , dice_wt: 0.37469783 , dice_et: 0.0 , time 33.86s
+Val 0/15 35/250 , dice_tc: 0.027941018 , dice_wt: 0.36936077 , dice_et: 0.0 , time 33.87s
+Val 0/15 36/250 , dice_tc: 0.027419506 , dice_wt: 0.36399803 , dice_et: 0.0 , time 33.86s
+Val 0/15 37/250 , dice_tc: 0.02667867 , dice_wt: 0.35717443 , dice_et: 0.0 , time 33.86s
+Val 0/15 38/250 , dice_tc: 0.028524455 , dice_wt: 0.35610393 , dice_et: 0.0 , time 33.86s
+Val 0/15 39/250 , dice_tc: 0.028506003 , dice_wt: 0.36729115 , dice_et: 0.0 , time 33.86s
+Val 0/15 40/250 , dice_tc: 0.030958306 , dice_wt: 0.3772098 , dice_et: 0.0 , time 33.88s
+Val 0/15 41/250 , dice_tc: 0.030216746 , dice_wt: 0.38191572 , dice_et: 0.0 , time 33.91s
+Val 0/15 42/250 , dice_tc: 0.029501265 , dice_wt: 0.37934867 , dice_et: 0.0 , time 33.88s
+Val 0/15 43/250 , dice_tc: 0.029338839 , dice_wt: 0.37622774 , dice_et: 0.0 , time 33.87s
+Val 0/15 44/250 , dice_tc: 0.03535349 , dice_wt: 0.3868187 , dice_et: 0.0 , time 33.91s
+Val 0/15 45/250 , dice_tc: 0.03525133 , dice_wt: 0.3885734 , dice_et: 0.0 , time 33.87s
+Val 0/15 46/250 , dice_tc: 0.035335485 , dice_wt: 0.38606757 , dice_et: 0.0 , time 33.89s
+Val 0/15 47/250 , dice_tc: 0.034653768 , dice_wt: 0.3793541 , dice_et: 0.0 , time 33.89s
+Val 0/15 48/250 , dice_tc: 0.034167964 , dice_wt: 0.37844965 , dice_et: 0.0 , time 33.89s
+Val 0/15 49/250 , dice_tc: 0.034167964 , dice_wt: 0.3740894 , dice_et: 0.0 , time 33.88s
+Val 0/15 50/250 , dice_tc: 0.033848543 , dice_wt: 0.38090602 , dice_et: 0.0 , time 33.91s
+Val 0/15 51/250 , dice_tc: 0.034319438 , dice_wt: 0.38137898 , dice_et: 0.0 , time 33.92s
+Val 0/15 52/250 , dice_tc: 0.033962134 , dice_wt: 0.385027 , dice_et: 0.0 , time 33.92s
+Val 0/15 53/250 , dice_tc: 0.033474043 , dice_wt: 0.38718617 , dice_et: 0.0 , time 33.89s
+Val 0/15 54/250 , dice_tc: 0.033480115 , dice_wt: 0.38803667 , dice_et: 0.0 , time 33.88s
+Val 0/15 55/250 , dice_tc: 0.033389203 , dice_wt: 0.38734582 , dice_et: 0.0 , time 33.91s
+Val 0/15 56/250 , dice_tc: 0.032801617 , dice_wt: 0.39022484 , dice_et: 0.0 , time 33.89s
+Val 0/15 57/250 , dice_tc: 0.03221748 , dice_wt: 0.38986862 , dice_et: 0.0 , time 33.88s
+Val 0/15 58/250 , dice_tc: 0.032384768 , dice_wt: 0.38880402 , dice_et: 0.0 , time 33.85s
+Val 0/15 59/250 , dice_tc: 0.03222619 , dice_wt: 0.38775063 , dice_et: 0.0 , time 33.86s
+Val 0/15 60/250 , dice_tc: 0.03239434 , dice_wt: 0.3888409 , dice_et: 0.0 , time 33.87s
+Val 0/15 61/250 , dice_tc: 0.032896202 , dice_wt: 0.38869053 , dice_et: 0.0 , time 33.88s
+Val 0/15 62/250 , dice_tc: 0.03243188 , dice_wt: 0.38963887 , dice_et: 0.0 , time 33.88s
+Val 0/15 63/250 , dice_tc: 0.031934515 , dice_wt: 0.38486916 , dice_et: 0.0 , time 33.86s
+Val 0/15 64/250 , dice_tc: 0.032149795 , dice_wt: 0.38495818 , dice_et: 0.0 , time 33.85s
+Val 0/15 65/250 , dice_tc: 0.032580316 , dice_wt: 0.384467 , dice_et: 0.0 , time 33.87s
+Val 0/15 66/250 , dice_tc: 0.032178555 , dice_wt: 0.382971 , dice_et: 0.0 , time 33.90s
+Val 0/15 67/250 , dice_tc: 0.031797945 , dice_wt: 0.38173914 , dice_et: 0.0 , time 33.92s
+Val 0/15 68/250 , dice_tc: 0.032356944 , dice_wt: 0.3815083 , dice_et: 0.0 , time 33.86s
+Val 0/15 69/250 , dice_tc: 0.031907443 , dice_wt: 0.37985578 , dice_et: 0.0 , time 33.88s
+Val 0/15 70/250 , dice_tc: 0.03162658 , dice_wt: 0.37988058 , dice_et: 0.0 , time 33.90s
+Val 0/15 71/250 , dice_tc: 0.031882294 , dice_wt: 0.38193777 , dice_et: 0.0 , time 33.90s
+Val 0/15 72/250 , dice_tc: 0.03191255 , dice_wt: 0.38766193 , dice_et: 0.0 , time 33.86s
+Val 0/15 73/250 , dice_tc: 0.031492814 , dice_wt: 0.38378933 , dice_et: 0.0 , time 33.91s
+Val 0/15 74/250 , dice_tc: 0.03181152 , dice_wt: 0.3889543 , dice_et: 0.0 , time 33.90s
+Val 0/15 75/250 , dice_tc: 0.031886358 , dice_wt: 0.38832706 , dice_et: 0.0 , time 33.88s
+Val 0/15 76/250 , dice_tc: 0.03151368 , dice_wt: 0.38458472 , dice_et: 0.0 , time 33.86s
+Val 0/15 77/250 , dice_tc: 0.031101901 , dice_wt: 0.38280475 , dice_et: 0.0 , time 33.89s
+Val 0/15 78/250 , dice_tc: 0.030706009 , dice_wt: 0.38345522 , dice_et: 0.0 , time 33.87s
+Val 0/15 79/250 , dice_tc: 0.030903157 , dice_wt: 0.38579816 , dice_et: 0.0 , time 33.85s
+Val 0/15 80/250 , dice_tc: 0.030903157 , dice_wt: 0.38335246 , dice_et: 0.0 , time 33.86s
+Val 0/15 81/250 , dice_tc: 0.030530628 , dice_wt: 0.38209873 , dice_et: 0.0 , time 33.89s
+Val 0/15 82/250 , dice_tc: 0.030195886 , dice_wt: 0.3778681 , dice_et: 0.0 , time 33.87s
+Val 0/15 83/250 , dice_tc: 0.030047955 , dice_wt: 0.37467527 , dice_et: 0.0 , time 33.87s
+Val 0/15 84/250 , dice_tc: 0.029896514 , dice_wt: 0.3782736 , dice_et: 0.0 , time 33.88s
+Val 0/15 85/250 , dice_tc: 0.029553741 , dice_wt: 0.37477803 , dice_et: 0.0 , time 33.89s
+Val 0/15 86/250 , dice_tc: 0.029339293 , dice_wt: 0.37556988 , dice_et: 0.0 , time 33.86s
+Val 0/15 87/250 , dice_tc: 0.029651226 , dice_wt: 0.37776375 , dice_et: 0.0 , time 33.88s
+Val 0/15 88/250 , dice_tc: 0.029557586 , dice_wt: 0.37670657 , dice_et: 0.0 , time 33.88s
+Val 0/15 89/250 , dice_tc: 0.029220251 , dice_wt: 0.3738873 , dice_et: 0.0 , time 33.85s
+Val 0/15 90/250 , dice_tc: 0.029018663 , dice_wt: 0.3748109 , dice_et: 0.0 , time 33.86s
+Val 0/15 91/250 , dice_tc: 0.028796595 , dice_wt: 0.37404156 , dice_et: 0.0 , time 33.88s
+Val 0/15 92/250 , dice_tc: 0.028690813 , dice_wt: 0.37220392 , dice_et: 0.0 , time 33.86s
+Val 0/15 93/250 , dice_tc: 0.02838388 , dice_wt: 0.3682878 , dice_et: 0.0 , time 33.87s
+Val 0/15 94/250 , dice_tc: 0.02817013 , dice_wt: 0.37104046 , dice_et: 0.0 , time 33.83s
+Val 0/15 95/250 , dice_tc: 0.029476773 , dice_wt: 0.37483034 , dice_et: 0.0 , time 33.89s
+Val 0/15 96/250 , dice_tc: 0.029222524 , dice_wt: 0.37832847 , dice_et: 0.0 , time 33.86s
+Val 0/15 97/250 , dice_tc: 0.028943837 , dice_wt: 0.37616745 , dice_et: 0.0 , time 33.87s
+Val 0/15 98/250 , dice_tc: 0.028783323 , dice_wt: 0.3736388 , dice_et: 0.0 , time 33.85s
+Val 0/15 99/250 , dice_tc: 0.02850974 , dice_wt: 0.37302136 , dice_et: 0.0 , time 33.87s
+Val 0/15 100/250 , dice_tc: 0.02850974 , dice_wt: 0.3699271 , dice_et: 0.0 , time 33.85s
+Val 0/15 101/250 , dice_tc: 0.028226089 , dice_wt: 0.36852798 , dice_et: 0.0 , time 33.86s
+Val 0/15 102/250 , dice_tc: 0.027942492 , dice_wt: 0.37001637 , dice_et: 0.0 , time 33.88s
+Val 0/15 103/250 , dice_tc: 0.027698388 , dice_wt: 0.3671169 , dice_et: 0.0 , time 33.87s
+Val 0/15 104/250 , dice_tc: 0.028455364 , dice_wt: 0.37035927 , dice_et: 0.0 , time 33.87s
+Val 0/15 105/250 , dice_tc: 0.028367495 , dice_wt: 0.37067357 , dice_et: 0.0 , time 33.87s
+Val 0/15 106/250 , dice_tc: 0.028280756 , dice_wt: 0.3695588 , dice_et: 0.0 , time 33.87s
+Val 0/15 107/250 , dice_tc: 0.02813257 , dice_wt: 0.36718237 , dice_et: 0.0 , time 33.87s
+Val 0/15 108/250 , dice_tc: 0.028521731 , dice_wt: 0.3703224 , dice_et: 0.0 , time 33.87s
+Val 0/15 109/250 , dice_tc: 0.02832355 , dice_wt: 0.37288305 , dice_et: 0.0 , time 33.86s
+Val 0/15 110/250 , dice_tc: 0.028206 , dice_wt: 0.3725721 , dice_et: 0.0 , time 33.87s
+Val 0/15 111/250 , dice_tc: 0.0279614 , dice_wt: 0.3706101 , dice_et: 0.0 , time 33.87s
+Val 0/15 112/250 , dice_tc: 0.027822586 , dice_wt: 0.37469655 , dice_et: 0.0 , time 33.87s
+Val 0/15 113/250 , dice_tc: 0.028328922 , dice_wt: 0.37768957 , dice_et: 0.0 , time 33.87s
+Val 0/15 114/250 , dice_tc: 0.028123312 , dice_wt: 0.37522408 , dice_et: 0.0 , time 33.89s
+Val 0/15 115/250 , dice_tc: 0.027875593 , dice_wt: 0.37447736 , dice_et: 0.0 , time 33.89s
+Val 0/15 116/250 , dice_tc: 0.027842153 , dice_wt: 0.37613827 , dice_et: 0.0 , time 33.85s
+Val 0/15 117/250 , dice_tc: 0.02761075 , dice_wt: 0.37778684 , dice_et: 0.0 , time 33.86s
+Val 0/15 118/250 , dice_tc: 0.02743952 , dice_wt: 0.38078347 , dice_et: 0.0 , time 33.86s
+Val 0/15 119/250 , dice_tc: 0.0274425 , dice_wt: 0.38117087 , dice_et: 0.0 , time 33.90s
+Val 0/15 120/250 , dice_tc: 0.027329858 , dice_wt: 0.38050896 , dice_et: 0.0 , time 33.89s
+Val 0/15 121/250 , dice_tc: 0.027117485 , dice_wt: 0.37922123 , dice_et: 0.0 , time 33.87s
+Val 0/15 122/250 , dice_tc: 0.026897855 , dice_wt: 0.38172796 , dice_et: 0.0 , time 33.88s
+Val 0/15 123/250 , dice_tc: 0.02679208 , dice_wt: 0.3811677 , dice_et: 0.0 , time 33.91s
+Val 0/15 124/250 , dice_tc: 0.02703064 , dice_wt: 0.3808953 , dice_et: 0.0 , time 33.90s
+Val 0/15 125/250 , dice_tc: 0.026906416 , dice_wt: 0.3815233 , dice_et: 0.0 , time 33.87s
+Val 0/15 126/250 , dice_tc: 0.027110783 , dice_wt: 0.3810195 , dice_et: 0.0 , time 33.90s
+Val 0/15 127/250 , dice_tc: 0.027142627 , dice_wt: 0.38296705 , dice_et: 0.0 , time 33.88s
+Val 0/15 128/250 , dice_tc: 0.02747966 , dice_wt: 0.38153154 , dice_et: 0.0 , time 33.87s
+Val 0/15 129/250 , dice_tc: 0.027397025 , dice_wt: 0.38034132 , dice_et: 0.0 , time 33.86s
+Val 0/15 130/250 , dice_tc: 0.02722714 , dice_wt: 0.38157883 , dice_et: 0.0 , time 33.80s
+Val 0/15 131/250 , dice_tc: 0.027044246 , dice_wt: 0.38085598 , dice_et: 0.0 , time 33.82s
+Val 0/15 132/250 , dice_tc: 0.026933338 , dice_wt: 0.37947774 , dice_et: 0.0 , time 33.82s
+Val 0/15 133/250 , dice_tc: 0.02672977 , dice_wt: 0.37830725 , dice_et: 0.0 , time 33.79s
+Val 0/15 134/250 , dice_tc: 0.026631549 , dice_wt: 0.38085124 , dice_et: 0.0 , time 33.79s
+Val 0/15 135/250 , dice_tc: 0.026477741 , dice_wt: 0.38022724 , dice_et: 0.0 , time 33.77s
+Val 0/15 136/250 , dice_tc: 0.027649228 , dice_wt: 0.3812999 , dice_et: 0.0 , time 33.79s
+Val 0/15 137/250 , dice_tc: 0.027453093 , dice_wt: 0.38056776 , dice_et: 0.0 , time 33.81s
+Val 0/15 138/250 , dice_tc: 0.027298814 , dice_wt: 0.38211182 , dice_et: 0.0 , time 33.79s
+Val 0/15 139/250 , dice_tc: 0.027174123 , dice_wt: 0.38294888 , dice_et: 0.0 , time 33.78s
+Val 0/15 140/250 , dice_tc: 0.026993848 , dice_wt: 0.38068625 , dice_et: 0.0 , time 33.80s
+Val 0/15 141/250 , dice_tc: 0.026925152 , dice_wt: 0.38267872 , dice_et: 0.0 , time 33.79s
+Val 0/15 142/250 , dice_tc: 0.026854102 , dice_wt: 0.38301402 , dice_et: 0.0 , time 33.81s
+Val 0/15 143/250 , dice_tc: 0.026801424 , dice_wt: 0.3836361 , dice_et: 0.0 , time 33.85s
+Val 0/15 144/250 , dice_tc: 0.026660793 , dice_wt: 0.38225898 , dice_et: 0.0 , time 33.85s
+Val 0/15 145/250 , dice_tc: 0.026583502 , dice_wt: 0.3821638 , dice_et: 0.0 , time 33.86s
+Val 0/15 146/250 , dice_tc: 0.02663937 , dice_wt: 0.38398087 , dice_et: 0.0 , time 33.85s
+Val 0/15 147/250 , dice_tc: 0.026469115 , dice_wt: 0.3832685 , dice_et: 0.0 , time 33.89s
+Val 0/15 148/250 , dice_tc: 0.0263332 , dice_wt: 0.38362288 , dice_et: 0.0 , time 33.89s
+Val 0/15 149/250 , dice_tc: 0.026227944 , dice_wt: 0.38373864 , dice_et: 0.0 , time 33.90s
+Val 0/15 150/250 , dice_tc: 0.026050009 , dice_wt: 0.38164064 , dice_et: 0.0 , time 33.90s
+Val 0/15 151/250 , dice_tc: 0.025916463 , dice_wt: 0.3803278 , dice_et: 0.0 , time 33.89s
+Val 0/15 152/250 , dice_tc: 0.026001224 , dice_wt: 0.38071147 , dice_et: 0.0 , time 33.90s
+Val 0/15 153/250 , dice_tc: 0.026647255 , dice_wt: 0.38196513 , dice_et: 0.0 , time 33.87s
+Val 0/15 154/250 , dice_tc: 0.026510088 , dice_wt: 0.38367894 , dice_et: 0.0 , time 33.89s
+Val 0/15 155/250 , dice_tc: 0.0265919 , dice_wt: 0.3844573 , dice_et: 0.0 , time 33.87s
+Val 0/15 156/250 , dice_tc: 0.026562838 , dice_wt: 0.38576168 , dice_et: 0.0 , time 33.87s
+Val 0/15 157/250 , dice_tc: 0.026434459 , dice_wt: 0.38604513 , dice_et: 0.0 , time 33.87s
+Val 0/15 158/250 , dice_tc: 0.026294136 , dice_wt: 0.38543263 , dice_et: 0.0 , time 33.88s
+Val 0/15 159/250 , dice_tc: 0.0265726 , dice_wt: 0.38730323 , dice_et: 0.0 , time 33.86s
+Val 0/15 160/250 , dice_tc: 0.02657237 , dice_wt: 0.3896731 , dice_et: 0.0 , time 33.86s
+Val 0/15 161/250 , dice_tc: 0.026516123 , dice_wt: 0.38917792 , dice_et: 0.0 , time 33.87s
+Val 0/15 162/250 , dice_tc: 0.026418434 , dice_wt: 0.38919073 , dice_et: 0.0 , time 33.89s
+Val 0/15 163/250 , dice_tc: 0.026393663 , dice_wt: 0.3882876 , dice_et: 0.0 , time 33.85s
+Val 0/15 164/250 , dice_tc: 0.026393663 , dice_wt: 0.38605657 , dice_et: 0.0 , time 33.85s
+Val 0/15 165/250 , dice_tc: 0.026413271 , dice_wt: 0.38572183 , dice_et: 0.0 , time 33.88s
+Val 0/15 166/250 , dice_tc: 0.026348814 , dice_wt: 0.3860569 , dice_et: 0.0 , time 33.84s
+Val 0/15 167/250 , dice_tc: 0.026790014 , dice_wt: 0.38738215 , dice_et: 0.0 , time 33.87s
+Val 0/15 168/250 , dice_tc: 0.02673343 , dice_wt: 0.3870455 , dice_et: 0.0 , time 33.85s
+Val 0/15 169/250 , dice_tc: 0.026958983 , dice_wt: 0.38933465 , dice_et: 0.0 , time 33.85s
+Val 0/15 170/250 , dice_tc: 0.026935497 , dice_wt: 0.3889 , dice_et: 0.0 , time 33.83s
+Val 0/15 171/250 , dice_tc: 0.026778504 , dice_wt: 0.38731846 , dice_et: 0.0 , time 33.84s
+Val 0/15 172/250 , dice_tc: 0.026796903 , dice_wt: 0.38931173 , dice_et: 0.0 , time 33.83s
+Val 0/15 173/250 , dice_tc: 0.026659356 , dice_wt: 0.3872165 , dice_et: 0.0 , time 33.88s
+Val 0/15 174/250 , dice_tc: 0.026527926 , dice_wt: 0.3859181 , dice_et: 0.0 , time 33.84s
+Val 0/15 175/250 , dice_tc: 0.026632257 , dice_wt: 0.38688323 , dice_et: 0.0 , time 33.82s
+Val 0/15 176/250 , dice_tc: 0.026498795 , dice_wt: 0.38541618 , dice_et: 0.0 , time 33.85s
+Val 0/15 177/250 , dice_tc: 0.026515847 , dice_wt: 0.38539046 , dice_et: 0.0 , time 33.85s
+Val 0/15 178/250 , dice_tc: 0.026374007 , dice_wt: 0.38699007 , dice_et: 0.0 , time 33.85s
+Val 0/15 179/250 , dice_tc: 0.02626614 , dice_wt: 0.3872813 , dice_et: 0.0 , time 33.87s
+Val 0/15 180/250 , dice_tc: 0.026448887 , dice_wt: 0.388774 , dice_et: 0.0 , time 33.86s
+Val 0/15 181/250 , dice_tc: 0.026308501 , dice_wt: 0.3875867 , dice_et: 0.0 , time 33.87s
+Val 0/15 182/250 , dice_tc: 0.026308602 , dice_wt: 0.38870993 , dice_et: 0.0 , time 33.86s
+Val 0/15 183/250 , dice_tc: 0.026643798 , dice_wt: 0.3879078 , dice_et: 0.0 , time 33.85s
+Val 0/15 184/250 , dice_tc: 0.026510507 , dice_wt: 0.3865994 , dice_et: 0.0 , time 33.87s
+Val 0/15 185/250 , dice_tc: 0.02659422 , dice_wt: 0.38806686 , dice_et: 0.0 , time 33.91s
+Val 0/15 186/250 , dice_tc: 0.026524916 , dice_wt: 0.38767084 , dice_et: 0.0 , time 33.87s
+Val 0/15 187/250 , dice_tc: 0.02639209 , dice_wt: 0.385767 , dice_et: 0.0 , time 33.88s
+Val 0/15 188/250 , dice_tc: 0.026347194 , dice_wt: 0.3864316 , dice_et: 0.0 , time 33.87s
+Val 0/15 189/250 , dice_tc: 0.026435006 , dice_wt: 0.38756114 , dice_et: 0.0 , time 33.84s
+Val 0/15 190/250 , dice_tc: 0.026759187 , dice_wt: 0.38675618 , dice_et: 0.0 , time 33.84s
+Val 0/15 191/250 , dice_tc: 0.026620666 , dice_wt: 0.3856757 , dice_et: 0.0 , time 33.84s
+Val 0/15 192/250 , dice_tc: 0.02683991 , dice_wt: 0.38675207 , dice_et: 0.0 , time 33.88s
+Val 0/15 193/250 , dice_tc: 0.026697911 , dice_wt: 0.38509652 , dice_et: 0.0 , time 33.81s
+Val 0/15 194/250 , dice_tc: 0.026670419 , dice_wt: 0.38414225 , dice_et: 0.0 , time 33.83s
+Val 0/15 195/250 , dice_tc: 0.02653106 , dice_wt: 0.38312152 , dice_et: 0.0 , time 33.82s
+Val 0/15 196/250 , dice_tc: 0.026416952 , dice_wt: 0.38189673 , dice_et: 0.0 , time 33.84s
+Val 0/15 197/250 , dice_tc: 0.026477465 , dice_wt: 0.382848 , dice_et: 0.0 , time 33.80s
+Val 0/15 198/250 , dice_tc: 0.026400084 , dice_wt: 0.38317177 , dice_et: 0.0 , time 33.82s
+Val 0/15 199/250 , dice_tc: 0.026294475 , dice_wt: 0.38201824 , dice_et: 0.0 , time 33.83s
+Val 0/15 200/250 , dice_tc: 0.026186697 , dice_wt: 0.38192907 , dice_et: 0.0 , time 33.83s
+Val 0/15 201/250 , dice_tc: 0.026089704 , dice_wt: 0.38073438 , dice_et: 0.0 , time 33.79s
+Val 0/15 202/250 , dice_tc: 0.02602815 , dice_wt: 0.37986243 , dice_et: 0.0 , time 33.81s
+Val 0/15 203/250 , dice_tc: 0.026194775 , dice_wt: 0.38119888 , dice_et: 0.0 , time 33.79s
+Val 0/15 204/250 , dice_tc: 0.026115963 , dice_wt: 0.38332257 , dice_et: 0.0 , time 33.81s
+Val 0/15 205/250 , dice_tc: 0.026002785 , dice_wt: 0.38345197 , dice_et: 0.0 , time 33.76s
+Val 0/15 206/250 , dice_tc: 0.025880294 , dice_wt: 0.38187003 , dice_et: 0.0 , time 33.83s
+Val 0/15 207/250 , dice_tc: 0.025889387 , dice_wt: 0.38321888 , dice_et: 0.0 , time 33.81s
+Val 0/15 208/250 , dice_tc: 0.025764372 , dice_wt: 0.3815967 , dice_et: 0.0 , time 33.79s
+Val 0/15 209/250 , dice_tc: 0.025750693 , dice_wt: 0.38029844 , dice_et: 0.0 , time 33.81s
+Val 0/15 210/250 , dice_tc: 0.025641069 , dice_wt: 0.37885407 , dice_et: 0.0 , time 33.82s
+Val 0/15 211/250 , dice_tc: 0.025691109 , dice_wt: 0.378699 , dice_et: 0.0 , time 33.84s
+Val 0/15 212/250 , dice_tc: 0.025661614 , dice_wt: 0.37772837 , dice_et: 0.0 , time 33.82s
+Val 0/15 213/250 , dice_tc: 0.025560146 , dice_wt: 0.379592 , dice_et: 0.0 , time 33.84s
+Val 0/15 214/250 , dice_tc: 0.025557 , dice_wt: 0.3807219 , dice_et: 0.0 , time 33.85s
+Val 0/15 215/250 , dice_tc: 0.02549586 , dice_wt: 0.38188097 , dice_et: 0.0 , time 33.78s
+Val 0/15 216/250 , dice_tc: 0.025379615 , dice_wt: 0.38103798 , dice_et: 0.0 , time 33.82s
+Val 0/15 217/250 , dice_tc: 0.025263485 , dice_wt: 0.3802751 , dice_et: 0.0 , time 33.82s
+Val 0/15 218/250 , dice_tc: 0.02515202 , dice_wt: 0.38002154 , dice_et: 0.0 , time 33.81s
+Val 0/15 219/250 , dice_tc: 0.025140531 , dice_wt: 0.3793402 , dice_et: 0.0 , time 33.82s
+Val 0/15 220/250 , dice_tc: 0.02503535 , dice_wt: 0.3784324 , dice_et: 0.0 , time 33.81s
+Val 0/15 221/250 , dice_tc: 0.024937632 , dice_wt: 0.3774346 , dice_et: 0.0 , time 33.79s
+Val 0/15 222/250 , dice_tc: 0.024823437 , dice_wt: 0.37658545 , dice_et: 0.0 , time 33.81s
+Val 0/15 223/250 , dice_tc: 0.024997385 , dice_wt: 0.37730774 , dice_et: 0.0 , time 33.81s
+Val 0/15 224/250 , dice_tc: 0.02503064 , dice_wt: 0.37834245 , dice_et: 0.0 , time 33.84s
+Val 0/15 225/250 , dice_tc: 0.025007961 , dice_wt: 0.37794846 , dice_et: 0.0 , time 33.79s
+Val 0/15 226/250 , dice_tc: 0.024983926 , dice_wt: 0.37839934 , dice_et: 0.0 , time 33.81s
+Val 0/15 227/250 , dice_tc: 0.024978979 , dice_wt: 0.3780119 , dice_et: 0.0 , time 33.84s
+Val 0/15 228/250 , dice_tc: 0.025008876 , dice_wt: 0.37769023 , dice_et: 0.0 , time 33.82s
+Val 0/15 229/250 , dice_tc: 0.02511526 , dice_wt: 0.37794918 , dice_et: 0.0 , time 33.82s
+Val 0/15 230/250 , dice_tc: 0.02501256 , dice_wt: 0.3765384 , dice_et: 0.0 , time 33.81s
+Val 0/15 231/250 , dice_tc: 0.02497015 , dice_wt: 0.37526578 , dice_et: 0.0 , time 33.79s
+Val 0/15 232/250 , dice_tc: 0.024900809 , dice_wt: 0.3753264 , dice_et: 0.0 , time 33.79s
+Val 0/15 233/250 , dice_tc: 0.024792949 , dice_wt: 0.37653908 , dice_et: 0.0 , time 33.77s
+Val 0/15 234/250 , dice_tc: 0.025022564 , dice_wt: 0.37604678 , dice_et: 0.0 , time 33.81s
+Val 0/15 235/250 , dice_tc: 0.02492728 , dice_wt: 0.37505367 , dice_et: 0.0 , time 33.77s
+Val 0/15 236/250 , dice_tc: 0.0248224 , dice_wt: 0.37467155 , dice_et: 0.0 , time 33.77s
+Val 0/15 237/250 , dice_tc: 0.02535826 , dice_wt: 0.37456128 , dice_et: 0.0 , time 33.75s
+Val 0/15 238/250 , dice_tc: 0.025345534 , dice_wt: 0.3745208 , dice_et: 0.0 , time 33.75s
+Val 0/15 239/250 , dice_tc: 0.025470482 , dice_wt: 0.37494153 , dice_et: 0.0 , time 33.73s
+Val 0/15 240/250 , dice_tc: 0.02536916 , dice_wt: 0.37683958 , dice_et: 0.0 , time 33.73s
+Val 0/15 241/250 , dice_tc: 0.02532256 , dice_wt: 0.37607107 , dice_et: 0.0 , time 33.71s
+Val 0/15 242/250 , dice_tc: 0.025362536 , dice_wt: 0.37622526 , dice_et: 0.0 , time 33.76s
+Val 0/15 243/250 , dice_tc: 0.02529183 , dice_wt: 0.37806618 , dice_et: 0.0 , time 33.71s
+Val 0/15 244/250 , dice_tc: 0.025308745 , dice_wt: 0.37881628 , dice_et: 0.0 , time 33.71s
+Val 0/15 245/250 , dice_tc: 0.025533007 , dice_wt: 0.3797705 , dice_et: 0.0 , time 33.74s
+Val 0/15 246/250 , dice_tc: 0.025655985 , dice_wt: 0.37993672 , dice_et: 0.0 , time 33.70s
+Val 0/15 247/250 , dice_tc: 0.025569867 , dice_wt: 0.37909684 , dice_et: 0.0 , time 33.73s
+Val 0/15 248/250 , dice_tc: 0.025501566 , dice_wt: 0.37895754 , dice_et: 0.0 , time 33.73s
+Val 0/15 249/250 , dice_tc: 0.025412811 , dice_wt: 0.37824437 , dice_et: 0.0 , time 33.73s
+Final validation stats 0/14 , dice_tc: 0.025412811 , dice_wt: 0.37824437 , dice_et: 0.0 , Dice_Avg: 0.13455239 , time 8474.74s
+new best (0.000000 --> 0.134552). 
+Saving checkpoint /tmp/tmpvl208j9i/model.pt
+Mon Jul 24 06:19:24 2023 Epoch: 1
+None of the inputs have requires_grad=True. Gradients will be None
+invalid value encountered in divide
+Epoch 1/15 0/1000 loss: 0.9350 time 6.54s
+Epoch 1/15 1/1000 loss: 0.9546 time 4.34s
+Epoch 1/15 2/1000 loss: 0.9146 time 4.34s
+Epoch 1/15 3/1000 loss: 0.9163 time 4.34s
+Epoch 1/15 4/1000 loss: 0.9004 time 4.33s
+Epoch 1/15 5/1000 loss: 0.9083 time 4.35s
+Epoch 1/15 6/1000 loss: 0.9006 time 4.34s
+Epoch 1/15 7/1000 loss: 0.8962 time 4.35s
+Epoch 1/15 8/1000 loss: 0.9037 time 4.35s
+Epoch 1/15 9/1000 loss: 0.9090 time 4.35s
+Epoch 1/15 10/1000 loss: 0.9056 time 4.35s
+Epoch 1/15 11/1000 loss: 0.8988 time 4.35s
+Epoch 1/15 12/1000 loss: 0.8980 time 4.34s
+Epoch 1/15 13/1000 loss: 0.8944 time 4.35s
+Epoch 1/15 14/1000 loss: 0.8913 time 4.34s
+Epoch 1/15 15/1000 loss: 0.8910 time 4.35s
+Epoch 1/15 16/1000 loss: 0.8901 time 4.34s
+Epoch 1/15 17/1000 loss: 0.8893 time 4.36s
+Epoch 1/15 18/1000 loss: 0.8941 time 4.34s
+Epoch 1/15 19/1000 loss: 0.8922 time 4.35s
+Epoch 1/15 20/1000 loss: 0.8948 time 4.35s
+Epoch 1/15 21/1000 loss: 0.8962 time 4.35s
+Epoch 1/15 22/1000 loss: 0.8987 time 4.35s
+Epoch 1/15 23/1000 loss: 0.8959 time 4.35s
+Epoch 1/15 24/1000 loss: 0.8946 time 4.35s
+Epoch 1/15 25/1000 loss: 0.8985 time 4.34s
+Epoch 1/15 26/1000 loss: 0.8970 time 4.35s
+Epoch 1/15 27/1000 loss: 0.8976 time 4.35s
+Epoch 1/15 28/1000 loss: 0.8963 time 4.33s
+Epoch 1/15 29/1000 loss: 0.8947 time 4.35s
+Epoch 1/15 30/1000 loss: 0.8923 time 4.35s
+Epoch 1/15 31/1000 loss: 0.8935 time 4.34s
+Epoch 1/15 32/1000 loss: 0.8954 time 4.34s
+Epoch 1/15 33/1000 loss: 0.8937 time 4.35s
+Epoch 1/15 34/1000 loss: 0.8952 time 4.35s
+Epoch 1/15 35/1000 loss: 0.8947 time 4.35s
+Epoch 1/15 36/1000 loss: 0.8925 time 4.33s
+Epoch 1/15 37/1000 loss: 0.8950 time 4.35s
+Epoch 1/15 38/1000 loss: 0.8933 time 4.35s
+Epoch 1/15 39/1000 loss: 0.8907 time 4.35s
+Epoch 1/15 40/1000 loss: 0.8923 time 4.35s
+Epoch 1/15 41/1000 loss: 0.8904 time 4.35s
+Epoch 1/15 42/1000 loss: 0.8907 time 4.35s
+Epoch 1/15 43/1000 loss: 0.8897 time 4.35s
+Epoch 1/15 44/1000 loss: 0.8895 time 4.35s
+Epoch 1/15 45/1000 loss: 0.8900 time 4.36s
+Epoch 1/15 46/1000 loss: 0.8881 time 4.35s
+Epoch 1/15 47/1000 loss: 0.8894 time 4.35s
+Epoch 1/15 48/1000 loss: 0.8891 time 4.34s
+Epoch 1/15 49/1000 loss: 0.8883 time 4.35s
+Epoch 1/15 50/1000 loss: 0.8874 time 4.35s
+Epoch 1/15 51/1000 loss: 0.8886 time 4.35s
+Epoch 1/15 52/1000 loss: 0.8903 time 4.35s
+Epoch 1/15 53/1000 loss: 0.8898 time 4.35s
+Epoch 1/15 54/1000 loss: 0.8880 time 4.35s
+Epoch 1/15 55/1000 loss: 0.8876 time 4.35s
+Epoch 1/15 56/1000 loss: 0.8868 time 4.35s
+Epoch 1/15 57/1000 loss: 0.8859 time 4.35s
+Epoch 1/15 58/1000 loss: 0.8867 time 4.33s
+Epoch 1/15 59/1000 loss: 0.8862 time 4.35s
+Epoch 1/15 60/1000 loss: 0.8856 time 4.35s
+Epoch 1/15 61/1000 loss: 0.8862 time 4.35s
+Epoch 1/15 62/1000 loss: 0.8850 time 4.35s
+Epoch 1/15 63/1000 loss: 0.8839 time 4.34s
+Epoch 1/15 64/1000 loss: 0.8824 time 4.35s
+Epoch 1/15 65/1000 loss: 0.8806 time 4.35s
+Epoch 1/15 66/1000 loss: 0.8813 time 4.34s
+Epoch 1/15 67/1000 loss: 0.8817 time 4.35s
+Epoch 1/15 68/1000 loss: 0.8829 time 4.35s
+Epoch 1/15 69/1000 loss: 0.8842 time 4.35s
+Epoch 1/15 70/1000 loss: 0.8837 time 4.35s
+Epoch 1/15 71/1000 loss: 0.8839 time 4.35s
+Epoch 1/15 72/1000 loss: 0.8845 time 4.35s
+Epoch 1/15 73/1000 loss: 0.8838 time 4.35s
+Epoch 1/15 74/1000 loss: 0.8840 time 4.35s
+Epoch 1/15 75/1000 loss: 0.8838 time 4.35s
+Epoch 1/15 76/1000 loss: 0.8836 time 4.35s
+Epoch 1/15 77/1000 loss: 0.8836 time 4.34s
+Epoch 1/15 78/1000 loss: 0.8838 time 4.36s
+Epoch 1/15 79/1000 loss: 0.8840 time 4.34s
+Epoch 1/15 80/1000 loss: 0.8835 time 4.35s
+Epoch 1/15 81/1000 loss: 0.8844 time 4.35s
+Epoch 1/15 82/1000 loss: 0.8846 time 4.35s
+Epoch 1/15 83/1000 loss: 0.8843 time 4.35s
+Epoch 1/15 84/1000 loss: 0.8846 time 4.35s
+Epoch 1/15 85/1000 loss: 0.8852 time 4.35s
+Epoch 1/15 86/1000 loss: 0.8851 time 4.35s
+Epoch 1/15 87/1000 loss: 0.8858 time 4.35s
+Epoch 1/15 88/1000 loss: 0.8853 time 4.35s
+Epoch 1/15 89/1000 loss: 0.8836 time 4.35s
+Epoch 1/15 90/1000 loss: 0.8829 time 4.35s
+Epoch 1/15 91/1000 loss: 0.8835 time 4.35s
+Epoch 1/15 92/1000 loss: 0.8844 time 4.35s
+Epoch 1/15 93/1000 loss: 0.8840 time 4.35s
+Epoch 1/15 94/1000 loss: 0.8844 time 4.35s
+Epoch 1/15 95/1000 loss: 0.8849 time 4.36s
+Epoch 1/15 96/1000 loss: 0.8841 time 4.35s
+Epoch 1/15 97/1000 loss: 0.8841 time 4.35s
+Epoch 1/15 98/1000 loss: 0.8849 time 4.35s
+Epoch 1/15 99/1000 loss: 0.8856 time 4.35s
+Epoch 1/15 100/1000 loss: 0.8856 time 4.35s
+Epoch 1/15 101/1000 loss: 0.8861 time 4.35s
+Epoch 1/15 102/1000 loss: 0.8868 time 4.35s
+Epoch 1/15 103/1000 loss: 0.8864 time 4.35s
+Epoch 1/15 104/1000 loss: 0.8865 time 4.35s
+Epoch 1/15 105/1000 loss: 0.8871 time 4.35s
+Epoch 1/15 106/1000 loss: 0.8874 time 4.35s
+Epoch 1/15 107/1000 loss: 0.8870 time 4.35s
+Epoch 1/15 108/1000 loss: 0.8869 time 4.36s
+Epoch 1/15 109/1000 loss: 0.8870 time 4.34s
+Epoch 1/15 110/1000 loss: 0.8870 time 4.36s
+Epoch 1/15 111/1000 loss: 0.8868 time 4.36s
+Epoch 1/15 112/1000 loss: 0.8868 time 4.35s
+Epoch 1/15 113/1000 loss: 0.8855 time 4.35s
+Epoch 1/15 114/1000 loss: 0.8862 time 4.35s
+Epoch 1/15 115/1000 loss: 0.8859 time 4.35s
+Epoch 1/15 116/1000 loss: 0.8862 time 4.36s
+Epoch 1/15 117/1000 loss: 0.8863 time 4.37s
+Epoch 1/15 118/1000 loss: 0.8858 time 4.35s
+Epoch 1/15 119/1000 loss: 0.8861 time 4.36s
+Epoch 1/15 120/1000 loss: 0.8856 time 4.35s
+Epoch 1/15 121/1000 loss: 0.8859 time 4.36s
+Epoch 1/15 122/1000 loss: 0.8858 time 4.35s
+Epoch 1/15 123/1000 loss: 0.8863 time 4.35s
+Epoch 1/15 124/1000 loss: 0.8850 time 4.36s
+Epoch 1/15 125/1000 loss: 0.8853 time 4.36s
+Epoch 1/15 126/1000 loss: 0.8857 time 4.34s
+Epoch 1/15 127/1000 loss: 0.8856 time 4.36s
+Epoch 1/15 128/1000 loss: 0.8859 time 4.36s
+Epoch 1/15 129/1000 loss: 0.8854 time 4.35s
+Epoch 1/15 130/1000 loss: 0.8860 time 4.35s
+Epoch 1/15 131/1000 loss: 0.8864 time 4.36s
+Epoch 1/15 132/1000 loss: 0.8869 time 4.35s
+Epoch 1/15 133/1000 loss: 0.8863 time 4.36s
+Epoch 1/15 134/1000 loss: 0.8856 time 4.35s
+Epoch 1/15 135/1000 loss: 0.8860 time 4.35s
+Epoch 1/15 136/1000 loss: 0.8866 time 4.35s
+Epoch 1/15 137/1000 loss: 0.8868 time 4.35s
+Epoch 1/15 138/1000 loss: 0.8871 time 4.35s
+Epoch 1/15 139/1000 loss: 0.8873 time 4.35s
+Epoch 1/15 140/1000 loss: 0.8875 time 4.36s
+Epoch 1/15 141/1000 loss: 0.8875 time 4.35s
+Epoch 1/15 142/1000 loss: 0.8872 time 4.35s
+Epoch 1/15 143/1000 loss: 0.8872 time 4.36s
+Epoch 1/15 144/1000 loss: 0.8874 time 4.35s
+Epoch 1/15 145/1000 loss: 0.8878 time 4.35s
+Epoch 1/15 146/1000 loss: 0.8882 time 4.35s
+Epoch 1/15 147/1000 loss: 0.8878 time 4.37s
+Epoch 1/15 148/1000 loss: 0.8876 time 4.35s
+Epoch 1/15 149/1000 loss: 0.8879 time 4.37s
+Epoch 1/15 150/1000 loss: 0.8880 time 4.35s
+Epoch 1/15 151/1000 loss: 0.8876 time 4.36s
+Epoch 1/15 152/1000 loss: 0.8873 time 4.34s
+Epoch 1/15 153/1000 loss: 0.8878 time 4.35s
+Epoch 1/15 154/1000 loss: 0.8874 time 4.35s
+Epoch 1/15 155/1000 loss: 0.8871 time 4.36s
+Epoch 1/15 156/1000 loss: 0.8868 time 4.36s
+Epoch 1/15 157/1000 loss: 0.8865 time 4.36s
+Epoch 1/15 158/1000 loss: 0.8861 time 4.36s
+Epoch 1/15 159/1000 loss: 0.8864 time 4.35s
+Epoch 1/15 160/1000 loss: 0.8857 time 4.35s
+Epoch 1/15 161/1000 loss: 0.8855 time 4.35s
+Epoch 1/15 162/1000 loss: 0.8857 time 4.35s
+Epoch 1/15 163/1000 loss: 0.8861 time 4.35s
+Epoch 1/15 164/1000 loss: 0.8857 time 4.35s
+Epoch 1/15 165/1000 loss: 0.8853 time 4.35s
+Epoch 1/15 166/1000 loss: 0.8851 time 4.36s
+Epoch 1/15 167/1000 loss: 0.8851 time 4.35s
+Epoch 1/15 168/1000 loss: 0.8850 time 4.35s
+Epoch 1/15 169/1000 loss: 0.8846 time 4.35s
+Epoch 1/15 170/1000 loss: 0.8846 time 4.35s
+Epoch 1/15 171/1000 loss: 0.8842 time 4.36s
+Epoch 1/15 172/1000 loss: 0.8838 time 4.36s
+Epoch 1/15 173/1000 loss: 0.8841 time 4.34s
+Epoch 1/15 174/1000 loss: 0.8843 time 4.35s
+Epoch 1/15 175/1000 loss: 0.8842 time 4.35s
+Epoch 1/15 176/1000 loss: 0.8842 time 4.35s
+Epoch 1/15 177/1000 loss: 0.8834 time 4.35s
+Epoch 1/15 178/1000 loss: 0.8833 time 4.35s
+Epoch 1/15 179/1000 loss: 0.8832 time 4.35s
+Epoch 1/15 180/1000 loss: 0.8834 time 4.35s
+Epoch 1/15 181/1000 loss: 0.8830 time 4.35s
+Epoch 1/15 182/1000 loss: 0.8829 time 4.35s
+Epoch 1/15 183/1000 loss: 0.8835 time 4.35s
+Epoch 1/15 184/1000 loss: 0.8838 time 4.34s
+Epoch 1/15 185/1000 loss: 0.8838 time 4.35s
+Epoch 1/15 186/1000 loss: 0.8841 time 4.35s
+Epoch 1/15 187/1000 loss: 0.8840 time 4.36s
+Epoch 1/15 188/1000 loss: 0.8840 time 4.36s
+Epoch 1/15 189/1000 loss: 0.8844 time 4.34s
+Epoch 1/15 190/1000 loss: 0.8843 time 4.35s
+Epoch 1/15 191/1000 loss: 0.8841 time 4.35s
+Epoch 1/15 192/1000 loss: 0.8840 time 4.33s
+Epoch 1/15 193/1000 loss: 0.8836 time 4.35s
+Epoch 1/15 194/1000 loss: 0.8836 time 4.35s
+Epoch 1/15 195/1000 loss: 0.8841 time 4.35s
+Epoch 1/15 196/1000 loss: 0.8842 time 4.34s
+Epoch 1/15 197/1000 loss: 0.8840 time 4.35s
+Epoch 1/15 198/1000 loss: 0.8839 time 4.35s
+Epoch 1/15 199/1000 loss: 0.8835 time 4.35s
+Epoch 1/15 200/1000 loss: 0.8834 time 4.35s
+Epoch 1/15 201/1000 loss: 0.8832 time 4.35s
+Epoch 1/15 202/1000 loss: 0.8831 time 4.34s
+Epoch 1/15 203/1000 loss: 0.8835 time 4.34s
+Epoch 1/15 204/1000 loss: 0.8831 time 4.36s
+Epoch 1/15 205/1000 loss: 0.8832 time 4.34s
+Epoch 1/15 206/1000 loss: 0.8831 time 4.35s
+Epoch 1/15 207/1000 loss: 0.8836 time 4.35s
+Epoch 1/15 208/1000 loss: 0.8837 time 4.35s
+Epoch 1/15 209/1000 loss: 0.8840 time 4.35s
+Epoch 1/15 210/1000 loss: 0.8837 time 4.33s
+Epoch 1/15 211/1000 loss: 0.8832 time 4.35s
+Epoch 1/15 212/1000 loss: 0.8831 time 4.35s
+Epoch 1/15 213/1000 loss: 0.8834 time 4.35s
+Epoch 1/15 214/1000 loss: 0.8839 time 4.35s
+Epoch 1/15 215/1000 loss: 0.8843 time 4.35s
+Epoch 1/15 216/1000 loss: 0.8842 time 4.34s
+Epoch 1/15 217/1000 loss: 0.8841 time 4.35s
+Epoch 1/15 218/1000 loss: 0.8845 time 4.36s
+Epoch 1/15 219/1000 loss: 0.8846 time 4.36s
+Epoch 1/15 220/1000 loss: 0.8845 time 4.34s
+Epoch 1/15 221/1000 loss: 0.8846 time 4.35s
+Epoch 1/15 222/1000 loss: 0.8849 time 4.35s
+Epoch 1/15 223/1000 loss: 0.8854 time 4.35s
+Epoch 1/15 224/1000 loss: 0.8851 time 4.35s
+Epoch 1/15 225/1000 loss: 0.8848 time 4.35s
+Epoch 1/15 226/1000 loss: 0.8847 time 4.35s
+Epoch 1/15 227/1000 loss: 0.8851 time 4.35s
+Epoch 1/15 228/1000 loss: 0.8850 time 4.35s
+Epoch 1/15 229/1000 loss: 0.8852 time 4.36s
+Epoch 1/15 230/1000 loss: 0.8849 time 4.35s
+Epoch 1/15 231/1000 loss: 0.8849 time 4.35s
+Epoch 1/15 232/1000 loss: 0.8850 time 4.35s
+Epoch 1/15 233/1000 loss: 0.8848 time 4.35s
+Epoch 1/15 234/1000 loss: 0.8847 time 4.34s
+Epoch 1/15 235/1000 loss: 0.8850 time 4.34s
+Epoch 1/15 236/1000 loss: 0.8847 time 4.35s
+Epoch 1/15 237/1000 loss: 0.8850 time 4.35s
+Epoch 1/15 238/1000 loss: 0.8850 time 4.35s
+Epoch 1/15 239/1000 loss: 0.8847 time 4.35s
+Epoch 1/15 240/1000 loss: 0.8849 time 4.35s
+Epoch 1/15 241/1000 loss: 0.8848 time 4.35s
+Epoch 1/15 242/1000 loss: 0.8845 time 4.35s
+Epoch 1/15 243/1000 loss: 0.8847 time 4.35s
+Epoch 1/15 244/1000 loss: 0.8850 time 4.35s
+Epoch 1/15 245/1000 loss: 0.8851 time 4.35s
+Epoch 1/15 246/1000 loss: 0.8849 time 4.34s
+Epoch 1/15 247/1000 loss: 0.8846 time 4.35s
+Epoch 1/15 248/1000 loss: 0.8842 time 4.35s
+Epoch 1/15 249/1000 loss: 0.8843 time 4.35s
+Epoch 1/15 250/1000 loss: 0.8841 time 4.35s
+Epoch 1/15 251/1000 loss: 0.8844 time 4.36s
+Epoch 1/15 252/1000 loss: 0.8842 time 4.34s
+Epoch 1/15 253/1000 loss: 0.8842 time 4.35s
+Epoch 1/15 254/1000 loss: 0.8840 time 4.35s
+Epoch 1/15 255/1000 loss: 0.8837 time 4.35s
+Epoch 1/15 256/1000 loss: 0.8833 time 4.35s
+Epoch 1/15 257/1000 loss: 0.8834 time 4.35s
+Epoch 1/15 258/1000 loss: 0.8834 time 4.35s
+Epoch 1/15 259/1000 loss: 0.8836 time 4.36s
+Epoch 1/15 260/1000 loss: 0.8833 time 4.35s
+Epoch 1/15 261/1000 loss: 0.8836 time 4.36s
+Epoch 1/15 262/1000 loss: 0.8835 time 4.35s
+Epoch 1/15 263/1000 loss: 0.8833 time 4.36s
+Epoch 1/15 264/1000 loss: 0.8834 time 4.34s
+Epoch 1/15 265/1000 loss: 0.8830 time 4.36s
+Epoch 1/15 266/1000 loss: 0.8833 time 4.34s
+Epoch 1/15 267/1000 loss: 0.8830 time 4.34s
+Epoch 1/15 268/1000 loss: 0.8829 time 4.35s
+Epoch 1/15 269/1000 loss: 0.8827 time 4.35s
+Epoch 1/15 270/1000 loss: 0.8823 time 4.35s
+Epoch 1/15 271/1000 loss: 0.8823 time 4.35s
+Epoch 1/15 272/1000 loss: 0.8824 time 4.35s
+Epoch 1/15 273/1000 loss: 0.8823 time 4.35s
+Epoch 1/15 274/1000 loss: 0.8821 time 4.35s
+Epoch 1/15 275/1000 loss: 0.8821 time 4.35s
+Epoch 1/15 276/1000 loss: 0.8820 time 4.35s
+Epoch 1/15 277/1000 loss: 0.8817 time 4.35s
+Epoch 1/15 278/1000 loss: 0.8820 time 4.35s
+Epoch 1/15 279/1000 loss: 0.8818 time 4.35s
+Epoch 1/15 280/1000 loss: 0.8818 time 4.34s
+Epoch 1/15 281/1000 loss: 0.8815 time 4.34s
+Epoch 1/15 282/1000 loss: 0.8814 time 4.35s
+Epoch 1/15 283/1000 loss: 0.8813 time 4.35s
+Epoch 1/15 284/1000 loss: 0.8816 time 4.35s
+Epoch 1/15 285/1000 loss: 0.8817 time 4.34s
+Epoch 1/15 286/1000 loss: 0.8816 time 4.35s
+Epoch 1/15 287/1000 loss: 0.8815 time 4.35s
+Epoch 1/15 288/1000 loss: 0.8813 time 4.35s
+Epoch 1/15 289/1000 loss: 0.8810 time 4.35s
+Epoch 1/15 290/1000 loss: 0.8809 time 4.35s
+Epoch 1/15 291/1000 loss: 0.8809 time 4.35s
+Epoch 1/15 292/1000 loss: 0.8807 time 4.35s
+Epoch 1/15 293/1000 loss: 0.8809 time 4.35s
+Epoch 1/15 294/1000 loss: 0.8808 time 4.34s
+Epoch 1/15 295/1000 loss: 0.8807 time 4.35s
+Epoch 1/15 296/1000 loss: 0.8805 time 4.35s
+Epoch 1/15 297/1000 loss: 0.8805 time 4.35s
+Epoch 1/15 298/1000 loss: 0.8804 time 4.35s
+Epoch 1/15 299/1000 loss: 0.8805 time 4.35s
+Epoch 1/15 300/1000 loss: 0.8803 time 4.35s
+Epoch 1/15 301/1000 loss: 0.8800 time 4.35s
+Epoch 1/15 302/1000 loss: 0.8801 time 4.35s
+Epoch 1/15 303/1000 loss: 0.8799 time 4.35s
+Epoch 1/15 304/1000 loss: 0.8799 time 4.35s
+Epoch 1/15 305/1000 loss: 0.8799 time 4.34s
+Epoch 1/15 306/1000 loss: 0.8801 time 4.35s
+Epoch 1/15 307/1000 loss: 0.8800 time 4.35s
+Epoch 1/15 308/1000 loss: 0.8802 time 4.35s
+Epoch 1/15 309/1000 loss: 0.8803 time 4.35s
+Epoch 1/15 310/1000 loss: 0.8800 time 4.35s
+Epoch 1/15 311/1000 loss: 0.8801 time 4.36s
+Epoch 1/15 312/1000 loss: 0.8800 time 4.34s
+Epoch 1/15 313/1000 loss: 0.8802 time 4.35s
+Epoch 1/15 314/1000 loss: 0.8800 time 4.35s
+Epoch 1/15 315/1000 loss: 0.8799 time 4.35s
+Epoch 1/15 316/1000 loss: 0.8796 time 4.35s
+Epoch 1/15 317/1000 loss: 0.8795 time 4.35s
+Epoch 1/15 318/1000 loss: 0.8798 time 4.35s
+Epoch 1/15 319/1000 loss: 0.8801 time 4.35s
+Epoch 1/15 320/1000 loss: 0.8798 time 4.34s
+Epoch 1/15 321/1000 loss: 0.8795 time 4.35s
+Epoch 1/15 322/1000 loss: 0.8796 time 4.35s
+Epoch 1/15 323/1000 loss: 0.8795 time 4.35s
+Epoch 1/15 324/1000 loss: 0.8795 time 4.35s
+Epoch 1/15 325/1000 loss: 0.8797 time 4.34s
+Epoch 1/15 326/1000 loss: 0.8795 time 4.35s
+Epoch 1/15 327/1000 loss: 0.8794 time 4.35s
+Epoch 1/15 328/1000 loss: 0.8797 time 4.35s
+Epoch 1/15 329/1000 loss: 0.8796 time 4.35s
+Epoch 1/15 330/1000 loss: 0.8798 time 4.34s
+Epoch 1/15 331/1000 loss: 0.8798 time 4.35s
+Epoch 1/15 332/1000 loss: 0.8796 time 4.35s
+Epoch 1/15 333/1000 loss: 0.8794 time 4.35s
+Epoch 1/15 334/1000 loss: 0.8793 time 4.35s
+Epoch 1/15 335/1000 loss: 0.8794 time 4.35s
+Epoch 1/15 336/1000 loss: 0.8794 time 4.34s
+Epoch 1/15 337/1000 loss: 0.8793 time 4.35s
+Epoch 1/15 338/1000 loss: 0.8790 time 4.34s
+Epoch 1/15 339/1000 loss: 0.8790 time 4.34s
+Epoch 1/15 340/1000 loss: 0.8788 time 4.35s
+Epoch 1/15 341/1000 loss: 0.8789 time 4.35s
+Epoch 1/15 342/1000 loss: 0.8784 time 4.34s
+Epoch 1/15 343/1000 loss: 0.8783 time 4.36s
+Epoch 1/15 344/1000 loss: 0.8781 time 4.34s
+Epoch 1/15 345/1000 loss: 0.8779 time 4.35s
+Epoch 1/15 346/1000 loss: 0.8778 time 4.35s
+Epoch 1/15 347/1000 loss: 0.8778 time 4.34s
+Epoch 1/15 348/1000 loss: 0.8778 time 4.35s
+Epoch 1/15 349/1000 loss: 0.8777 time 4.35s
+Epoch 1/15 350/1000 loss: 0.8779 time 4.35s
+Epoch 1/15 351/1000 loss: 0.8776 time 4.35s
+Epoch 1/15 352/1000 loss: 0.8773 time 4.35s
+Epoch 1/15 353/1000 loss: 0.8771 time 4.35s
+Epoch 1/15 354/1000 loss: 0.8772 time 4.35s
+Epoch 1/15 355/1000 loss: 0.8770 time 4.35s
+Epoch 1/15 356/1000 loss: 0.8771 time 4.35s
+Epoch 1/15 357/1000 loss: 0.8767 time 4.34s
+Epoch 1/15 358/1000 loss: 0.8766 time 4.35s
+Epoch 1/15 359/1000 loss: 0.8766 time 4.36s
+Epoch 1/15 360/1000 loss: 0.8764 time 4.34s
+Epoch 1/15 361/1000 loss: 0.8764 time 4.35s
+Epoch 1/15 362/1000 loss: 0.8762 time 4.35s
+Epoch 1/15 363/1000 loss: 0.8765 time 4.35s
+Epoch 1/15 364/1000 loss: 0.8764 time 4.35s
+Epoch 1/15 365/1000 loss: 0.8765 time 4.35s
+Epoch 1/15 366/1000 loss: 0.8763 time 4.35s
+Epoch 1/15 367/1000 loss: 0.8761 time 4.35s
+Epoch 1/15 368/1000 loss: 0.8761 time 4.35s
+Epoch 1/15 369/1000 loss: 0.8763 time 4.35s
+Epoch 1/15 370/1000 loss: 0.8760 time 4.35s
+Epoch 1/15 371/1000 loss: 0.8758 time 4.35s
+Epoch 1/15 372/1000 loss: 0.8758 time 4.36s
+Epoch 1/15 373/1000 loss: 0.8757 time 4.34s
+Epoch 1/15 374/1000 loss: 0.8755 time 4.34s
+Epoch 1/15 375/1000 loss: 0.8753 time 4.34s
+Epoch 1/15 376/1000 loss: 0.8752 time 4.35s
+Epoch 1/15 377/1000 loss: 0.8751 time 4.35s
+Epoch 1/15 378/1000 loss: 0.8754 time 4.35s
+Epoch 1/15 379/1000 loss: 0.8750 time 4.35s
+Epoch 1/15 380/1000 loss: 0.8750 time 4.35s
+Epoch 1/15 381/1000 loss: 0.8752 time 4.35s
+Epoch 1/15 382/1000 loss: 0.8755 time 4.35s
+Epoch 1/15 383/1000 loss: 0.8752 time 4.35s
+Epoch 1/15 384/1000 loss: 0.8753 time 4.35s
+Epoch 1/15 385/1000 loss: 0.8753 time 4.35s
+Epoch 1/15 386/1000 loss: 0.8754 time 4.35s
+Epoch 1/15 387/1000 loss: 0.8756 time 4.35s
+Epoch 1/15 388/1000 loss: 0.8757 time 4.34s
+Epoch 1/15 389/1000 loss: 0.8755 time 4.34s
+Epoch 1/15 390/1000 loss: 0.8754 time 4.34s
+Epoch 1/15 391/1000 loss: 0.8756 time 4.35s
+Epoch 1/15 392/1000 loss: 0.8756 time 4.34s
+Epoch 1/15 393/1000 loss: 0.8754 time 4.35s
+Epoch 1/15 394/1000 loss: 0.8754 time 4.35s
+Epoch 1/15 395/1000 loss: 0.8751 time 4.35s
+Epoch 1/15 396/1000 loss: 0.8751 time 4.35s
+Epoch 1/15 397/1000 loss: 0.8752 time 4.34s
+Epoch 1/15 398/1000 loss: 0.8751 time 4.35s
+Epoch 1/15 399/1000 loss: 0.8754 time 4.34s
+Epoch 1/15 400/1000 loss: 0.8756 time 4.35s
+Epoch 1/15 401/1000 loss: 0.8753 time 4.35s
+Epoch 1/15 402/1000 loss: 0.8752 time 4.35s
+Epoch 1/15 403/1000 loss: 0.8753 time 4.34s
+Epoch 1/15 404/1000 loss: 0.8753 time 4.35s
+Epoch 1/15 405/1000 loss: 0.8751 time 4.36s
+Epoch 1/15 406/1000 loss: 0.8749 time 4.36s
+Epoch 1/15 407/1000 loss: 0.8747 time 4.34s
+Epoch 1/15 408/1000 loss: 0.8750 time 4.35s
+Epoch 1/15 409/1000 loss: 0.8748 time 4.36s
+Epoch 1/15 410/1000 loss: 0.8750 time 4.35s
+Epoch 1/15 411/1000 loss: 0.8748 time 4.35s
+Epoch 1/15 412/1000 loss: 0.8748 time 4.35s
+Epoch 1/15 413/1000 loss: 0.8747 time 4.35s
+Epoch 1/15 414/1000 loss: 0.8746 time 4.35s
+Epoch 1/15 415/1000 loss: 0.8745 time 4.34s
+Epoch 1/15 416/1000 loss: 0.8745 time 4.35s
+Epoch 1/15 417/1000 loss: 0.8743 time 4.36s
+Epoch 1/15 418/1000 loss: 0.8743 time 4.35s
+Epoch 1/15 419/1000 loss: 0.8743 time 4.35s
+Epoch 1/15 420/1000 loss: 0.8743 time 4.34s
+Epoch 1/15 421/1000 loss: 0.8743 time 4.35s
+Epoch 1/15 422/1000 loss: 0.8743 time 4.34s
+Epoch 1/15 423/1000 loss: 0.8741 time 4.35s
+Epoch 1/15 424/1000 loss: 0.8742 time 4.35s
+Epoch 1/15 425/1000 loss: 0.8743 time 4.34s
+Epoch 1/15 426/1000 loss: 0.8745 time 4.35s
+Epoch 1/15 427/1000 loss: 0.8745 time 4.35s
+Epoch 1/15 428/1000 loss: 0.8746 time 4.35s
+Epoch 1/15 429/1000 loss: 0.8744 time 4.35s
+Epoch 1/15 430/1000 loss: 0.8742 time 4.35s
+Epoch 1/15 431/1000 loss: 0.8741 time 4.35s
+Epoch 1/15 432/1000 loss: 0.8739 time 4.35s
+Epoch 1/15 433/1000 loss: 0.8737 time 4.35s
+Epoch 1/15 434/1000 loss: 0.8739 time 4.35s
+Epoch 1/15 435/1000 loss: 0.8739 time 4.34s
+Epoch 1/15 436/1000 loss: 0.8741 time 4.35s
+Epoch 1/15 437/1000 loss: 0.8738 time 4.35s
+Epoch 1/15 438/1000 loss: 0.8741 time 4.34s
+Epoch 1/15 439/1000 loss: 0.8742 time 4.35s
+Epoch 1/15 440/1000 loss: 0.8742 time 4.35s
+Epoch 1/15 441/1000 loss: 0.8740 time 4.35s
+Epoch 1/15 442/1000 loss: 0.8738 time 4.35s
+Epoch 1/15 443/1000 loss: 0.8740 time 4.35s
+Epoch 1/15 444/1000 loss: 0.8740 time 4.35s
+Epoch 1/15 445/1000 loss: 0.8741 time 4.35s
+Epoch 1/15 446/1000 loss: 0.8739 time 4.35s
+Epoch 1/15 447/1000 loss: 0.8741 time 4.35s
+Epoch 1/15 448/1000 loss: 0.8742 time 4.35s
+Epoch 1/15 449/1000 loss: 0.8741 time 4.35s
+Epoch 1/15 450/1000 loss: 0.8739 time 4.34s
+Epoch 1/15 451/1000 loss: 0.8742 time 4.34s
+Epoch 1/15 452/1000 loss: 0.8740 time 4.36s
+Epoch 1/15 453/1000 loss: 0.8738 time 4.34s
+Epoch 1/15 454/1000 loss: 0.8736 time 4.35s
+Epoch 1/15 455/1000 loss: 0.8737 time 4.35s
+Epoch 1/15 456/1000 loss: 0.8734 time 4.35s
+Epoch 1/15 457/1000 loss: 0.8732 time 4.35s
+Epoch 1/15 458/1000 loss: 0.8730 time 4.35s
+Epoch 1/15 459/1000 loss: 0.8732 time 4.35s
+Epoch 1/15 460/1000 loss: 0.8731 time 4.35s
+Epoch 1/15 461/1000 loss: 0.8729 time 4.35s
+Epoch 1/15 462/1000 loss: 0.8727 time 4.35s
+Epoch 1/15 463/1000 loss: 0.8727 time 4.35s
+Epoch 1/15 464/1000 loss: 0.8724 time 4.35s
+Epoch 1/15 465/1000 loss: 0.8724 time 4.35s
+Epoch 1/15 466/1000 loss: 0.8722 time 4.35s
+Epoch 1/15 467/1000 loss: 0.8721 time 4.34s
+Epoch 1/15 468/1000 loss: 0.8719 time 4.35s
+Epoch 1/15 469/1000 loss: 0.8720 time 4.33s
+Epoch 1/15 470/1000 loss: 0.8720 time 4.35s
+Epoch 1/15 471/1000 loss: 0.8720 time 4.35s
+Epoch 1/15 472/1000 loss: 0.8719 time 4.34s
+Epoch 1/15 473/1000 loss: 0.8721 time 4.35s
+Epoch 1/15 474/1000 loss: 0.8721 time 4.35s
+Epoch 1/15 475/1000 loss: 0.8721 time 4.35s
+Epoch 1/15 476/1000 loss: 0.8721 time 4.35s
+Epoch 1/15 477/1000 loss: 0.8719 time 4.35s
+Epoch 1/15 478/1000 loss: 0.8719 time 4.35s
+Epoch 1/15 479/1000 loss: 0.8719 time 4.35s
+Epoch 1/15 480/1000 loss: 0.8719 time 4.35s
+Epoch 1/15 481/1000 loss: 0.8719 time 4.34s
+Epoch 1/15 482/1000 loss: 0.8720 time 4.35s
+Epoch 1/15 483/1000 loss: 0.8721 time 4.34s
+Epoch 1/15 484/1000 loss: 0.8721 time 4.35s
+Epoch 1/15 485/1000 loss: 0.8720 time 4.35s
+Epoch 1/15 486/1000 loss: 0.8720 time 4.35s
+Epoch 1/15 487/1000 loss: 0.8718 time 4.35s
+Epoch 1/15 488/1000 loss: 0.8717 time 4.35s
+Epoch 1/15 489/1000 loss: 0.8719 time 4.35s
+Epoch 1/15 490/1000 loss: 0.8719 time 4.35s
+Epoch 1/15 491/1000 loss: 0.8719 time 4.35s
+Epoch 1/15 492/1000 loss: 0.8720 time 4.34s
+Epoch 1/15 493/1000 loss: 0.8719 time 4.35s
+Epoch 1/15 494/1000 loss: 0.8718 time 4.35s
+Epoch 1/15 495/1000 loss: 0.8717 time 4.35s
+Epoch 1/15 496/1000 loss: 0.8717 time 4.35s
+Epoch 1/15 497/1000 loss: 0.8718 time 4.36s
+Epoch 1/15 498/1000 loss: 0.8716 time 4.36s
+Epoch 1/15 499/1000 loss: 0.8716 time 4.35s
+Epoch 1/15 500/1000 loss: 0.8716 time 4.34s
+Epoch 1/15 501/1000 loss: 0.8714 time 4.35s
+Epoch 1/15 502/1000 loss: 0.8715 time 4.35s
+Epoch 1/15 503/1000 loss: 0.8714 time 4.35s
+Epoch 1/15 504/1000 loss: 0.8717 time 4.35s
+Epoch 1/15 505/1000 loss: 0.8715 time 4.35s
+Epoch 1/15 506/1000 loss: 0.8717 time 4.35s
+Epoch 1/15 507/1000 loss: 0.8717 time 4.35s
+Epoch 1/15 508/1000 loss: 0.8716 time 4.35s
+Epoch 1/15 509/1000 loss: 0.8714 time 4.35s
+Epoch 1/15 510/1000 loss: 0.8711 time 4.35s
+Epoch 1/15 511/1000 loss: 0.8710 time 4.35s
+Epoch 1/15 512/1000 loss: 0.8708 time 4.34s
+Epoch 1/15 513/1000 loss: 0.8707 time 4.34s
+Epoch 1/15 514/1000 loss: 0.8706 time 4.35s
+Epoch 1/15 515/1000 loss: 0.8704 time 4.34s
+Epoch 1/15 516/1000 loss: 0.8703 time 4.35s
+Epoch 1/15 517/1000 loss: 0.8705 time 4.35s
+Epoch 1/15 518/1000 loss: 0.8704 time 4.35s
+Epoch 1/15 519/1000 loss: 0.8702 time 4.35s
+Epoch 1/15 520/1000 loss: 0.8703 time 4.35s
+Epoch 1/15 521/1000 loss: 0.8702 time 4.35s
+Epoch 1/15 522/1000 loss: 0.8703 time 4.35s
+Epoch 1/15 523/1000 loss: 0.8702 time 4.35s
+Epoch 1/15 524/1000 loss: 0.8703 time 4.35s
+Epoch 1/15 525/1000 loss: 0.8702 time 4.35s
+Epoch 1/15 526/1000 loss: 0.8701 time 4.35s
+Epoch 1/15 527/1000 loss: 0.8702 time 4.34s
+Epoch 1/15 528/1000 loss: 0.8700 time 4.35s
+Epoch 1/15 529/1000 loss: 0.8700 time 4.35s
+Epoch 1/15 530/1000 loss: 0.8699 time 4.34s
+Epoch 1/15 531/1000 loss: 0.8699 time 4.35s
+Epoch 1/15 532/1000 loss: 0.8701 time 4.35s
+Epoch 1/15 533/1000 loss: 0.8700 time 4.35s
+Epoch 1/15 534/1000 loss: 0.8700 time 4.35s
+Epoch 1/15 535/1000 loss: 0.8699 time 4.35s
+Epoch 1/15 536/1000 loss: 0.8701 time 4.35s
+Epoch 1/15 537/1000 loss: 0.8701 time 4.35s
+Epoch 1/15 538/1000 loss: 0.8701 time 4.35s
+Epoch 1/15 539/1000 loss: 0.8696 time 4.35s
+Epoch 1/15 540/1000 loss: 0.8696 time 4.35s
+Epoch 1/15 541/1000 loss: 0.8696 time 4.35s
+Epoch 1/15 542/1000 loss: 0.8695 time 4.35s
+Epoch 1/15 543/1000 loss: 0.8694 time 4.36s
+Epoch 1/15 544/1000 loss: 0.8693 time 4.34s
+Epoch 1/15 545/1000 loss: 0.8691 time 4.36s
+Epoch 1/15 546/1000 loss: 0.8690 time 4.35s
+Epoch 1/15 547/1000 loss: 0.8688 time 4.35s
+Epoch 1/15 548/1000 loss: 0.8687 time 4.35s
+Epoch 1/15 549/1000 loss: 0.8686 time 4.36s
+Epoch 1/15 550/1000 loss: 0.8685 time 4.35s
+Epoch 1/15 551/1000 loss: 0.8685 time 4.36s
+Epoch 1/15 552/1000 loss: 0.8685 time 4.35s
+Epoch 1/15 553/1000 loss: 0.8685 time 4.35s
+Epoch 1/15 554/1000 loss: 0.8684 time 4.35s
+Epoch 1/15 555/1000 loss: 0.8685 time 4.36s
+Epoch 1/15 556/1000 loss: 0.8685 time 4.35s
+Epoch 1/15 557/1000 loss: 0.8687 time 4.35s
+Epoch 1/15 558/1000 loss: 0.8685 time 4.35s
+Epoch 1/15 559/1000 loss: 0.8685 time 4.36s
+Epoch 1/15 560/1000 loss: 0.8686 time 4.34s
+Epoch 1/15 561/1000 loss: 0.8684 time 4.36s
+Epoch 1/15 562/1000 loss: 0.8683 time 4.35s
+Epoch 1/15 563/1000 loss: 0.8684 time 4.35s
+Epoch 1/15 564/1000 loss: 0.8683 time 4.35s
+Epoch 1/15 565/1000 loss: 0.8682 time 4.35s
+Epoch 1/15 566/1000 loss: 0.8683 time 4.35s
+Epoch 1/15 567/1000 loss: 0.8682 time 4.35s
+Epoch 1/15 568/1000 loss: 0.8684 time 4.35s
+Epoch 1/15 569/1000 loss: 0.8683 time 4.35s
+Epoch 1/15 570/1000 loss: 0.8682 time 4.35s
+Epoch 1/15 571/1000 loss: 0.8680 time 4.36s
+Epoch 1/15 572/1000 loss: 0.8679 time 4.34s
+Epoch 1/15 573/1000 loss: 0.8676 time 4.35s
+Epoch 1/15 574/1000 loss: 0.8676 time 4.36s
+Epoch 1/15 575/1000 loss: 0.8675 time 4.36s
+Epoch 1/15 576/1000 loss: 0.8673 time 4.35s
+Epoch 1/15 577/1000 loss: 0.8675 time 4.35s
+Epoch 1/15 578/1000 loss: 0.8673 time 4.35s
+Epoch 1/15 579/1000 loss: 0.8674 time 4.35s
+Epoch 1/15 580/1000 loss: 0.8676 time 4.35s
+Epoch 1/15 581/1000 loss: 0.8674 time 4.35s
+Epoch 1/15 582/1000 loss: 0.8674 time 4.35s
+Epoch 1/15 583/1000 loss: 0.8675 time 4.35s
+Epoch 1/15 584/1000 loss: 0.8673 time 4.35s
+Epoch 1/15 585/1000 loss: 0.8672 time 4.35s
+Epoch 1/15 586/1000 loss: 0.8674 time 4.35s
+Epoch 1/15 587/1000 loss: 0.8673 time 4.36s
+Epoch 1/15 588/1000 loss: 0.8672 time 4.35s
+Epoch 1/15 589/1000 loss: 0.8672 time 4.36s
+Epoch 1/15 590/1000 loss: 0.8673 time 4.36s
+Epoch 1/15 591/1000 loss: 0.8672 time 4.36s
+Epoch 1/15 592/1000 loss: 0.8672 time 4.36s
+Epoch 1/15 593/1000 loss: 0.8670 time 4.36s
+Epoch 1/15 594/1000 loss: 0.8671 time 4.35s
+Epoch 1/15 595/1000 loss: 0.8672 time 4.35s
+Epoch 1/15 596/1000 loss: 0.8673 time 4.36s
+Epoch 1/15 597/1000 loss: 0.8672 time 4.37s
+Epoch 1/15 598/1000 loss: 0.8670 time 4.36s
+Epoch 1/15 599/1000 loss: 0.8670 time 4.36s
+Epoch 1/15 600/1000 loss: 0.8670 time 4.35s
+Epoch 1/15 601/1000 loss: 0.8670 time 4.35s
+Epoch 1/15 602/1000 loss: 0.8670 time 4.35s
+Epoch 1/15 603/1000 loss: 0.8670 time 4.35s
+Epoch 1/15 604/1000 loss: 0.8671 time 4.35s
+Epoch 1/15 605/1000 loss: 0.8671 time 4.36s
+Epoch 1/15 606/1000 loss: 0.8672 time 4.36s
+Epoch 1/15 607/1000 loss: 0.8672 time 4.36s
+Epoch 1/15 608/1000 loss: 0.8671 time 4.36s
+Epoch 1/15 609/1000 loss: 0.8670 time 4.36s
+Epoch 1/15 610/1000 loss: 0.8670 time 4.35s
+Epoch 1/15 611/1000 loss: 0.8670 time 4.35s
+Epoch 1/15 612/1000 loss: 0.8669 time 4.35s
+Epoch 1/15 613/1000 loss: 0.8668 time 4.35s
+Epoch 1/15 614/1000 loss: 0.8668 time 4.35s
+Epoch 1/15 615/1000 loss: 0.8666 time 4.35s
+Epoch 1/15 616/1000 loss: 0.8667 time 4.35s
+Epoch 1/15 617/1000 loss: 0.8667 time 4.35s
+Epoch 1/15 618/1000 loss: 0.8666 time 4.35s
+Epoch 1/15 619/1000 loss: 0.8667 time 4.37s
+Epoch 1/15 620/1000 loss: 0.8667 time 4.36s
+Epoch 1/15 621/1000 loss: 0.8668 time 4.36s
+Epoch 1/15 622/1000 loss: 0.8667 time 4.36s
+Epoch 1/15 623/1000 loss: 0.8666 time 4.35s
+Epoch 1/15 624/1000 loss: 0.8665 time 4.36s
+Epoch 1/15 625/1000 loss: 0.8663 time 4.35s
+Epoch 1/15 626/1000 loss: 0.8662 time 4.35s
+Epoch 1/15 627/1000 loss: 0.8662 time 4.37s
+Epoch 1/15 628/1000 loss: 0.8662 time 4.35s
+Epoch 1/15 629/1000 loss: 0.8661 time 4.35s
+Epoch 1/15 630/1000 loss: 0.8662 time 4.35s
+Epoch 1/15 631/1000 loss: 0.8662 time 4.35s
+Epoch 1/15 632/1000 loss: 0.8663 time 4.35s
+Epoch 1/15 633/1000 loss: 0.8665 time 4.36s
+Epoch 1/15 634/1000 loss: 0.8665 time 4.35s
+Epoch 1/15 635/1000 loss: 0.8665 time 4.36s
+Epoch 1/15 636/1000 loss: 0.8666 time 4.35s
+Epoch 1/15 637/1000 loss: 0.8665 time 4.36s
+Epoch 1/15 638/1000 loss: 0.8664 time 4.36s
+Epoch 1/15 639/1000 loss: 0.8666 time 4.36s
+Epoch 1/15 640/1000 loss: 0.8663 time 4.35s
+Epoch 1/15 641/1000 loss: 0.8663 time 4.37s
+Epoch 1/15 642/1000 loss: 0.8661 time 4.35s
+Epoch 1/15 643/1000 loss: 0.8660 time 4.35s
+Epoch 1/15 644/1000 loss: 0.8660 time 4.35s
+Epoch 1/15 645/1000 loss: 0.8659 time 4.37s
+Epoch 1/15 646/1000 loss: 0.8658 time 4.35s
+Epoch 1/15 647/1000 loss: 0.8657 time 4.35s
+Epoch 1/15 648/1000 loss: 0.8656 time 4.35s
+Epoch 1/15 649/1000 loss: 0.8655 time 4.35s
+Epoch 1/15 650/1000 loss: 0.8656 time 4.35s
+Epoch 1/15 651/1000 loss: 0.8655 time 4.35s
+Epoch 1/15 652/1000 loss: 0.8657 time 4.35s
+Epoch 1/15 653/1000 loss: 0.8658 time 4.36s
+Epoch 1/15 654/1000 loss: 0.8659 time 4.35s
+Epoch 1/15 655/1000 loss: 0.8658 time 4.36s
+Epoch 1/15 656/1000 loss: 0.8659 time 4.35s
+Epoch 1/15 657/1000 loss: 0.8658 time 4.36s
+Epoch 1/15 658/1000 loss: 0.8658 time 4.34s
+Epoch 1/15 659/1000 loss: 0.8657 time 4.35s
+Epoch 1/15 660/1000 loss: 0.8656 time 4.35s
+Epoch 1/15 661/1000 loss: 0.8656 time 4.35s
+Epoch 1/15 662/1000 loss: 0.8654 time 4.35s
+Epoch 1/15 663/1000 loss: 0.8652 time 4.35s
+Epoch 1/15 664/1000 loss: 0.8654 time 4.35s
+Epoch 1/15 665/1000 loss: 0.8653 time 4.35s
+Epoch 1/15 666/1000 loss: 0.8652 time 4.35s
+Epoch 1/15 667/1000 loss: 0.8652 time 4.36s
+Epoch 1/15 668/1000 loss: 0.8651 time 4.36s
+Epoch 1/15 669/1000 loss: 0.8650 time 4.36s
+Epoch 1/15 670/1000 loss: 0.8649 time 4.36s
+Epoch 1/15 671/1000 loss: 0.8647 time 4.35s
+Epoch 1/15 672/1000 loss: 0.8646 time 4.35s
+Epoch 1/15 673/1000 loss: 0.8646 time 4.36s
+Epoch 1/15 674/1000 loss: 0.8645 time 4.35s
+Epoch 1/15 675/1000 loss: 0.8644 time 4.36s
+Epoch 1/15 676/1000 loss: 0.8644 time 4.35s
+Epoch 1/15 677/1000 loss: 0.8642 time 4.36s
+Epoch 1/15 678/1000 loss: 0.8641 time 4.35s
+Epoch 1/15 679/1000 loss: 0.8640 time 4.35s
+Epoch 1/15 680/1000 loss: 0.8641 time 4.35s
+Epoch 1/15 681/1000 loss: 0.8641 time 4.36s
+Epoch 1/15 682/1000 loss: 0.8642 time 4.35s
+Epoch 1/15 683/1000 loss: 0.8642 time 4.36s
+Epoch 1/15 684/1000 loss: 0.8643 time 4.36s
+Epoch 1/15 685/1000 loss: 0.8641 time 4.36s
+Epoch 1/15 686/1000 loss: 0.8641 time 4.36s
+Epoch 1/15 687/1000 loss: 0.8639 time 4.35s
+Epoch 1/15 688/1000 loss: 0.8638 time 4.36s
+Epoch 1/15 689/1000 loss: 0.8637 time 4.37s
+Epoch 1/15 690/1000 loss: 0.8637 time 4.35s
+Epoch 1/15 691/1000 loss: 0.8637 time 4.36s
+Epoch 1/15 692/1000 loss: 0.8638 time 4.35s
+Epoch 1/15 693/1000 loss: 0.8637 time 4.35s
+Epoch 1/15 694/1000 loss: 0.8637 time 4.35s
+Epoch 1/15 695/1000 loss: 0.8637 time 4.37s
+Epoch 1/15 696/1000 loss: 0.8636 time 4.35s
+Epoch 1/15 697/1000 loss: 0.8636 time 4.36s
+Epoch 1/15 698/1000 loss: 0.8634 time 4.36s
+Epoch 1/15 699/1000 loss: 0.8632 time 4.38s
+Epoch 1/15 700/1000 loss: 0.8631 time 4.36s
+Epoch 1/15 701/1000 loss: 0.8630 time 4.36s
+Epoch 1/15 702/1000 loss: 0.8628 time 4.35s
+Epoch 1/15 703/1000 loss: 0.8628 time 4.35s
+Epoch 1/15 704/1000 loss: 0.8629 time 4.35s
+Epoch 1/15 705/1000 loss: 0.8628 time 4.35s
+Epoch 1/15 706/1000 loss: 0.8627 time 4.35s
+Epoch 1/15 707/1000 loss: 0.8627 time 4.35s
+Epoch 1/15 708/1000 loss: 0.8628 time 4.35s
+Epoch 1/15 709/1000 loss: 0.8626 time 4.36s
+Epoch 1/15 710/1000 loss: 0.8625 time 4.35s
+Epoch 1/15 711/1000 loss: 0.8623 time 4.35s
+Epoch 1/15 712/1000 loss: 0.8622 time 4.35s
+Epoch 1/15 713/1000 loss: 0.8623 time 4.35s
+Epoch 1/15 714/1000 loss: 0.8622 time 4.36s
+Epoch 1/15 715/1000 loss: 0.8621 time 4.36s
+Epoch 1/15 716/1000 loss: 0.8620 time 4.36s
+Epoch 1/15 717/1000 loss: 0.8619 time 4.36s
+Epoch 1/15 718/1000 loss: 0.8618 time 4.35s
+Epoch 1/15 719/1000 loss: 0.8619 time 4.36s
+Epoch 1/15 720/1000 loss: 0.8620 time 4.35s
+Epoch 1/15 721/1000 loss: 0.8619 time 4.35s
+Epoch 1/15 722/1000 loss: 0.8618 time 4.35s
+Epoch 1/15 723/1000 loss: 0.8618 time 4.35s
+Epoch 1/15 724/1000 loss: 0.8618 time 4.35s
+Epoch 1/15 725/1000 loss: 0.8617 time 4.35s
+Epoch 1/15 726/1000 loss: 0.8616 time 4.35s
+Epoch 1/15 727/1000 loss: 0.8617 time 4.35s
+Epoch 1/15 728/1000 loss: 0.8615 time 4.35s
+Epoch 1/15 729/1000 loss: 0.8616 time 4.36s
+Epoch 1/15 730/1000 loss: 0.8616 time 4.36s
+Epoch 1/15 731/1000 loss: 0.8617 time 4.36s
+Epoch 1/15 732/1000 loss: 0.8616 time 4.36s
+Epoch 1/15 733/1000 loss: 0.8615 time 4.37s
+Epoch 1/15 734/1000 loss: 0.8616 time 4.35s
+Epoch 1/15 735/1000 loss: 0.8615 time 4.37s
+Epoch 1/15 736/1000 loss: 0.8615 time 4.34s
+Epoch 1/15 737/1000 loss: 0.8615 time 4.37s
+Epoch 1/15 738/1000 loss: 0.8614 time 4.35s
+Epoch 1/15 739/1000 loss: 0.8614 time 4.35s
+Epoch 1/15 740/1000 loss: 0.8614 time 4.35s
+Epoch 1/15 741/1000 loss: 0.8613 time 4.37s
+Epoch 1/15 742/1000 loss: 0.8614 time 4.35s
+Epoch 1/15 743/1000 loss: 0.8613 time 4.35s
+Epoch 1/15 744/1000 loss: 0.8612 time 4.35s
+Epoch 1/15 745/1000 loss: 0.8613 time 4.36s
+Epoch 1/15 746/1000 loss: 0.8613 time 4.35s
+Epoch 1/15 747/1000 loss: 0.8610 time 4.36s
+Epoch 1/15 748/1000 loss: 0.8610 time 4.35s
+Epoch 1/15 749/1000 loss: 0.8611 time 4.34s
+Epoch 1/15 750/1000 loss: 0.8610 time 4.35s
+Epoch 1/15 751/1000 loss: 0.8609 time 4.35s
+Epoch 1/15 752/1000 loss: 0.8608 time 4.35s
+Epoch 1/15 753/1000 loss: 0.8607 time 4.36s
+Epoch 1/15 754/1000 loss: 0.8608 time 4.35s
+Epoch 1/15 755/1000 loss: 0.8608 time 4.35s
+Epoch 1/15 756/1000 loss: 0.8610 time 4.35s
+Epoch 1/15 757/1000 loss: 0.8609 time 4.36s
+Epoch 1/15 758/1000 loss: 0.8610 time 4.34s
+Epoch 1/15 759/1000 loss: 0.8609 time 4.36s
+Epoch 1/15 760/1000 loss: 0.8608 time 4.35s
+Epoch 1/15 761/1000 loss: 0.8607 time 4.36s
+Epoch 1/15 762/1000 loss: 0.8606 time 4.36s
+Epoch 1/15 763/1000 loss: 0.8605 time 4.36s
+Epoch 1/15 764/1000 loss: 0.8605 time 4.35s
+Epoch 1/15 765/1000 loss: 0.8604 time 4.37s
+Epoch 1/15 766/1000 loss: 0.8604 time 4.35s
+Epoch 1/15 767/1000 loss: 0.8602 time 4.35s
+Epoch 1/15 768/1000 loss: 0.8601 time 4.35s
+Epoch 1/15 769/1000 loss: 0.8602 time 4.35s
+Epoch 1/15 770/1000 loss: 0.8602 time 4.35s
+Epoch 1/15 771/1000 loss: 0.8602 time 4.36s
+Epoch 1/15 772/1000 loss: 0.8599 time 4.35s
+Epoch 1/15 773/1000 loss: 0.8599 time 4.37s
+Epoch 1/15 774/1000 loss: 0.8600 time 4.35s
+Epoch 1/15 775/1000 loss: 0.8598 time 4.35s
+Epoch 1/15 776/1000 loss: 0.8599 time 4.34s
+Epoch 1/15 777/1000 loss: 0.8598 time 4.36s
+Epoch 1/15 778/1000 loss: 0.8598 time 4.36s
+Epoch 1/15 779/1000 loss: 0.8599 time 4.35s
+Epoch 1/15 780/1000 loss: 0.8600 time 4.35s
+Epoch 1/15 781/1000 loss: 0.8599 time 4.36s
+Epoch 1/15 782/1000 loss: 0.8599 time 4.35s
+Epoch 1/15 783/1000 loss: 0.8598 time 4.36s
+Epoch 1/15 784/1000 loss: 0.8597 time 4.35s
+Epoch 1/15 785/1000 loss: 0.8596 time 4.37s
+Epoch 1/15 786/1000 loss: 0.8597 time 4.35s
+Epoch 1/15 787/1000 loss: 0.8595 time 4.35s
+Epoch 1/15 788/1000 loss: 0.8595 time 4.35s
+Epoch 1/15 789/1000 loss: 0.8594 time 4.35s
+Epoch 1/15 790/1000 loss: 0.8592 time 4.36s
+Epoch 1/15 791/1000 loss: 0.8591 time 4.36s
+Epoch 1/15 792/1000 loss: 0.8591 time 4.36s
+Epoch 1/15 793/1000 loss: 0.8590 time 4.36s
+Epoch 1/15 794/1000 loss: 0.8591 time 4.34s
+Epoch 1/15 795/1000 loss: 0.8591 time 4.35s
+Epoch 1/15 796/1000 loss: 0.8591 time 4.36s
+Epoch 1/15 797/1000 loss: 0.8590 time 4.36s
+Epoch 1/15 798/1000 loss: 0.8589 time 4.35s
+Epoch 1/15 799/1000 loss: 0.8588 time 4.35s
+Epoch 1/15 800/1000 loss: 0.8587 time 4.35s
+Epoch 1/15 801/1000 loss: 0.8586 time 4.37s
+Epoch 1/15 802/1000 loss: 0.8585 time 4.36s
+Epoch 1/15 803/1000 loss: 0.8584 time 4.36s
+Epoch 1/15 804/1000 loss: 0.8583 time 4.35s
+Epoch 1/15 805/1000 loss: 0.8581 time 4.37s
+Epoch 1/15 806/1000 loss: 0.8582 time 4.35s
+Epoch 1/15 807/1000 loss: 0.8583 time 4.36s
+Epoch 1/15 808/1000 loss: 0.8581 time 4.35s
+Epoch 1/15 809/1000 loss: 0.8581 time 4.36s
+Epoch 1/15 810/1000 loss: 0.8580 time 4.36s
+Epoch 1/15 811/1000 loss: 0.8580 time 4.35s
+Epoch 1/15 812/1000 loss: 0.8580 time 4.35s
+Epoch 1/15 813/1000 loss: 0.8580 time 4.35s
+Epoch 1/15 814/1000 loss: 0.8579 time 4.35s
+Epoch 1/15 815/1000 loss: 0.8580 time 4.35s
+Epoch 1/15 816/1000 loss: 0.8579 time 4.35s
+Epoch 1/15 817/1000 loss: 0.8578 time 4.37s
+Epoch 1/15 818/1000 loss: 0.8577 time 4.35s
+Epoch 1/15 819/1000 loss: 0.8578 time 4.35s
+Epoch 1/15 820/1000 loss: 0.8577 time 4.36s
+Epoch 1/15 821/1000 loss: 0.8577 time 4.35s
+Epoch 1/15 822/1000 loss: 0.8577 time 4.35s
+Epoch 1/15 823/1000 loss: 0.8575 time 4.36s
+Epoch 1/15 824/1000 loss: 0.8577 time 4.34s
+Epoch 1/15 825/1000 loss: 0.8576 time 4.36s
+Epoch 1/15 826/1000 loss: 0.8577 time 4.35s
+Epoch 1/15 827/1000 loss: 0.8577 time 4.35s
+Epoch 1/15 828/1000 loss: 0.8576 time 4.35s
+Epoch 1/15 829/1000 loss: 0.8575 time 4.36s
+Epoch 1/15 830/1000 loss: 0.8575 time 4.34s
+Epoch 1/15 831/1000 loss: 0.8576 time 4.35s
+Epoch 1/15 832/1000 loss: 0.8576 time 4.35s
+Epoch 1/15 833/1000 loss: 0.8575 time 4.36s
+Epoch 1/15 834/1000 loss: 0.8575 time 4.34s
+Epoch 1/15 835/1000 loss: 0.8574 time 4.35s
+Epoch 1/15 836/1000 loss: 0.8573 time 4.35s
+Epoch 1/15 837/1000 loss: 0.8572 time 4.35s
+Epoch 1/15 838/1000 loss: 0.8571 time 4.34s
+Epoch 1/15 839/1000 loss: 0.8569 time 4.36s
+Epoch 1/15 840/1000 loss: 0.8571 time 4.36s
+Epoch 1/15 841/1000 loss: 0.8572 time 4.36s
+Epoch 1/15 842/1000 loss: 0.8571 time 4.35s
+Epoch 1/15 843/1000 loss: 0.8570 time 4.35s
+Epoch 1/15 844/1000 loss: 0.8570 time 4.35s
+Epoch 1/15 845/1000 loss: 0.8571 time 4.35s
+Epoch 1/15 846/1000 loss: 0.8571 time 4.35s
+Epoch 1/15 847/1000 loss: 0.8571 time 4.35s
+Epoch 1/15 848/1000 loss: 0.8570 time 4.35s
+Epoch 1/15 849/1000 loss: 0.8570 time 4.35s
+Epoch 1/15 850/1000 loss: 0.8569 time 4.35s
+Epoch 1/15 851/1000 loss: 0.8567 time 4.35s
+Epoch 1/15 852/1000 loss: 0.8567 time 4.35s
+Epoch 1/15 853/1000 loss: 0.8566 time 4.36s
+Epoch 1/15 854/1000 loss: 0.8565 time 4.36s
+Epoch 1/15 855/1000 loss: 0.8566 time 4.36s
+Epoch 1/15 856/1000 loss: 0.8565 time 4.34s
+Epoch 1/15 857/1000 loss: 0.8566 time 4.36s
+Epoch 1/15 858/1000 loss: 0.8566 time 4.34s
+Epoch 1/15 859/1000 loss: 0.8567 time 4.35s
+Epoch 1/15 860/1000 loss: 0.8567 time 4.35s
+Epoch 1/15 861/1000 loss: 0.8566 time 4.35s
+Epoch 1/15 862/1000 loss: 0.8566 time 4.36s
+Epoch 1/15 863/1000 loss: 0.8566 time 4.37s
+Epoch 1/15 864/1000 loss: 0.8566 time 4.34s
+Epoch 1/15 865/1000 loss: 0.8566 time 4.35s
+Epoch 1/15 866/1000 loss: 0.8566 time 4.35s
+Epoch 1/15 867/1000 loss: 0.8566 time 4.35s
+Epoch 1/15 868/1000 loss: 0.8566 time 4.35s
+Epoch 1/15 869/1000 loss: 0.8566 time 4.36s
+Epoch 1/15 870/1000 loss: 0.8565 time 4.36s
+Epoch 1/15 871/1000 loss: 0.8567 time 4.36s
+Epoch 1/15 872/1000 loss: 0.8568 time 4.35s
+Epoch 1/15 873/1000 loss: 0.8567 time 4.35s
+Epoch 1/15 874/1000 loss: 0.8566 time 4.35s
+Epoch 1/15 875/1000 loss: 0.8567 time 4.35s
+Epoch 1/15 876/1000 loss: 0.8567 time 4.35s
+Epoch 1/15 877/1000 loss: 0.8568 time 4.35s
+Epoch 1/15 878/1000 loss: 0.8568 time 4.35s
+Epoch 1/15 879/1000 loss: 0.8567 time 4.35s
+Epoch 1/15 880/1000 loss: 0.8568 time 4.35s
+Epoch 1/15 881/1000 loss: 0.8566 time 4.36s
+Epoch 1/15 882/1000 loss: 0.8566 time 4.35s
+Epoch 1/15 883/1000 loss: 0.8566 time 4.35s
+Epoch 1/15 884/1000 loss: 0.8565 time 4.36s
+Epoch 1/15 885/1000 loss: 0.8564 time 4.36s
+Epoch 1/15 886/1000 loss: 0.8564 time 4.34s
+Epoch 1/15 887/1000 loss: 0.8563 time 4.36s
+Epoch 1/15 888/1000 loss: 0.8560 time 4.35s
+Epoch 1/15 889/1000 loss: 0.8560 time 4.36s
+Epoch 1/15 890/1000 loss: 0.8559 time 4.34s
+Epoch 1/15 891/1000 loss: 0.8558 time 4.35s
+Epoch 1/15 892/1000 loss: 0.8557 time 4.35s
+Epoch 1/15 893/1000 loss: 0.8558 time 4.35s
+Epoch 1/15 894/1000 loss: 0.8557 time 4.35s
+Epoch 1/15 895/1000 loss: 0.8556 time 4.35s
+Epoch 1/15 896/1000 loss: 0.8555 time 4.35s
+Epoch 1/15 897/1000 loss: 0.8556 time 4.35s
+Epoch 1/15 898/1000 loss: 0.8556 time 4.35s
+Epoch 1/15 899/1000 loss: 0.8555 time 4.36s
+Epoch 1/15 900/1000 loss: 0.8554 time 4.35s
+Epoch 1/15 901/1000 loss: 0.8553 time 4.34s
+Epoch 1/15 902/1000 loss: 0.8553 time 4.36s
+Epoch 1/15 903/1000 loss: 0.8553 time 4.36s
+Epoch 1/15 904/1000 loss: 0.8552 time 4.35s
+Epoch 1/15 905/1000 loss: 0.8550 time 4.35s
+Epoch 1/15 906/1000 loss: 0.8550 time 4.35s
+Epoch 1/15 907/1000 loss: 0.8550 time 4.35s
+Epoch 1/15 908/1000 loss: 0.8549 time 4.35s
+Epoch 1/15 909/1000 loss: 0.8549 time 4.36s
+Epoch 1/15 910/1000 loss: 0.8549 time 4.35s
+Epoch 1/15 911/1000 loss: 0.8550 time 4.37s
+Epoch 1/15 912/1000 loss: 0.8549 time 4.35s
+Epoch 1/15 913/1000 loss: 0.8549 time 4.35s
+Epoch 1/15 914/1000 loss: 0.8549 time 4.35s
+Epoch 1/15 915/1000 loss: 0.8549 time 4.35s
+Epoch 1/15 916/1000 loss: 0.8548 time 4.34s
+Epoch 1/15 917/1000 loss: 0.8547 time 4.36s
+Epoch 1/15 918/1000 loss: 0.8546 time 4.35s
+Epoch 1/15 919/1000 loss: 0.8545 time 4.35s
+Epoch 1/15 920/1000 loss: 0.8546 time 4.35s
+Epoch 1/15 921/1000 loss: 0.8546 time 4.35s
+Epoch 1/15 922/1000 loss: 0.8545 time 4.35s
+Epoch 1/15 923/1000 loss: 0.8545 time 4.35s
+Epoch 1/15 924/1000 loss: 0.8544 time 4.35s
+Epoch 1/15 925/1000 loss: 0.8543 time 4.35s
+Epoch 1/15 926/1000 loss: 0.8542 time 4.35s
+Epoch 1/15 927/1000 loss: 0.8542 time 4.35s
+Epoch 1/15 928/1000 loss: 0.8542 time 4.35s
+Epoch 1/15 929/1000 loss: 0.8543 time 4.35s
+Epoch 1/15 930/1000 loss: 0.8543 time 4.35s
+Epoch 1/15 931/1000 loss: 0.8542 time 4.34s
+Epoch 1/15 932/1000 loss: 0.8543 time 4.35s
+Epoch 1/15 933/1000 loss: 0.8541 time 4.34s
+Epoch 1/15 934/1000 loss: 0.8541 time 4.34s
+Epoch 1/15 935/1000 loss: 0.8541 time 4.35s
+Epoch 1/15 936/1000 loss: 0.8540 time 4.35s
+Epoch 1/15 937/1000 loss: 0.8539 time 4.35s
+Epoch 1/15 938/1000 loss: 0.8537 time 4.35s
+Epoch 1/15 939/1000 loss: 0.8536 time 4.35s
+Epoch 1/15 940/1000 loss: 0.8535 time 4.35s
+Epoch 1/15 941/1000 loss: 0.8534 time 4.35s
+Epoch 1/15 942/1000 loss: 0.8534 time 4.35s
+Epoch 1/15 943/1000 loss: 0.8534 time 4.35s
+Epoch 1/15 944/1000 loss: 0.8533 time 4.35s
+Epoch 1/15 945/1000 loss: 0.8533 time 4.35s
+Epoch 1/15 946/1000 loss: 0.8534 time 4.34s
+Epoch 1/15 947/1000 loss: 0.8533 time 4.35s
+Epoch 1/15 948/1000 loss: 0.8534 time 4.35s
+Epoch 1/15 949/1000 loss: 0.8533 time 4.34s
+Epoch 1/15 950/1000 loss: 0.8533 time 4.35s
+Epoch 1/15 951/1000 loss: 0.8533 time 4.35s
+Epoch 1/15 952/1000 loss: 0.8532 time 4.35s
+Epoch 1/15 953/1000 loss: 0.8532 time 4.35s
+Epoch 1/15 954/1000 loss: 0.8531 time 4.35s
+Epoch 1/15 955/1000 loss: 0.8531 time 4.35s
+Epoch 1/15 956/1000 loss: 0.8530 time 4.35s
+Epoch 1/15 957/1000 loss: 0.8531 time 4.35s
+Epoch 1/15 958/1000 loss: 0.8530 time 4.35s
+Epoch 1/15 959/1000 loss: 0.8529 time 4.35s
+Epoch 1/15 960/1000 loss: 0.8530 time 4.35s
+Epoch 1/15 961/1000 loss: 0.8529 time 4.35s
+Epoch 1/15 962/1000 loss: 0.8528 time 4.34s
+Epoch 1/15 963/1000 loss: 0.8530 time 4.35s
+Epoch 1/15 964/1000 loss: 0.8531 time 4.34s
+Epoch 1/15 965/1000 loss: 0.8531 time 4.36s
+Epoch 1/15 966/1000 loss: 0.8531 time 4.35s
+Epoch 1/15 967/1000 loss: 0.8530 time 4.35s
+Epoch 1/15 968/1000 loss: 0.8531 time 4.35s
+Epoch 1/15 969/1000 loss: 0.8532 time 4.35s
+Epoch 1/15 970/1000 loss: 0.8532 time 4.35s
+Epoch 1/15 971/1000 loss: 0.8532 time 4.35s
+Epoch 1/15 972/1000 loss: 0.8533 time 4.35s
+Epoch 1/15 973/1000 loss: 0.8532 time 4.35s
+Epoch 1/15 974/1000 loss: 0.8531 time 4.35s
+Epoch 1/15 975/1000 loss: 0.8531 time 4.35s
+Epoch 1/15 976/1000 loss: 0.8532 time 4.35s
+Epoch 1/15 977/1000 loss: 0.8533 time 4.35s
+Epoch 1/15 978/1000 loss: 0.8532 time 4.36s
+Epoch 1/15 979/1000 loss: 0.8531 time 4.36s
+Epoch 1/15 980/1000 loss: 0.8531 time 4.36s
+Epoch 1/15 981/1000 loss: 0.8531 time 4.35s
+Epoch 1/15 982/1000 loss: 0.8530 time 4.35s
+Epoch 1/15 983/1000 loss: 0.8531 time 4.36s
+Epoch 1/15 984/1000 loss: 0.8530 time 4.36s
+Epoch 1/15 985/1000 loss: 0.8531 time 4.35s
+Epoch 1/15 986/1000 loss: 0.8530 time 4.35s
+Epoch 1/15 987/1000 loss: 0.8529 time 4.35s
+Epoch 1/15 988/1000 loss: 0.8530 time 4.35s
+Epoch 1/15 989/1000 loss: 0.8530 time 4.35s
+Epoch 1/15 990/1000 loss: 0.8531 time 4.35s
+Epoch 1/15 991/1000 loss: 0.8531 time 4.37s
+Epoch 1/15 992/1000 loss: 0.8530 time 4.35s
+Epoch 1/15 993/1000 loss: 0.8530 time 4.36s
+Epoch 1/15 994/1000 loss: 0.8530 time 4.36s
+Epoch 1/15 995/1000 loss: 0.8530 time 4.36s
+Epoch 1/15 996/1000 loss: 0.8528 time 4.34s
+Epoch 1/15 997/1000 loss: 0.8529 time 4.35s
+Epoch 1/15 998/1000 loss: 0.8529 time 4.35s
+Epoch 1/15 999/1000 loss: 0.8529 time 4.35s
+Final training  1/14 loss: 0.8529 time 4354.04s
+slurmstepd: error: *** JOB 9665235 ON gra1173 CANCELLED AT 2023-07-24T08:44:50 DUE TO TIME LIMIT ***
