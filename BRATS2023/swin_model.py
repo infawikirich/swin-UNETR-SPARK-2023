@@ -29,6 +29,15 @@ import torch
 
 print(torch.cuda.empty_cache())
 
+print("""
+        optimizer = torch.optim.Adadelta(model.parameters(), lr=1.0, rho=0.9, eps=1e-6, weight_decay=1e-5)
+        scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=1, gamma=0.97)
+
+        max_epochs = 12
+        validation = 6
+
+    """)
+
 
 print_config()
 
@@ -153,8 +162,8 @@ batch_size = 1     # changed from 2 to 1
 sw_batch_size = 2    
 fold = 1
 infer_overlap = 0.7   # changed from 0.5. to 0.7
-max_epochs = 10       
-val_every = 10     # changed from 10 to 2
+max_epochs = 12       
+val_every = 6     # changed from 10 to 2
 train_loader, val_loader = get_loader(batch_size, data_dir, json_list, fold, roi)
 
 
@@ -207,10 +216,14 @@ model_inferer = partial(
 )
 
 # optimizer = torch.optim.Rdam(model.parameters(), lr=1e-4, weight_decay=1e-5)
-# scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=max_epochs)
+
 optimizer = torch.optim.AdamW(model.parameters(), lr=1e-4, weight_decay=1e-5)
+scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=max_epochs)
+
 # optimizer = torch.optim.Adadelta(model.parameters(), lr=1.0, rho=0.9, eps=1e-6, weight_decay=1e-5)
-scheduler = torch.optim.ReduceLROnPlateau(optimizer, mode='min', factor=0.1, patience=5, verbose=True)
+# scheduler = torch.optim.ReduceLROnPlateau(optimizer, mode='min', factor=0.1, patience=5, verbose=True)
+# scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=1, gamma=0.97)
+
 
 
 
@@ -399,6 +412,9 @@ start_epoch = 0
     post_sigmoid=post_sigmoid,
     post_pred=post_pred,
 )
+
+#save the model for evaluation
+torch.save(model.state_dict(), "./model_final.pth")
 
 # plot the loss and Dice metric
 
