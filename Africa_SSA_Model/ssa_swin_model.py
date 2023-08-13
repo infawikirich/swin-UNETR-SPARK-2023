@@ -27,18 +27,18 @@ from functools import partial
 
 import torch
 
-# from segmentation_generate import generate_segmentation_nifti
+from segmentation_generate import generate_segmentation_nifti
 
 print(torch.cuda.empty_cache())
 
 print("""
-       optimizer = torch.optim.SGD(model.parameters(), lr=0.5, momentum=0.9)
-        scheduler = torch.optim.lr_scheduler.CyclicLR(optimizer, base_lr=0.0001, max_lr=0.01)
+        optimizer = torch.optim.AdamW(model.parameters(), lr=1e-5, weight_decay=1e-5)
+        scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=max_epochs)
 
 
 
-        max_epoch = 300
-        validation = 60
+        max_epoch =  12
+        validation = 4
 
     """)
 
@@ -163,14 +163,14 @@ def get_loader(batch_size, data_dir, json_list, fold, roi):
 # set dataset root directory and hyper-parameters
 data_dir = "/scratch/guest185/"
 json_list = "./brats2023_ssa_data.json"
-# output_dir = "./Seg-images"
+output_dir = "./Seg-images"
 roi = (128, 128, 128)     # set the size to 96 each
 batch_size = 1     # changed from 2 to 1    
 sw_batch_size = 2    
 fold = 1
 infer_overlap = 0.7   # changed from 0.5. to 0.7
-max_epochs = 300       
-val_every = 60      # changed from 10 to 2
+max_epochs = 12       
+val_every = 4      # changed from 10 to 2
 train_loader, val_loader = get_loader(batch_size, data_dir, json_list, fold, roi)
 
 
@@ -223,12 +223,12 @@ model_inferer = partial(
 )
 
 # optimizer = torch.optim.Rdam(model.parameters(), lr=1e-4, weight_decay=1e-5)
-# optimizer = torch.optim.AdamW(model.parameters(), lr=1e-5, weight_decay=1e-5)
+optimizer = torch.optim.AdamW(model.parameters(), lr=1e-5, weight_decay=1e-5)
 # optimizer = torch.optim.Adadelta(model.parameters(), lr=0.97, rho=0.9, eps=1e-6, weight_decay=1e-5)
 # optimizer = torch.optim.RMSprop(model.parameters(), lr=0.00001, alpha=0.99, eps=1e-08, weight_decay=0.0001, momentum=0.9, centered=True)
 
 # scheduler = torch.optim.ReduceLROnPlateau(optimizer, mode='min', factor=0.1, patience=5, verbose=True)
-# scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=max_epochs)
+scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=max_epochs)
 # scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=1, gamma=0.97)
 
 # milestones=[80, 160, 240]
@@ -238,8 +238,8 @@ model_inferer = partial(
 # scheduler2 = torch.optim.ExponentialLR(optimizer, gamma=0.97)
 # scheduler = torch.optim.SequentialLR(optimizer, schedulers=[scheduler1, scheduler2], milestones=[80, 160, 240])
 
-optimizer = torch.optim.SGD(model.parameters(), lr=0.5, momentum=0.9)
-scheduler = torch.optim.lr_scheduler.CyclicLR(optimizer, base_lr=0.0001, max_lr=0.01)
+# optimizer = torch.optim.SGD(model.parameters(), lr=0.5, momentum=0.9)
+# scheduler = torch.optim.lr_scheduler.CyclicLR(optimizer, base_lr=0.0001, max_lr=0.01)
 
 
 # Train and validate epoch
@@ -307,12 +307,12 @@ def val_epoch(
             )
             start_time = time.time()
 
-            # # save the predicted segmentation as NIfTI files
-            # if output_dir:
-            #     for i, val_output in enumerate(val_output_convert):
-            #         case_id = "12345"
-            #         timepoint = str(i + 1).zfill(3),
-            #         generate_segmentation_nifti(val_output, case_id, timepoint, output_dir)
+            # save the predicted segmentation as NIfTI files
+            if output_dir:
+                for i, val_output in enumerate(val_output_convert):
+                    case_id = "12345"
+                    timepoint = str(i + 1).zfill(3)
+                    generate_segmentation_nifti(val_output, case_id, timepoint, output_dir)
 
     return run_acc.avg
 
@@ -436,7 +436,7 @@ start_epoch = 0
 )
 
 #save the model for evaluation
-torch.save(model.state_dict(), "./model_AdamW_CosineAnnealing.pth")
+torch.save(model.state_dict(), "./model_AdamW_CosineAnnealing_V.pth")
 
 # plot the loss and Dice metric
 
@@ -465,7 +465,7 @@ plt.xlabel("epoch")
 plt.plot(trains_epoch, dices_et, color="purple")
 
 # save the graph to the current directory
-plt.savefig("plot_graph_AdamW_CosineAnnealing.png")
+plt.savefig("plot_graph_AdamW_CosineAnnealing_V.png")
 
 
 # plt.show()

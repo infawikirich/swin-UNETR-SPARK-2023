@@ -6,10 +6,10 @@ import numpy as np
 def generate_segmentation_nifti(segmentation_data, case_id, timepoint, output_dir):
     
     # Convert segmentation data to NumPy array with a compatible data type
-    segmentation_np = segmentation_data.cpu().numpy().astype(np.float32)
+    segmentation_np = segmentation_data.cpu().detach().numpy().astype(np.float32)
     
     # Create a NIfTI image object from the segmentation data
-    segmentation_nifti = nib.Nifti1Image(segmentation_data, affine=np.eye(4))
+    segmentation_nifti = nib.Nifti1Image(segmentation_np, affine=np.eye(4))
 
     # Set the NIfTI header information
     segmentation_nifti.header.set_data_shape((240, 240, 155))
