@@ -1,0 +1,728 @@
+None
+
+       optimizer = torch.optim.AdamW(model.parameters(), lr=1e-5, weight_decay=1e-5)
+        scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=max_epochs)
+
+
+
+        max_epoch = 12
+        validation = 3
+
+
+    
+MONAI version: 1.2.0rc7+9.g84940298
+Numpy version: 1.24.2
+Pytorch version: 1.13.1
+MONAI flags: HAS_EXT = False, USE_COMPILED = False, USE_META_DICT = False
+MONAI rev id: 84940298bff9ff1f54845eb8ae7422c0092c09c1
+MONAI __file__: /home/guest185/hackathon_38/lib/python3.8/site-packages/monai/__init__.py
+
+Optional dependencies:
+Pytorch Ignite version: 0.4.2
+ITK version: NOT INSTALLED or UNKNOWN VERSION.
+Nibabel version: 5.1.0
+scikit-image version: 0.19.3
+Pillow version: 9.5.0
+Tensorboard version: 2.13.0
+gdown version: 4.7.1
+TorchVision version: 0.14.1
+tqdm version: 4.65.0
+lmdb version: 1.2.1
+psutil version: 5.9.4
+pandas version: 1.5.3
+einops version: 0.6.1
+transformers version: 4.21.3
+mlflow version: NOT INSTALLED or UNKNOWN VERSION.
+pynrrd version: 1.0.0
+
+For details about installing the optional dependencies, please visit:
+    https://docs.monai.io/en/latest/installation.html#installing-the-recommended-dependencies
+
+/tmp/tmp9ook60kl
+image shape: (240, 240, 155), label shape: (240, 240, 155)
+Thu Aug 10 21:22:33 2023 Epoch: 0
+In the future `np.bool` will be defined as the corresponding NumPy scalar.
+In the future `np.bool` will be defined as the corresponding NumPy scalar.
+In the future `np.bool` will be defined as the corresponding NumPy scalar.
+In the future `np.bool` will be defined as the corresponding NumPy scalar.
+monai.transforms.io.dictionary LoadImaged.__init__:image_only: Current default value of argument `image_only=False` has been deprecated since version 1.1. It will be changed to `image_only=True` in version 1.3.
+In the future `np.bool` will be defined as the corresponding NumPy scalar.
+In the future `np.bool` will be defined as the corresponding NumPy scalar.
+Epoch 0/12 0/48 loss: 0.9064 time 28.68s
+Epoch 0/12 1/48 loss: 0.9532 time 4.32s
+Epoch 0/12 2/48 loss: 0.9672 time 4.62s
+Epoch 0/12 3/48 loss: 0.9504 time 4.24s
+Epoch 0/12 4/48 loss: 0.9548 time 4.26s
+Epoch 0/12 5/48 loss: 0.9593 time 4.26s
+Epoch 0/12 6/48 loss: 0.9572 time 4.29s
+Epoch 0/12 7/48 loss: 0.9562 time 4.30s
+Epoch 0/12 8/48 loss: 0.9601 time 4.30s
+Epoch 0/12 9/48 loss: 0.9577 time 4.31s
+Epoch 0/12 10/48 loss: 0.9572 time 4.32s
+Epoch 0/12 11/48 loss: 0.9589 time 4.33s
+Epoch 0/12 12/48 loss: 0.9620 time 4.34s
+Epoch 0/12 13/48 loss: 0.9580 time 4.37s
+Epoch 0/12 14/48 loss: 0.9587 time 4.36s
+Epoch 0/12 15/48 loss: 0.9568 time 4.38s
+Epoch 0/12 16/48 loss: 0.9578 time 4.39s
+Epoch 0/12 17/48 loss: 0.9576 time 4.40s
+Epoch 0/12 18/48 loss: 0.9550 time 4.39s
+Epoch 0/12 19/48 loss: 0.9516 time 4.39s
+Epoch 0/12 20/48 loss: 0.9496 time 4.41s
+Epoch 0/12 21/48 loss: 0.9513 time 4.41s
+Epoch 0/12 22/48 loss: 0.9533 time 4.41s
+Epoch 0/12 23/48 loss: 0.9491 time 4.42s
+Epoch 0/12 24/48 loss: 0.9498 time 4.41s
+Epoch 0/12 25/48 loss: 0.9497 time 4.41s
+Epoch 0/12 26/48 loss: 0.9501 time 4.41s
+Epoch 0/12 27/48 loss: 0.9516 time 4.42s
+Epoch 0/12 28/48 loss: 0.9527 time 4.42s
+Epoch 0/12 29/48 loss: 0.9542 time 4.42s
+Epoch 0/12 30/48 loss: 0.9557 time 4.42s
+Epoch 0/12 31/48 loss: 0.9551 time 4.42s
+Epoch 0/12 32/48 loss: 0.9562 time 4.39s
+Epoch 0/12 33/48 loss: 0.9570 time 4.41s
+Epoch 0/12 34/48 loss: 0.9536 time 4.41s
+Epoch 0/12 35/48 loss: 0.9526 time 4.41s
+Epoch 0/12 36/48 loss: 0.9539 time 4.41s
+Epoch 0/12 37/48 loss: 0.9527 time 4.41s
+Epoch 0/12 38/48 loss: 0.9534 time 4.40s
+Epoch 0/12 39/48 loss: 0.9537 time 4.40s
+Epoch 0/12 40/48 loss: 0.9537 time 4.40s
+Epoch 0/12 41/48 loss: 0.9532 time 4.39s
+Epoch 0/12 42/48 loss: 0.9535 time 4.39s
+Epoch 0/12 43/48 loss: 0.9534 time 4.39s
+Epoch 0/12 44/48 loss: 0.9533 time 4.40s
+Epoch 0/12 45/48 loss: 0.9543 time 4.38s
+Epoch 0/12 46/48 loss: 0.9532 time 4.38s
+Epoch 0/12 47/48 loss: 0.9541 time 4.37s
+Final training  0/11 loss: 0.9541 time 234.66s
+Val 0/12 0/12 , dice_tc: 0.057240773 , dice_wt: 0.28232923 , dice_et: 0.0067191073 , time 46.67s
+Val 0/12 1/12 , dice_tc: 0.050845414 , dice_wt: 0.25280803 , dice_et: 0.0052499967 , time 33.51s
+Val 0/12 2/12 , dice_tc: 0.06442618 , dice_wt: 0.2599397 , dice_et: 0.009094053 , time 33.42s
+Val 0/12 3/12 , dice_tc: 0.055236764 , dice_wt: 0.2695241 , dice_et: 0.0078064483 , time 33.29s
+Val 0/12 4/12 , dice_tc: 0.048956264 , dice_wt: 0.22148149 , dice_et: 0.006686366 , time 33.27s
+Val 0/12 5/12 , dice_tc: 0.041281316 , dice_wt: 0.19146256 , dice_et: 0.005658405 , time 33.27s
+Val 0/12 6/12 , dice_tc: 0.037392057 , dice_wt: 0.16821781 , dice_et: 0.005166661 , time 33.26s
+Val 0/12 7/12 , dice_tc: 0.061933547 , dice_wt: 0.18072928 , dice_et: 0.006938999 , time 33.25s
+Val 0/12 8/12 , dice_tc: 0.06030051 , dice_wt: 0.18712229 , dice_et: 0.007447789 , time 33.24s
+Val 0/12 9/12 , dice_tc: 0.06933405 , dice_wt: 0.1980032 , dice_et: 0.008175183 , time 33.24s
+Val 0/12 10/12 , dice_tc: 0.06732162 , dice_wt: 0.19780539 , dice_et: 0.007932224 , time 33.24s
+Val 0/12 11/12 , dice_tc: 0.06322744 , dice_wt: 0.18799466 , dice_et: 0.0075337836 , time 33.20s
+Final validation stats 0/11 , dice_tc: 0.06322744 , dice_wt: 0.18799466 , dice_et: 0.0075337836 , Dice_Avg: 0.08625197 , time 412.97s
+new best (0.000000 --> 0.086252). 
+Saving checkpoint /tmp/tmp9ook60kl/model.pt
+Thu Aug 10 21:33:21 2023 Epoch: 1
+None of the inputs have requires_grad=True. Gradients will be None
+Epoch 1/12 0/48 loss: 0.9529 time 7.98s
+Epoch 1/12 1/48 loss: 0.9725 time 4.29s
+Epoch 1/12 2/48 loss: 0.9471 time 4.29s
+Epoch 1/12 3/48 loss: 0.9505 time 4.29s
+Epoch 1/12 4/48 loss: 0.9458 time 4.29s
+Epoch 1/12 5/48 loss: 0.9540 time 4.29s
+Epoch 1/12 6/48 loss: 0.9541 time 4.28s
+Epoch 1/12 7/48 loss: 0.9593 time 4.28s
+Epoch 1/12 8/48 loss: 0.9510 time 4.30s
+Epoch 1/12 9/48 loss: 0.9490 time 4.29s
+Epoch 1/12 10/48 loss: 0.9530 time 4.29s
+Epoch 1/12 11/48 loss: 0.9480 time 4.30s
+Epoch 1/12 12/48 loss: 0.9454 time 4.29s
+Epoch 1/12 13/48 loss: 0.9456 time 4.29s
+Epoch 1/12 14/48 loss: 0.9445 time 4.29s
+Epoch 1/12 15/48 loss: 0.9460 time 4.29s
+Epoch 1/12 16/48 loss: 0.9396 time 4.29s
+Epoch 1/12 17/48 loss: 0.9354 time 4.29s
+Epoch 1/12 18/48 loss: 0.9343 time 4.29s
+Epoch 1/12 19/48 loss: 0.9328 time 4.29s
+Epoch 1/12 20/48 loss: 0.9345 time 4.29s
+Epoch 1/12 21/48 loss: 0.9367 time 4.29s
+Epoch 1/12 22/48 loss: 0.9382 time 4.29s
+Epoch 1/12 23/48 loss: 0.9386 time 4.29s
+Epoch 1/12 24/48 loss: 0.9410 time 4.29s
+Epoch 1/12 25/48 loss: 0.9404 time 4.30s
+Epoch 1/12 26/48 loss: 0.9400 time 4.30s
+Epoch 1/12 27/48 loss: 0.9406 time 4.30s
+Epoch 1/12 28/48 loss: 0.9415 time 4.29s
+Epoch 1/12 29/48 loss: 0.9434 time 4.29s
+Epoch 1/12 30/48 loss: 0.9443 time 4.29s
+Epoch 1/12 31/48 loss: 0.9456 time 4.29s
+Epoch 1/12 32/48 loss: 0.9463 time 4.29s
+Epoch 1/12 33/48 loss: 0.9471 time 4.29s
+Epoch 1/12 34/48 loss: 0.9468 time 4.29s
+Epoch 1/12 35/48 loss: 0.9453 time 4.29s
+Epoch 1/12 36/48 loss: 0.9450 time 4.29s
+Epoch 1/12 37/48 loss: 0.9458 time 4.29s
+Epoch 1/12 38/48 loss: 0.9439 time 4.29s
+Epoch 1/12 39/48 loss: 0.9453 time 4.29s
+Epoch 1/12 40/48 loss: 0.9462 time 4.30s
+Epoch 1/12 41/48 loss: 0.9475 time 4.30s
+Epoch 1/12 42/48 loss: 0.9471 time 4.30s
+Epoch 1/12 43/48 loss: 0.9475 time 4.29s
+Epoch 1/12 44/48 loss: 0.9474 time 4.29s
+Epoch 1/12 45/48 loss: 0.9477 time 4.29s
+Epoch 1/12 46/48 loss: 0.9476 time 4.29s
+Epoch 1/12 47/48 loss: 0.9486 time 4.29s
+Final training  1/11 loss: 0.9486 time 209.82s
+Thu Aug 10 21:36:51 2023 Epoch: 2
+Epoch 2/12 0/48 loss: 0.9419 time 7.62s
+Epoch 2/12 1/48 loss: 0.9614 time 4.29s
+Epoch 2/12 2/48 loss: 0.9737 time 4.27s
+Epoch 2/12 3/48 loss: 0.9687 time 4.29s
+Epoch 2/12 4/48 loss: 0.9696 time 4.29s
+Epoch 2/12 5/48 loss: 0.9717 time 4.29s
+Epoch 2/12 6/48 loss: 0.9702 time 4.29s
+Epoch 2/12 7/48 loss: 0.9572 time 4.29s
+Epoch 2/12 8/48 loss: 0.9595 time 4.30s
+Epoch 2/12 9/48 loss: 0.9545 time 4.30s
+Epoch 2/12 10/48 loss: 0.9542 time 4.29s
+Epoch 2/12 11/48 loss: 0.9531 time 4.29s
+Epoch 2/12 12/48 loss: 0.9485 time 4.30s
+Epoch 2/12 13/48 loss: 0.9501 time 4.29s
+Epoch 2/12 14/48 loss: 0.9530 time 4.29s
+Epoch 2/12 15/48 loss: 0.9518 time 4.29s
+Epoch 2/12 16/48 loss: 0.9524 time 4.29s
+Epoch 2/12 17/48 loss: 0.9544 time 4.29s
+Epoch 2/12 18/48 loss: 0.9535 time 4.29s
+Epoch 2/12 19/48 loss: 0.9500 time 4.29s
+Epoch 2/12 20/48 loss: 0.9524 time 4.30s
+Epoch 2/12 21/48 loss: 0.9538 time 4.29s
+Epoch 2/12 22/48 loss: 0.9528 time 4.30s
+Epoch 2/12 23/48 loss: 0.9526 time 4.30s
+Epoch 2/12 24/48 loss: 0.9487 time 4.30s
+Epoch 2/12 25/48 loss: 0.9493 time 4.29s
+Epoch 2/12 26/48 loss: 0.9512 time 4.29s
+Epoch 2/12 27/48 loss: 0.9524 time 4.29s
+Epoch 2/12 28/48 loss: 0.9493 time 4.29s
+Epoch 2/12 29/48 loss: 0.9506 time 4.29s
+Epoch 2/12 30/48 loss: 0.9515 time 4.29s
+Epoch 2/12 31/48 loss: 0.9495 time 4.29s
+Epoch 2/12 32/48 loss: 0.9511 time 4.29s
+Epoch 2/12 33/48 loss: 0.9506 time 4.29s
+Epoch 2/12 34/48 loss: 0.9508 time 4.29s
+Epoch 2/12 35/48 loss: 0.9467 time 4.29s
+Epoch 2/12 36/48 loss: 0.9481 time 4.29s
+Epoch 2/12 37/48 loss: 0.9448 time 4.30s
+Epoch 2/12 38/48 loss: 0.9413 time 4.30s
+Epoch 2/12 39/48 loss: 0.9397 time 4.29s
+Epoch 2/12 40/48 loss: 0.9376 time 4.30s
+Epoch 2/12 41/48 loss: 0.9386 time 4.29s
+Epoch 2/12 42/48 loss: 0.9375 time 4.29s
+Epoch 2/12 43/48 loss: 0.9365 time 4.29s
+Epoch 2/12 44/48 loss: 0.9372 time 4.29s
+Epoch 2/12 45/48 loss: 0.9376 time 4.29s
+Epoch 2/12 46/48 loss: 0.9381 time 4.29s
+Epoch 2/12 47/48 loss: 0.9390 time 4.29s
+Final training  2/11 loss: 0.9390 time 209.47s
+Val 2/12 0/12 , dice_tc: 0.14814933 , dice_wt: 0.36404645 , dice_et: 0.013164352 , time 35.75s
+Val 2/12 1/12 , dice_tc: 0.11002734 , dice_wt: 0.31756815 , dice_et: 0.009074798 , time 33.17s
+Val 2/12 2/12 , dice_tc: 0.16269644 , dice_wt: 0.33983144 , dice_et: 0.012542685 , time 33.22s
+Val 2/12 3/12 , dice_tc: 0.15280405 , dice_wt: 0.35019186 , dice_et: 0.011076543 , time 33.20s
+Val 2/12 4/12 , dice_tc: 0.12744999 , dice_wt: 0.2873459 , dice_et: 0.009312831 , time 33.24s
+Val 2/12 5/12 , dice_tc: 0.10701817 , dice_wt: 0.2473899 , dice_et: 0.007850307 , time 33.24s
+Val 2/12 6/12 , dice_tc: 0.09480679 , dice_wt: 0.21704926 , dice_et: 0.007046245 , time 33.24s
+Val 2/12 7/12 , dice_tc: 0.1210319 , dice_wt: 0.23015861 , dice_et: 0.008971271 , time 33.24s
+Val 2/12 8/12 , dice_tc: 0.124402314 , dice_wt: 0.23750584 , dice_et: 0.00938122 , time 33.26s
+Val 2/12 9/12 , dice_tc: 0.1467286 , dice_wt: 0.2501811 , dice_et: 0.010317542 , time 33.25s
+Val 2/12 10/12 , dice_tc: 0.1424947 , dice_wt: 0.24992806 , dice_et: 0.01008168 , time 33.25s
+Val 2/12 11/12 , dice_tc: 0.13426918 , dice_wt: 0.23699437 , dice_et: 0.009507538 , time 33.21s
+Final validation stats 2/11 , dice_tc: 0.13426918 , dice_wt: 0.23699437 , dice_et: 0.009507538 , Dice_Avg: 0.1269237 , time 401.39s
+new best (0.086252 --> 0.126924). 
+Saving checkpoint /tmp/tmp9ook60kl/model.pt
+Thu Aug 10 21:47:03 2023 Epoch: 3
+Epoch 3/12 0/48 loss: 0.9672 time 7.37s
+Epoch 3/12 1/48 loss: 0.9281 time 4.29s
+Epoch 3/12 2/48 loss: 0.9179 time 4.29s
+Epoch 3/12 3/48 loss: 0.9360 time 4.29s
+Epoch 3/12 4/48 loss: 0.9452 time 4.29s
+Epoch 3/12 5/48 loss: 0.9518 time 4.30s
+Epoch 3/12 6/48 loss: 0.9367 time 4.30s
+Epoch 3/12 7/48 loss: 0.9170 time 4.30s
+Epoch 3/12 8/48 loss: 0.9240 time 4.29s
+Epoch 3/12 9/48 loss: 0.9244 time 4.30s
+Epoch 3/12 10/48 loss: 0.9279 time 4.29s
+Epoch 3/12 11/48 loss: 0.9322 time 4.29s
+Epoch 3/12 12/48 loss: 0.9373 time 4.29s
+Epoch 3/12 13/48 loss: 0.9313 time 4.29s
+Epoch 3/12 14/48 loss: 0.9338 time 4.29s
+Epoch 3/12 15/48 loss: 0.9341 time 4.29s
+Epoch 3/12 16/48 loss: 0.9360 time 4.30s
+Epoch 3/12 17/48 loss: 0.9389 time 4.28s
+Epoch 3/12 18/48 loss: 0.9380 time 4.29s
+Epoch 3/12 19/48 loss: 0.9390 time 4.29s
+Epoch 3/12 20/48 loss: 0.9351 time 4.29s
+Epoch 3/12 21/48 loss: 0.9363 time 4.29s
+Epoch 3/12 22/48 loss: 0.9348 time 4.30s
+Epoch 3/12 23/48 loss: 0.9321 time 4.30s
+Epoch 3/12 24/48 loss: 0.9314 time 4.30s
+Epoch 3/12 25/48 loss: 0.9285 time 4.29s
+Epoch 3/12 26/48 loss: 0.9291 time 4.29s
+Epoch 3/12 27/48 loss: 0.9284 time 4.29s
+Epoch 3/12 28/48 loss: 0.9269 time 4.29s
+Epoch 3/12 29/48 loss: 0.9285 time 4.29s
+Epoch 3/12 30/48 loss: 0.9307 time 4.29s
+Epoch 3/12 31/48 loss: 0.9328 time 4.29s
+Epoch 3/12 32/48 loss: 0.9319 time 4.29s
+Epoch 3/12 33/48 loss: 0.9319 time 4.29s
+Epoch 3/12 34/48 loss: 0.9299 time 4.29s
+Epoch 3/12 35/48 loss: 0.9315 time 4.29s
+Epoch 3/12 36/48 loss: 0.9293 time 4.29s
+Epoch 3/12 37/48 loss: 0.9282 time 4.30s
+Epoch 3/12 38/48 loss: 0.9274 time 4.30s
+Epoch 3/12 39/48 loss: 0.9281 time 4.30s
+Epoch 3/12 40/48 loss: 0.9291 time 4.30s
+Epoch 3/12 41/48 loss: 0.9308 time 4.29s
+Epoch 3/12 42/48 loss: 0.9324 time 4.29s
+Epoch 3/12 43/48 loss: 0.9334 time 4.29s
+Epoch 3/12 44/48 loss: 0.9341 time 4.29s
+Epoch 3/12 45/48 loss: 0.9318 time 4.29s
+Epoch 3/12 46/48 loss: 0.9316 time 4.29s
+Epoch 3/12 47/48 loss: 0.9323 time 4.29s
+Final training  3/11 loss: 0.9323 time 209.28s
+Thu Aug 10 21:50:32 2023 Epoch: 4
+Epoch 4/12 0/48 loss: 0.9829 time 7.50s
+Epoch 4/12 1/48 loss: 0.9747 time 4.29s
+Epoch 4/12 2/48 loss: 0.9183 time 4.30s
+Epoch 4/12 3/48 loss: 0.9360 time 4.29s
+Epoch 4/12 4/48 loss: 0.9451 time 4.30s
+Epoch 4/12 5/48 loss: 0.9418 time 4.30s
+Epoch 4/12 6/48 loss: 0.9373 time 4.30s
+Epoch 4/12 7/48 loss: 0.9377 time 4.29s
+Epoch 4/12 8/48 loss: 0.9361 time 4.29s
+Epoch 4/12 9/48 loss: 0.9421 time 4.29s
+Epoch 4/12 10/48 loss: 0.9378 time 4.30s
+Epoch 4/12 11/48 loss: 0.9298 time 4.29s
+Epoch 4/12 12/48 loss: 0.9302 time 4.29s
+Epoch 4/12 13/48 loss: 0.9230 time 4.29s
+Epoch 4/12 14/48 loss: 0.9145 time 4.29s
+Epoch 4/12 15/48 loss: 0.9101 time 4.29s
+Epoch 4/12 16/48 loss: 0.9095 time 4.29s
+Epoch 4/12 17/48 loss: 0.9088 time 4.30s
+Epoch 4/12 18/48 loss: 0.9089 time 4.29s
+Epoch 4/12 19/48 loss: 0.9109 time 4.29s
+Epoch 4/12 20/48 loss: 0.9064 time 4.29s
+Epoch 4/12 21/48 loss: 0.9106 time 4.30s
+Epoch 4/12 22/48 loss: 0.9126 time 4.29s
+Epoch 4/12 23/48 loss: 0.9092 time 4.29s
+Epoch 4/12 24/48 loss: 0.9105 time 4.29s
+Epoch 4/12 25/48 loss: 0.9042 time 4.29s
+Epoch 4/12 26/48 loss: 0.9059 time 4.29s
+Epoch 4/12 27/48 loss: 0.9088 time 4.29s
+Epoch 4/12 28/48 loss: 0.9117 time 4.29s
+Epoch 4/12 29/48 loss: 0.9122 time 4.30s
+Epoch 4/12 30/48 loss: 0.9150 time 4.29s
+Epoch 4/12 31/48 loss: 0.9164 time 4.29s
+Epoch 4/12 32/48 loss: 0.9169 time 4.29s
+Epoch 4/12 33/48 loss: 0.9175 time 4.29s
+Epoch 4/12 34/48 loss: 0.9194 time 4.29s
+Epoch 4/12 35/48 loss: 0.9216 time 4.29s
+Epoch 4/12 36/48 loss: 0.9219 time 4.30s
+Epoch 4/12 37/48 loss: 0.9202 time 4.30s
+Epoch 4/12 38/48 loss: 0.9222 time 4.29s
+Epoch 4/12 39/48 loss: 0.9240 time 4.29s
+Epoch 4/12 40/48 loss: 0.9219 time 4.30s
+Epoch 4/12 41/48 loss: 0.9234 time 4.30s
+Epoch 4/12 42/48 loss: 0.9246 time 4.29s
+Epoch 4/12 43/48 loss: 0.9234 time 4.29s
+Epoch 4/12 44/48 loss: 0.9238 time 4.29s
+Epoch 4/12 45/48 loss: 0.9240 time 4.29s
+Epoch 4/12 46/48 loss: 0.9241 time 4.29s
+Epoch 4/12 47/48 loss: 0.9223 time 4.29s
+Final training  4/11 loss: 0.9223 time 209.38s
+Thu Aug 10 21:54:01 2023 Epoch: 5
+Epoch 5/12 0/48 loss: 0.8809 time 7.39s
+Epoch 5/12 1/48 loss: 0.9272 time 4.29s
+Epoch 5/12 2/48 loss: 0.9512 time 4.28s
+Epoch 5/12 3/48 loss: 0.9583 time 4.28s
+Epoch 5/12 4/48 loss: 0.9380 time 4.29s
+Epoch 5/12 5/48 loss: 0.9431 time 4.30s
+Epoch 5/12 6/48 loss: 0.9449 time 4.30s
+Epoch 5/12 7/48 loss: 0.9485 time 4.28s
+Epoch 5/12 8/48 loss: 0.9478 time 4.29s
+Epoch 5/12 9/48 loss: 0.9519 time 4.29s
+Epoch 5/12 10/48 loss: 0.9562 time 4.29s
+Epoch 5/12 11/48 loss: 0.9485 time 4.29s
+Epoch 5/12 12/48 loss: 0.9492 time 4.29s
+Epoch 5/12 13/48 loss: 0.9499 time 4.29s
+Epoch 5/12 14/48 loss: 0.9427 time 4.29s
+Epoch 5/12 15/48 loss: 0.9433 time 4.29s
+Epoch 5/12 16/48 loss: 0.9466 time 4.29s
+Epoch 5/12 17/48 loss: 0.9490 time 4.29s
+Epoch 5/12 18/48 loss: 0.9482 time 4.30s
+Epoch 5/12 19/48 loss: 0.9454 time 4.30s
+Epoch 5/12 20/48 loss: 0.9475 time 4.30s
+Epoch 5/12 21/48 loss: 0.9490 time 4.29s
+Epoch 5/12 22/48 loss: 0.9493 time 4.30s
+Epoch 5/12 23/48 loss: 0.9508 time 4.29s
+Epoch 5/12 24/48 loss: 0.9498 time 4.29s
+Epoch 5/12 25/48 loss: 0.9498 time 4.29s
+Epoch 5/12 26/48 loss: 0.9482 time 4.29s
+Epoch 5/12 27/48 loss: 0.9485 time 4.29s
+Epoch 5/12 28/48 loss: 0.9442 time 4.29s
+Epoch 5/12 29/48 loss: 0.9376 time 4.29s
+Epoch 5/12 30/48 loss: 0.9359 time 4.29s
+Epoch 5/12 31/48 loss: 0.9325 time 4.29s
+Epoch 5/12 32/48 loss: 0.9320 time 4.29s
+Epoch 5/12 33/48 loss: 0.9340 time 4.29s
+Epoch 5/12 34/48 loss: 0.9358 time 4.30s
+Epoch 5/12 35/48 loss: 0.9338 time 4.30s
+Epoch 5/12 36/48 loss: 0.9337 time 4.29s
+Epoch 5/12 37/48 loss: 0.9336 time 4.29s
+Epoch 5/12 38/48 loss: 0.9346 time 4.29s
+Epoch 5/12 39/48 loss: 0.9339 time 4.29s
+Epoch 5/12 40/48 loss: 0.9311 time 4.29s
+Epoch 5/12 41/48 loss: 0.9319 time 4.29s
+Epoch 5/12 42/48 loss: 0.9313 time 4.29s
+Epoch 5/12 43/48 loss: 0.9311 time 4.29s
+Epoch 5/12 44/48 loss: 0.9314 time 4.29s
+Epoch 5/12 45/48 loss: 0.9328 time 4.29s
+Epoch 5/12 46/48 loss: 0.9303 time 4.29s
+Epoch 5/12 47/48 loss: 0.9291 time 4.29s
+Final training  5/11 loss: 0.9291 time 209.22s
+Val 5/12 0/12 , dice_tc: 0.14730912 , dice_wt: 0.4122371 , dice_et: 0.013375848 , time 36.40s
+Val 5/12 1/12 , dice_tc: 0.110054195 , dice_wt: 0.35813344 , dice_et: 0.009398988 , time 33.14s
+Val 5/12 2/12 , dice_tc: 0.17246372 , dice_wt: 0.385079 , dice_et: 0.013012613 , time 33.19s
+Val 5/12 3/12 , dice_tc: 0.15759055 , dice_wt: 0.39579293 , dice_et: 0.011731043 , time 33.13s
+Val 5/12 4/12 , dice_tc: 0.13087946 , dice_wt: 0.32455465 , dice_et: 0.009833952 , time 33.20s
+Val 5/12 5/12 , dice_tc: 0.10983189 , dice_wt: 0.27923566 , dice_et: 0.008284762 , time 33.22s
+Val 5/12 6/12 , dice_tc: 0.096956395 , dice_wt: 0.24478206 , dice_et: 0.0074143643 , time 33.21s
+Val 5/12 7/12 , dice_tc: 0.12324804 , dice_wt: 0.25732487 , dice_et: 0.009417008 , time 33.21s
+Val 5/12 8/12 , dice_tc: 0.12763609 , dice_wt: 0.2650706 , dice_et: 0.009797466 , time 33.21s
+Val 5/12 9/12 , dice_tc: 0.14610441 , dice_wt: 0.2785508 , dice_et: 0.010778076 , time 33.22s
+Val 5/12 10/12 , dice_tc: 0.14296089 , dice_wt: 0.27780125 , dice_et: 0.010559542 , time 33.22s
+Val 5/12 11/12 , dice_tc: 0.13425677 , dice_wt: 0.26348743 , dice_et: 0.009947278 , time 33.18s
+Final validation stats 5/11 , dice_tc: 0.13425677 , dice_wt: 0.26348743 , dice_et: 0.009947278 , Dice_Avg: 0.13589714 , time 401.67s
+new best (0.126924 --> 0.135897). 
+Saving checkpoint /tmp/tmp9ook60kl/model.pt
+Thu Aug 10 22:04:13 2023 Epoch: 6
+Epoch 6/12 0/48 loss: 0.8905 time 7.96s
+Epoch 6/12 1/48 loss: 0.8353 time 4.28s
+Epoch 6/12 2/48 loss: 0.8716 time 4.28s
+Epoch 6/12 3/48 loss: 0.8795 time 4.29s
+Epoch 6/12 4/48 loss: 0.8850 time 4.28s
+Epoch 6/12 5/48 loss: 0.9026 time 4.28s
+Epoch 6/12 6/48 loss: 0.9112 time 4.29s
+Epoch 6/12 7/48 loss: 0.9065 time 4.29s
+Epoch 6/12 8/48 loss: 0.9142 time 4.29s
+Epoch 6/12 9/48 loss: 0.9021 time 4.29s
+Epoch 6/12 10/48 loss: 0.8945 time 4.29s
+Epoch 6/12 11/48 loss: 0.9008 time 4.29s
+Epoch 6/12 12/48 loss: 0.9074 time 4.29s
+Epoch 6/12 13/48 loss: 0.9035 time 4.29s
+Epoch 6/12 14/48 loss: 0.9020 time 4.29s
+Epoch 6/12 15/48 loss: 0.9055 time 4.29s
+Epoch 6/12 16/48 loss: 0.9098 time 4.29s
+Epoch 6/12 17/48 loss: 0.9137 time 4.29s
+Epoch 6/12 18/48 loss: 0.9144 time 4.29s
+Epoch 6/12 19/48 loss: 0.9102 time 4.30s
+Epoch 6/12 20/48 loss: 0.9102 time 4.29s
+Epoch 6/12 21/48 loss: 0.9115 time 4.29s
+Epoch 6/12 22/48 loss: 0.9131 time 4.29s
+Epoch 6/12 23/48 loss: 0.9161 time 4.29s
+Epoch 6/12 24/48 loss: 0.9175 time 4.29s
+Epoch 6/12 25/48 loss: 0.9207 time 4.29s
+Epoch 6/12 26/48 loss: 0.9203 time 4.30s
+Epoch 6/12 27/48 loss: 0.9210 time 4.29s
+Epoch 6/12 28/48 loss: 0.9236 time 4.29s
+Epoch 6/12 29/48 loss: 0.9229 time 4.29s
+Epoch 6/12 30/48 loss: 0.9230 time 4.29s
+Epoch 6/12 31/48 loss: 0.9183 time 4.30s
+Epoch 6/12 32/48 loss: 0.9196 time 4.29s
+Epoch 6/12 33/48 loss: 0.9213 time 4.30s
+Epoch 6/12 34/48 loss: 0.9222 time 4.29s
+Epoch 6/12 35/48 loss: 0.9215 time 4.30s
+Epoch 6/12 36/48 loss: 0.9229 time 4.29s
+Epoch 6/12 37/48 loss: 0.9241 time 4.29s
+Epoch 6/12 38/48 loss: 0.9242 time 4.29s
+Epoch 6/12 39/48 loss: 0.9249 time 4.29s
+Epoch 6/12 40/48 loss: 0.9246 time 4.29s
+Epoch 6/12 41/48 loss: 0.9241 time 4.29s
+Epoch 6/12 42/48 loss: 0.9259 time 4.29s
+Epoch 6/12 43/48 loss: 0.9232 time 4.29s
+Epoch 6/12 44/48 loss: 0.9229 time 4.29s
+Epoch 6/12 45/48 loss: 0.9209 time 4.29s
+Epoch 6/12 46/48 loss: 0.9210 time 4.30s
+Epoch 6/12 47/48 loss: 0.9218 time 4.29s
+Final training  6/11 loss: 0.9218 time 209.77s
+Thu Aug 10 22:07:42 2023 Epoch: 7
+Epoch 7/12 0/48 loss: 0.9411 time 8.16s
+Epoch 7/12 1/48 loss: 0.8777 time 4.28s
+Epoch 7/12 2/48 loss: 0.9160 time 4.27s
+Epoch 7/12 3/48 loss: 0.8768 time 4.29s
+Epoch 7/12 4/48 loss: 0.8920 time 4.27s
+Epoch 7/12 5/48 loss: 0.9024 time 4.29s
+Epoch 7/12 6/48 loss: 0.9157 time 4.27s
+Epoch 7/12 7/48 loss: 0.9065 time 4.29s
+Epoch 7/12 8/48 loss: 0.9154 time 4.27s
+Epoch 7/12 9/48 loss: 0.9215 time 4.29s
+Epoch 7/12 10/48 loss: 0.9185 time 4.29s
+Epoch 7/12 11/48 loss: 0.9196 time 4.29s
+Epoch 7/12 12/48 loss: 0.9171 time 4.29s
+Epoch 7/12 13/48 loss: 0.9088 time 4.29s
+Epoch 7/12 14/48 loss: 0.9063 time 4.29s
+Epoch 7/12 15/48 loss: 0.9046 time 4.28s
+Epoch 7/12 16/48 loss: 0.9005 time 4.29s
+Epoch 7/12 17/48 loss: 0.9023 time 4.29s
+Epoch 7/12 18/48 loss: 0.8990 time 4.29s
+Epoch 7/12 19/48 loss: 0.9001 time 4.29s
+Epoch 7/12 20/48 loss: 0.9005 time 4.29s
+Epoch 7/12 21/48 loss: 0.9040 time 4.29s
+Epoch 7/12 22/48 loss: 0.8989 time 4.30s
+Epoch 7/12 23/48 loss: 0.9023 time 4.28s
+Epoch 7/12 24/48 loss: 0.9054 time 4.29s
+Epoch 7/12 25/48 loss: 0.9068 time 4.29s
+Epoch 7/12 26/48 loss: 0.9098 time 4.29s
+Epoch 7/12 27/48 loss: 0.9106 time 4.30s
+Epoch 7/12 28/48 loss: 0.9090 time 4.29s
+Epoch 7/12 29/48 loss: 0.9102 time 4.29s
+Epoch 7/12 30/48 loss: 0.9116 time 4.29s
+Epoch 7/12 31/48 loss: 0.9144 time 4.30s
+Epoch 7/12 32/48 loss: 0.9134 time 4.29s
+Epoch 7/12 33/48 loss: 0.9108 time 4.30s
+Epoch 7/12 34/48 loss: 0.9132 time 4.29s
+Epoch 7/12 35/48 loss: 0.9113 time 4.29s
+Epoch 7/12 36/48 loss: 0.9136 time 4.29s
+Epoch 7/12 37/48 loss: 0.9100 time 4.30s
+Epoch 7/12 38/48 loss: 0.9071 time 4.29s
+Epoch 7/12 39/48 loss: 0.9067 time 4.29s
+Epoch 7/12 40/48 loss: 0.9087 time 4.29s
+Epoch 7/12 41/48 loss: 0.9095 time 4.29s
+Epoch 7/12 42/48 loss: 0.9092 time 4.29s
+Epoch 7/12 43/48 loss: 0.9106 time 4.29s
+Epoch 7/12 44/48 loss: 0.9114 time 4.29s
+Epoch 7/12 45/48 loss: 0.9129 time 4.29s
+Epoch 7/12 46/48 loss: 0.9143 time 4.29s
+Epoch 7/12 47/48 loss: 0.9150 time 4.30s
+Final training  7/11 loss: 0.9150 time 209.89s
+Thu Aug 10 22:11:12 2023 Epoch: 8
+Epoch 8/12 0/48 loss: 0.9670 time 7.96s
+Epoch 8/12 1/48 loss: 0.9687 time 4.27s
+Epoch 8/12 2/48 loss: 0.9213 time 4.27s
+Epoch 8/12 3/48 loss: 0.9319 time 4.27s
+Epoch 8/12 4/48 loss: 0.9355 time 4.28s
+Epoch 8/12 5/48 loss: 0.9395 time 4.28s
+Epoch 8/12 6/48 loss: 0.9353 time 4.29s
+Epoch 8/12 7/48 loss: 0.9239 time 4.29s
+Epoch 8/12 8/48 loss: 0.9302 time 4.29s
+Epoch 8/12 9/48 loss: 0.9098 time 4.29s
+Epoch 8/12 10/48 loss: 0.9032 time 4.29s
+Epoch 8/12 11/48 loss: 0.9076 time 4.29s
+Epoch 8/12 12/48 loss: 0.9126 time 4.28s
+Epoch 8/12 13/48 loss: 0.9134 time 4.29s
+Epoch 8/12 14/48 loss: 0.9139 time 4.28s
+Epoch 8/12 15/48 loss: 0.9177 time 4.29s
+Epoch 8/12 16/48 loss: 0.9137 time 4.29s
+Epoch 8/12 17/48 loss: 0.9185 time 4.28s
+Epoch 8/12 18/48 loss: 0.9210 time 4.28s
+Epoch 8/12 19/48 loss: 0.9247 time 4.28s
+Epoch 8/12 20/48 loss: 0.9258 time 4.28s
+Epoch 8/12 21/48 loss: 0.9186 time 4.29s
+Epoch 8/12 22/48 loss: 0.9175 time 4.29s
+Epoch 8/12 23/48 loss: 0.9156 time 4.29s
+Epoch 8/12 24/48 loss: 0.9103 time 4.29s
+Epoch 8/12 25/48 loss: 0.9133 time 4.29s
+Epoch 8/12 26/48 loss: 0.9162 time 4.28s
+Epoch 8/12 27/48 loss: 0.9123 time 4.29s
+Epoch 8/12 28/48 loss: 0.9128 time 4.29s
+Epoch 8/12 29/48 loss: 0.9148 time 4.28s
+Epoch 8/12 30/48 loss: 0.9123 time 4.29s
+Epoch 8/12 31/48 loss: 0.9144 time 4.29s
+Epoch 8/12 32/48 loss: 0.9102 time 4.29s
+Epoch 8/12 33/48 loss: 0.9122 time 4.29s
+Epoch 8/12 34/48 loss: 0.9140 time 4.29s
+Epoch 8/12 35/48 loss: 0.9136 time 4.29s
+Epoch 8/12 36/48 loss: 0.9149 time 4.29s
+Epoch 8/12 37/48 loss: 0.9131 time 4.29s
+Epoch 8/12 38/48 loss: 0.9132 time 4.29s
+Epoch 8/12 39/48 loss: 0.9153 time 4.29s
+Epoch 8/12 40/48 loss: 0.9161 time 4.29s
+Epoch 8/12 41/48 loss: 0.9172 time 4.29s
+Epoch 8/12 42/48 loss: 0.9169 time 4.30s
+Epoch 8/12 43/48 loss: 0.9126 time 4.29s
+Epoch 8/12 44/48 loss: 0.9146 time 4.30s
+Epoch 8/12 45/48 loss: 0.9138 time 4.30s
+Epoch 8/12 46/48 loss: 0.9155 time 4.28s
+Epoch 8/12 47/48 loss: 0.9172 time 4.29s
+Final training  8/11 loss: 0.9172 time 209.60s
+Val 8/12 0/12 , dice_tc: 0.14943017 , dice_wt: 0.49316663 , dice_et: 0.013280651 , time 36.36s
+Val 8/12 1/12 , dice_tc: 0.111528 , dice_wt: 0.4186936 , dice_et: 0.0094201835 , time 33.12s
+Val 8/12 2/12 , dice_tc: 0.1762984 , dice_wt: 0.43953785 , dice_et: 0.012991168 , time 33.16s
+Val 8/12 3/12 , dice_tc: 0.16047785 , dice_wt: 0.44893107 , dice_et: 0.011747597 , time 33.14s
+Val 8/12 4/12 , dice_tc: 0.13322058 , dice_wt: 0.36815637 , dice_et: 0.009843952 , time 33.18s
+Val 8/12 5/12 , dice_tc: 0.11181081 , dice_wt: 0.3167223 , dice_et: 0.008293041 , time 33.19s
+Val 8/12 6/12 , dice_tc: 0.0987023 , dice_wt: 0.27769464 , dice_et: 0.007419832 , time 33.19s
+Val 8/12 7/12 , dice_tc: 0.12657353 , dice_wt: 0.28900677 , dice_et: 0.009486899 , time 33.21s
+Val 8/12 8/12 , dice_tc: 0.1313129 , dice_wt: 0.29797447 , dice_et: 0.009841361 , time 33.19s
+Val 8/12 9/12 , dice_tc: 0.14992957 , dice_wt: 0.3121614 , dice_et: 0.010867185 , time 33.19s
+Val 8/12 10/12 , dice_tc: 0.14687848 , dice_wt: 0.31193957 , dice_et: 0.010635971 , time 33.18s
+Val 8/12 11/12 , dice_tc: 0.1379775 , dice_wt: 0.29638225 , dice_et: 0.010018117 , time 33.13s
+Final validation stats 8/11 , dice_tc: 0.1379775 , dice_wt: 0.29638225 , dice_et: 0.010018117 , Dice_Avg: 0.14812595 , time 401.36s
+new best (0.135897 --> 0.148126). 
+Saving checkpoint /tmp/tmp9ook60kl/model.pt
+Thu Aug 10 22:21:24 2023 Epoch: 9
+Epoch 9/12 0/48 loss: 0.9362 time 7.47s
+Epoch 9/12 1/48 loss: 0.9301 time 4.27s
+Epoch 9/12 2/48 loss: 0.9508 time 4.27s
+Epoch 9/12 3/48 loss: 0.9492 time 4.29s
+Epoch 9/12 4/48 loss: 0.9517 time 4.28s
+Epoch 9/12 5/48 loss: 0.9560 time 4.29s
+Epoch 9/12 6/48 loss: 0.9473 time 4.29s
+Epoch 9/12 7/48 loss: 0.9532 time 4.29s
+Epoch 9/12 8/48 loss: 0.9567 time 4.28s
+Epoch 9/12 9/48 loss: 0.9568 time 4.29s
+Epoch 9/12 10/48 loss: 0.9455 time 4.29s
+Epoch 9/12 11/48 loss: 0.9460 time 4.29s
+Epoch 9/12 12/48 loss: 0.9456 time 4.29s
+Epoch 9/12 13/48 loss: 0.9475 time 4.29s
+Epoch 9/12 14/48 loss: 0.9481 time 4.28s
+Epoch 9/12 15/48 loss: 0.9395 time 4.29s
+Epoch 9/12 16/48 loss: 0.9425 time 4.28s
+Epoch 9/12 17/48 loss: 0.9346 time 4.29s
+Epoch 9/12 18/48 loss: 0.9259 time 4.30s
+Epoch 9/12 19/48 loss: 0.9267 time 4.29s
+Epoch 9/12 20/48 loss: 0.9273 time 4.29s
+Epoch 9/12 21/48 loss: 0.9297 time 4.29s
+Epoch 9/12 22/48 loss: 0.9240 time 4.29s
+Epoch 9/12 23/48 loss: 0.9272 time 4.29s
+Epoch 9/12 24/48 loss: 0.9186 time 4.30s
+Epoch 9/12 25/48 loss: 0.9177 time 4.29s
+Epoch 9/12 26/48 loss: 0.9185 time 4.30s
+Epoch 9/12 27/48 loss: 0.9190 time 4.29s
+Epoch 9/12 28/48 loss: 0.9198 time 4.29s
+Epoch 9/12 29/48 loss: 0.9186 time 4.30s
+Epoch 9/12 30/48 loss: 0.9167 time 4.30s
+Epoch 9/12 31/48 loss: 0.9145 time 4.29s
+Epoch 9/12 32/48 loss: 0.9121 time 4.30s
+Epoch 9/12 33/48 loss: 0.9108 time 4.29s
+Epoch 9/12 34/48 loss: 0.9121 time 4.29s
+Epoch 9/12 35/48 loss: 0.9106 time 4.29s
+Epoch 9/12 36/48 loss: 0.9129 time 4.28s
+Epoch 9/12 37/48 loss: 0.9112 time 4.29s
+Epoch 9/12 38/48 loss: 0.9098 time 4.29s
+Epoch 9/12 39/48 loss: 0.9121 time 4.29s
+Epoch 9/12 40/48 loss: 0.9135 time 4.29s
+Epoch 9/12 41/48 loss: 0.9152 time 4.29s
+Epoch 9/12 42/48 loss: 0.9167 time 4.29s
+Epoch 9/12 43/48 loss: 0.9173 time 4.29s
+Epoch 9/12 44/48 loss: 0.9152 time 4.30s
+Epoch 9/12 45/48 loss: 0.9167 time 4.29s
+Epoch 9/12 46/48 loss: 0.9168 time 4.29s
+Epoch 9/12 47/48 loss: 0.9166 time 4.29s
+Final training  9/11 loss: 0.9166 time 209.19s
+Thu Aug 10 22:24:53 2023 Epoch: 10
+Epoch 10/12 0/48 loss: 0.9774 time 7.34s
+Epoch 10/12 1/48 loss: 0.9502 time 4.28s
+Epoch 10/12 2/48 loss: 0.9314 time 4.27s
+Epoch 10/12 3/48 loss: 0.9189 time 4.28s
+Epoch 10/12 4/48 loss: 0.9350 time 4.27s
+Epoch 10/12 5/48 loss: 0.9353 time 4.29s
+Epoch 10/12 6/48 loss: 0.9205 time 4.28s
+Epoch 10/12 7/48 loss: 0.9149 time 4.28s
+Epoch 10/12 8/48 loss: 0.9176 time 4.28s
+Epoch 10/12 9/48 loss: 0.9203 time 4.29s
+Epoch 10/12 10/48 loss: 0.9185 time 4.28s
+Epoch 10/12 11/48 loss: 0.9166 time 4.29s
+Epoch 10/12 12/48 loss: 0.9144 time 4.28s
+Epoch 10/12 13/48 loss: 0.9166 time 4.29s
+Epoch 10/12 14/48 loss: 0.9183 time 4.28s
+Epoch 10/12 15/48 loss: 0.9178 time 4.29s
+Epoch 10/12 16/48 loss: 0.9159 time 4.29s
+Epoch 10/12 17/48 loss: 0.9181 time 4.29s
+Epoch 10/12 18/48 loss: 0.9117 time 4.29s
+Epoch 10/12 19/48 loss: 0.9131 time 4.29s
+Epoch 10/12 20/48 loss: 0.9143 time 4.29s
+Epoch 10/12 21/48 loss: 0.9181 time 4.29s
+Epoch 10/12 22/48 loss: 0.9206 time 4.29s
+Epoch 10/12 23/48 loss: 0.9208 time 4.29s
+Epoch 10/12 24/48 loss: 0.9227 time 4.29s
+Epoch 10/12 25/48 loss: 0.9233 time 4.29s
+Epoch 10/12 26/48 loss: 0.9229 time 4.29s
+Epoch 10/12 27/48 loss: 0.9173 time 4.29s
+Epoch 10/12 28/48 loss: 0.9188 time 4.30s
+Epoch 10/12 29/48 loss: 0.9210 time 4.28s
+Epoch 10/12 30/48 loss: 0.9210 time 4.29s
+Epoch 10/12 31/48 loss: 0.9233 time 4.27s
+Epoch 10/12 32/48 loss: 0.9215 time 4.29s
+Epoch 10/12 33/48 loss: 0.9188 time 4.29s
+Epoch 10/12 34/48 loss: 0.9160 time 4.29s
+Epoch 10/12 35/48 loss: 0.9182 time 4.29s
+Epoch 10/12 36/48 loss: 0.9156 time 4.29s
+Epoch 10/12 37/48 loss: 0.9179 time 4.29s
+Epoch 10/12 38/48 loss: 0.9198 time 4.28s
+Epoch 10/12 39/48 loss: 0.9168 time 4.29s
+Epoch 10/12 40/48 loss: 0.9150 time 4.29s
+Epoch 10/12 41/48 loss: 0.9153 time 4.29s
+Epoch 10/12 42/48 loss: 0.9132 time 4.29s
+Epoch 10/12 43/48 loss: 0.9111 time 4.28s
+Epoch 10/12 44/48 loss: 0.9095 time 4.29s
+Epoch 10/12 45/48 loss: 0.9114 time 4.28s
+Epoch 10/12 46/48 loss: 0.9131 time 4.29s
+Epoch 10/12 47/48 loss: 0.9108 time 4.30s
+Final training  10/11 loss: 0.9108 time 208.98s
+Thu Aug 10 22:28:22 2023 Epoch: 11
+Epoch 11/12 0/48 loss: 0.9698 time 7.48s
+Epoch 11/12 1/48 loss: 0.9589 time 4.28s
+Epoch 11/12 2/48 loss: 0.9565 time 4.27s
+Epoch 11/12 3/48 loss: 0.9611 time 4.28s
+Epoch 11/12 4/48 loss: 0.9584 time 4.28s
+Epoch 11/12 5/48 loss: 0.9575 time 4.29s
+Epoch 11/12 6/48 loss: 0.9575 time 4.28s
+Epoch 11/12 7/48 loss: 0.9596 time 4.28s
+Epoch 11/12 8/48 loss: 0.9630 time 4.28s
+Epoch 11/12 9/48 loss: 0.9633 time 4.29s
+Epoch 11/12 10/48 loss: 0.9666 time 4.29s
+Epoch 11/12 11/48 loss: 0.9475 time 4.30s
+Epoch 11/12 12/48 loss: 0.9472 time 4.28s
+Epoch 11/12 13/48 loss: 0.9445 time 4.29s
+Epoch 11/12 14/48 loss: 0.9463 time 4.29s
+Epoch 11/12 15/48 loss: 0.9472 time 4.29s
+Epoch 11/12 16/48 loss: 0.9468 time 4.29s
+Epoch 11/12 17/48 loss: 0.9421 time 4.29s
+Epoch 11/12 18/48 loss: 0.9429 time 4.29s
+Epoch 11/12 19/48 loss: 0.9447 time 4.29s
+Epoch 11/12 20/48 loss: 0.9432 time 4.29s
+Epoch 11/12 21/48 loss: 0.9408 time 4.29s
+Epoch 11/12 22/48 loss: 0.9408 time 4.29s
+Epoch 11/12 23/48 loss: 0.9398 time 4.29s
+Epoch 11/12 24/48 loss: 0.9358 time 4.30s
+Epoch 11/12 25/48 loss: 0.9363 time 4.30s
+Epoch 11/12 26/48 loss: 0.9275 time 4.29s
+Epoch 11/12 27/48 loss: 0.9285 time 4.28s
+Epoch 11/12 28/48 loss: 0.9219 time 4.30s
+Epoch 11/12 29/48 loss: 0.9186 time 4.29s
+Epoch 11/12 30/48 loss: 0.9202 time 4.29s
+Epoch 11/12 31/48 loss: 0.9165 time 4.30s
+Epoch 11/12 32/48 loss: 0.9190 time 4.29s
+Epoch 11/12 33/48 loss: 0.9201 time 4.29s
+Epoch 11/12 34/48 loss: 0.9222 time 4.29s
+Epoch 11/12 35/48 loss: 0.9227 time 4.29s
+Epoch 11/12 36/48 loss: 0.9247 time 4.29s
+Epoch 11/12 37/48 loss: 0.9263 time 4.29s
+Epoch 11/12 38/48 loss: 0.9277 time 4.27s
+Epoch 11/12 39/48 loss: 0.9288 time 4.29s
+Epoch 11/12 40/48 loss: 0.9299 time 4.29s
+Epoch 11/12 41/48 loss: 0.9306 time 4.29s
+Epoch 11/12 42/48 loss: 0.9298 time 4.29s
+Epoch 11/12 43/48 loss: 0.9308 time 4.28s
+Epoch 11/12 44/48 loss: 0.9274 time 4.29s
+Epoch 11/12 45/48 loss: 0.9251 time 4.29s
+Epoch 11/12 46/48 loss: 0.9261 time 4.28s
+Epoch 11/12 47/48 loss: 0.9268 time 4.29s
+Final training  11/11 loss: 0.9268 time 209.12s
+Auto-removal of overlapping axes is deprecated since 3.6 and will be removed two minor releases later; explicitly call ax.remove() as needed.
+Auto-removal of overlapping axes is deprecated since 3.6 and will be removed two minor releases later; explicitly call ax.remove() as needed.
+Val 11/12 0/12 , dice_tc: 0.16348273 , dice_wt: 0.5569695 , dice_et: 0.013332992 , time 36.11s
+Val 11/12 1/12 , dice_tc: 0.12224805 , dice_wt: 0.4730531 , dice_et: 0.009461506 , time 33.11s
+Val 11/12 2/12 , dice_tc: 0.19148171 , dice_wt: 0.48723128 , dice_et: 0.013027505 , time 33.18s
+Val 11/12 3/12 , dice_tc: 0.17355217 , dice_wt: 0.4954354 , dice_et: 0.011785356 , time 33.14s
+Val 11/12 4/12 , dice_tc: 0.1437431 , dice_wt: 0.4062044 , dice_et: 0.009874003 , time 33.18s
+Val 11/12 5/12 , dice_tc: 0.12062173 , dice_wt: 0.3496755 , dice_et: 0.008318343 , time 33.18s
+Val 11/12 6/12 , dice_tc: 0.106225304 , dice_wt: 0.306534 , dice_et: 0.007441626 , time 33.17s
+Val 11/12 7/12 , dice_tc: 0.13288844 , dice_wt: 0.31476703 , dice_et: 0.009494972 , time 33.20s
+Val 11/12 8/12 , dice_tc: 0.13753983 , dice_wt: 0.32400042 , dice_et: 0.009845869 , time 33.21s
+Val 11/12 9/12 , dice_tc: 0.15727249 , dice_wt: 0.33985183 , dice_et: 0.010887811 , time 33.20s
+Val 11/12 10/12 , dice_tc: 0.1540519 , dice_wt: 0.3397485 , dice_et: 0.010654269 , time 33.21s
+Val 11/12 11/12 , dice_tc: 0.1448002 , dice_wt: 0.32362473 , dice_et: 0.0100354375 , time 33.15s
+Final validation stats 11/11 , dice_tc: 0.1448002 , dice_wt: 0.32362473 , dice_et: 0.0100354375 , Dice_Avg: 0.15948679 , time 401.18s
+new best (0.148126 --> 0.159487). 
+Saving checkpoint /tmp/tmp9ook60kl/model.pt
+Training Finished !, Best Accuracy:  0.15948679

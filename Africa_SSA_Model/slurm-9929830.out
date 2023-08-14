@@ -1,0 +1,89 @@
+None
+MONAI version: 1.2.0rc7+9.g84940298
+Numpy version: 1.24.2
+Pytorch version: 1.13.1
+MONAI flags: HAS_EXT = False, USE_COMPILED = False, USE_META_DICT = False
+MONAI rev id: 84940298bff9ff1f54845eb8ae7422c0092c09c1
+MONAI __file__: /home/guest185/hackathon_38/lib/python3.8/site-packages/monai/__init__.py
+
+Optional dependencies:
+Pytorch Ignite version: 0.4.2
+ITK version: NOT INSTALLED or UNKNOWN VERSION.
+Nibabel version: 5.1.0
+scikit-image version: 0.19.3
+Pillow version: 9.5.0
+Tensorboard version: 2.13.0
+gdown version: 4.7.1
+TorchVision version: 0.14.1
+tqdm version: 4.65.0
+lmdb version: 1.2.1
+psutil version: 5.9.4
+pandas version: 1.5.3
+einops version: 0.6.1
+transformers version: 4.21.3
+mlflow version: NOT INSTALLED or UNKNOWN VERSION.
+pynrrd version: 1.0.0
+
+For details about installing the optional dependencies, please visit:
+    https://docs.monai.io/en/latest/installation.html#installing-the-recommended-dependencies
+
+/tmp/tmpucdbt9nr
+image shape: (240, 240, 155), label shape: (240, 240, 155)
+Sat Aug  5 23:52:00 2023 Epoch: 0
+In the future `np.bool` will be defined as the corresponding NumPy scalar.
+In the future `np.bool` will be defined as the corresponding NumPy scalar.
+In the future `np.bool` will be defined as the corresponding NumPy scalar.
+In the future `np.bool` will be defined as the corresponding NumPy scalar.
+monai.transforms.io.dictionary LoadImaged.__init__:image_only: Current default value of argument `image_only=False` has been deprecated since version 1.1. It will be changed to `image_only=True` in version 1.3.
+In the future `np.bool` will be defined as the corresponding NumPy scalar.
+In the future `np.bool` will be defined as the corresponding NumPy scalar.
+Epoch 0/15 0/48 loss: 0.9416 time 26.44s
+Epoch 0/15 1/48 loss: 0.9109 time 4.28s
+Epoch 0/15 2/48 loss: 0.9256 time 4.60s
+Epoch 0/15 3/48 loss: 0.9395 time 4.21s
+Epoch 0/15 4/48 loss: 0.9373 time 4.22s
+Epoch 0/15 5/48 loss: 0.9283 time 4.24s
+Epoch 0/15 6/48 loss: 0.9276 time 4.23s
+Epoch 0/15 7/48 loss: 0.9174 time 4.24s
+Epoch 0/15 8/48 loss: 0.9198 time 4.27s
+Epoch 0/15 9/48 loss: 0.9106 time 4.28s
+Epoch 0/15 10/48 loss: 0.9163 time 4.27s
+Epoch 0/15 11/48 loss: 0.9174 time 4.28s
+Epoch 0/15 12/48 loss: 0.9163 time 4.28s
+Epoch 0/15 13/48 loss: 0.9122 time 4.31s
+Epoch 0/15 14/48 loss: 0.9138 time 4.31s
+Epoch 0/15 15/48 loss: 0.9124 time 4.31s
+Epoch 0/15 16/48 loss: 0.9071 time 4.31s
+Epoch 0/15 17/48 loss: 0.9104 time 4.31s
+Epoch 0/15 18/48 loss: 0.9067 time 4.33s
+Epoch 0/15 19/48 loss: 0.9080 time 4.33s
+Epoch 0/15 20/48 loss: 0.9040 time 4.33s
+Epoch 0/15 21/48 loss: 0.8987 time 4.33s
+Epoch 0/15 22/48 loss: 0.8966 time 4.36s
+Epoch 0/15 23/48 loss: 0.9001 time 4.33s
+Epoch 0/15 24/48 loss: 0.8927 time 4.32s
+Epoch 0/15 25/48 loss: 0.8963 time 4.32s
+Epoch 0/15 26/48 loss: 0.8967 time 4.33s
+Epoch 0/15 27/48 loss: 0.8996 time 4.34s
+Epoch 0/15 28/48 loss: 0.9007 time 4.34s
+Epoch 0/15 29/48 loss: 0.8987 time 4.33s
+Epoch 0/15 30/48 loss: 0.8975 time 4.34s
+Epoch 0/15 31/48 loss: 0.8929 time 4.34s
+Epoch 0/15 32/48 loss: 0.8898 time 4.33s
+Epoch 0/15 33/48 loss: 0.8901 time 4.34s
+Epoch 0/15 34/48 loss: 0.8911 time 4.35s
+Epoch 0/15 35/48 loss: 0.8876 time 4.35s
+Epoch 0/15 36/48 loss: 0.8887 time 4.35s
+Epoch 0/15 37/48 loss: 0.8877 time 4.35s
+Epoch 0/15 38/48 loss: 0.8858 time 4.35s
+Epoch 0/15 39/48 loss: 0.8844 time 4.35s
+Epoch 0/15 40/48 loss: 0.8872 time 4.36s
+Epoch 0/15 41/48 loss: 0.8857 time 4.36s
+Epoch 0/15 42/48 loss: 0.8833 time 4.36s
+Epoch 0/15 43/48 loss: 0.8808 time 4.36s
+Epoch 0/15 44/48 loss: 0.8800 time 4.36s
+Epoch 0/15 45/48 loss: 0.8782 time 4.37s
+Epoch 0/15 46/48 loss: 0.8783 time 4.37s
+Epoch 0/15 47/48 loss: 0.8790 time 4.36s
+Final training  0/14 loss: 0.8790 time 229.82s
+slurmstepd: error: *** JOB 9929830 ON gra1173 CANCELLED AT 2023-08-05T23:58:31 ***
