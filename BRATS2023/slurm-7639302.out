@@ -1,0 +1,372 @@
+None
+MONAI version: 1.2.0rc7+9.g84940298
+Numpy version: 1.24.2
+Pytorch version: 1.13.1
+MONAI flags: HAS_EXT = False, USE_COMPILED = False, USE_META_DICT = False
+MONAI rev id: 84940298bff9ff1f54845eb8ae7422c0092c09c1
+MONAI __file__: /home/guest185/hackathon_38/lib/python3.8/site-packages/monai/__init__.py
+
+Optional dependencies:
+Pytorch Ignite version: 0.4.2
+ITK version: NOT INSTALLED or UNKNOWN VERSION.
+Nibabel version: 5.1.0
+scikit-image version: 0.19.3
+Pillow version: 9.5.0
+Tensorboard version: 2.13.0
+gdown version: 4.7.1
+TorchVision version: 0.14.1
+tqdm version: 4.65.0
+lmdb version: 1.2.1
+psutil version: 5.9.4
+pandas version: 1.5.3
+einops version: 0.6.1
+transformers version: 4.21.3
+mlflow version: NOT INSTALLED or UNKNOWN VERSION.
+pynrrd version: 1.0.0
+
+For details about installing the optional dependencies, please visit:
+    https://docs.monai.io/en/latest/installation.html#installing-the-recommended-dependencies
+
+/tmp/tmpe062mkk1
+image shape: (240, 240, 155), label shape: (240, 240, 155)
+Tue Jul  4 12:45:42 2023 Epoch: 0
+In the future `np.bool` will be defined as the corresponding NumPy scalar.
+In the future `np.bool` will be defined as the corresponding NumPy scalar.
+In the future `np.bool` will be defined as the corresponding NumPy scalar.
+In the future `np.bool` will be defined as the corresponding NumPy scalar.
+monai.transforms.io.dictionary LoadImaged.__init__:image_only: Current default value of argument `image_only=False` has been deprecated since version 1.1. It will be changed to `image_only=True` in version 1.3.
+In the future `np.bool` will be defined as the corresponding NumPy scalar.
+In the future `np.bool` will be defined as the corresponding NumPy scalar.
+Epoch 0/10 0/130 loss: 0.9775 time 18.83s
+Epoch 0/10 1/130 loss: 0.9705 time 0.92s
+Epoch 0/10 2/130 loss: 0.9545 time 0.93s
+Epoch 0/10 3/130 loss: 0.9457 time 0.92s
+Epoch 0/10 4/130 loss: 0.9441 time 0.91s
+Epoch 0/10 5/130 loss: 0.9479 time 0.92s
+Epoch 0/10 6/130 loss: 0.9448 time 0.92s
+Epoch 0/10 7/130 loss: 0.9420 time 0.93s
+Epoch 0/10 8/130 loss: 0.9332 time 0.92s
+Epoch 0/10 9/130 loss: 0.9315 time 0.92s
+Epoch 0/10 10/130 loss: 0.9334 time 0.93s
+Epoch 0/10 11/130 loss: 0.9335 time 0.92s
+Epoch 0/10 12/130 loss: 0.9312 time 0.93s
+Epoch 0/10 13/130 loss: 0.9337 time 0.96s
+Epoch 0/10 14/130 loss: 0.9330 time 0.93s
+Epoch 0/10 15/130 loss: 0.9296 time 0.93s
+Epoch 0/10 16/130 loss: 0.9280 time 0.93s
+Epoch 0/10 17/130 loss: 0.9276 time 0.93s
+Epoch 0/10 18/130 loss: 0.9272 time 0.93s
+Epoch 0/10 19/130 loss: 0.9255 time 0.93s
+Epoch 0/10 20/130 loss: 0.9239 time 0.93s
+Epoch 0/10 21/130 loss: 0.9214 time 0.93s
+Epoch 0/10 22/130 loss: 0.9190 time 0.94s
+Epoch 0/10 23/130 loss: 0.9188 time 0.95s
+Epoch 0/10 24/130 loss: 0.9157 time 0.94s
+Epoch 0/10 25/130 loss: 0.9127 time 0.94s
+Epoch 0/10 26/130 loss: 0.9109 time 0.93s
+Epoch 0/10 27/130 loss: 0.9100 time 0.94s
+Epoch 0/10 28/130 loss: 0.9109 time 0.94s
+Epoch 0/10 29/130 loss: 0.9117 time 0.94s
+Epoch 0/10 30/130 loss: 0.9099 time 0.94s
+Epoch 0/10 31/130 loss: 0.9099 time 0.94s
+Epoch 0/10 32/130 loss: 0.9113 time 0.95s
+Epoch 0/10 33/130 loss: 0.9112 time 0.97s
+Epoch 0/10 34/130 loss: 0.9088 time 0.95s
+Epoch 0/10 35/130 loss: 0.9065 time 0.95s
+Epoch 0/10 36/130 loss: 0.9078 time 0.94s
+Epoch 0/10 37/130 loss: 0.9063 time 0.95s
+Epoch 0/10 38/130 loss: 0.9048 time 0.98s
+Epoch 0/10 39/130 loss: 0.9040 time 0.95s
+Epoch 0/10 40/130 loss: 0.9033 time 0.95s
+Epoch 0/10 41/130 loss: 0.9007 time 0.95s
+Epoch 0/10 42/130 loss: 0.8994 time 0.95s
+Epoch 0/10 43/130 loss: 0.8988 time 0.95s
+Epoch 0/10 44/130 loss: 0.8982 time 0.95s
+Epoch 0/10 45/130 loss: 0.8982 time 0.95s
+Epoch 0/10 46/130 loss: 0.8981 time 0.95s
+Epoch 0/10 47/130 loss: 0.8993 time 0.95s
+Epoch 0/10 48/130 loss: 0.8992 time 0.96s
+Epoch 0/10 49/130 loss: 0.8969 time 0.95s
+Epoch 0/10 50/130 loss: 0.8952 time 0.95s
+Epoch 0/10 51/130 loss: 0.8941 time 0.96s
+Epoch 0/10 52/130 loss: 0.8920 time 0.98s
+Epoch 0/10 53/130 loss: 0.8931 time 0.95s
+Epoch 0/10 54/130 loss: 0.8931 time 0.96s
+Epoch 0/10 55/130 loss: 0.8941 time 0.96s
+Epoch 0/10 56/130 loss: 0.8936 time 3.28s
+Epoch 0/10 57/130 loss: 0.8940 time 0.95s
+Epoch 0/10 58/130 loss: 0.8940 time 0.96s
+Epoch 0/10 59/130 loss: 0.8935 time 0.99s
+Epoch 0/10 60/130 loss: 0.8939 time 0.96s
+Epoch 0/10 61/130 loss: 0.8933 time 0.96s
+Epoch 0/10 62/130 loss: 0.8919 time 2.76s
+Epoch 0/10 63/130 loss: 0.8918 time 0.96s
+Epoch 0/10 64/130 loss: 0.8913 time 0.97s
+Epoch 0/10 65/130 loss: 0.8903 time 0.97s
+Epoch 0/10 66/130 loss: 0.8894 time 0.97s
+Epoch 0/10 67/130 loss: 0.8880 time 0.97s
+Epoch 0/10 68/130 loss: 0.8871 time 0.96s
+Epoch 0/10 69/130 loss: 0.8858 time 0.97s
+Epoch 0/10 70/130 loss: 0.8862 time 0.97s
+Epoch 0/10 71/130 loss: 0.8862 time 0.97s
+Epoch 0/10 72/130 loss: 0.8858 time 0.99s
+Epoch 0/10 73/130 loss: 0.8849 time 0.97s
+Epoch 0/10 74/130 loss: 0.8837 time 0.96s
+Epoch 0/10 75/130 loss: 0.8837 time 0.97s
+Epoch 0/10 76/130 loss: 0.8832 time 0.98s
+Epoch 0/10 77/130 loss: 0.8829 time 0.96s
+Epoch 0/10 78/130 loss: 0.8824 time 0.97s
+Epoch 0/10 79/130 loss: 0.8813 time 0.97s
+Epoch 0/10 80/130 loss: 0.8816 time 0.97s
+Epoch 0/10 81/130 loss: 0.8815 time 0.97s
+Epoch 0/10 82/130 loss: 0.8808 time 0.97s
+Epoch 0/10 83/130 loss: 0.8800 time 0.98s
+Epoch 0/10 84/130 loss: 0.8799 time 1.00s
+Epoch 0/10 85/130 loss: 0.8795 time 0.96s
+Epoch 0/10 86/130 loss: 0.8782 time 0.97s
+Epoch 0/10 87/130 loss: 0.8771 time 0.97s
+Epoch 0/10 88/130 loss: 0.8779 time 1.44s
+Epoch 0/10 89/130 loss: 0.8781 time 0.97s
+Epoch 0/10 90/130 loss: 0.8771 time 0.97s
+Epoch 0/10 91/130 loss: 0.8765 time 3.08s
+Epoch 0/10 92/130 loss: 0.8767 time 0.96s
+Epoch 0/10 93/130 loss: 0.8765 time 0.97s
+Epoch 0/10 94/130 loss: 0.8755 time 0.97s
+Epoch 0/10 95/130 loss: 0.8748 time 0.97s
+Epoch 0/10 96/130 loss: 0.8748 time 0.97s
+Epoch 0/10 97/130 loss: 0.8739 time 0.97s
+Epoch 0/10 98/130 loss: 0.8730 time 1.99s
+Epoch 0/10 99/130 loss: 0.8729 time 2.08s
+Epoch 0/10 100/130 loss: 0.8725 time 0.97s
+Epoch 0/10 101/130 loss: 0.8716 time 1.85s
+Epoch 0/10 102/130 loss: 0.8715 time 0.97s
+Epoch 0/10 103/130 loss: 0.8711 time 0.99s
+Epoch 0/10 104/130 loss: 0.8705 time 0.97s
+Epoch 0/10 105/130 loss: 0.8708 time 0.98s
+Epoch 0/10 106/130 loss: 0.8706 time 0.97s
+Epoch 0/10 107/130 loss: 0.8704 time 4.08s
+Epoch 0/10 108/130 loss: 0.8699 time 0.97s
+Epoch 0/10 109/130 loss: 0.8690 time 0.97s
+Epoch 0/10 110/130 loss: 0.8688 time 0.97s
+Epoch 0/10 111/130 loss: 0.8682 time 0.97s
+Epoch 0/10 112/130 loss: 0.8680 time 0.98s
+Epoch 0/10 113/130 loss: 0.8680 time 1.02s
+Epoch 0/10 114/130 loss: 0.8682 time 0.97s
+Epoch 0/10 115/130 loss: 0.8684 time 0.97s
+Epoch 0/10 116/130 loss: 0.8676 time 0.97s
+Epoch 0/10 117/130 loss: 0.8668 time 3.54s
+Epoch 0/10 118/130 loss: 0.8668 time 0.97s
+Epoch 0/10 119/130 loss: 0.8674 time 0.97s
+Epoch 0/10 120/130 loss: 0.8668 time 0.98s
+Epoch 0/10 121/130 loss: 0.8662 time 0.98s
+Epoch 0/10 122/130 loss: 0.8660 time 0.97s
+Epoch 0/10 123/130 loss: 0.8660 time 0.97s
+Epoch 0/10 124/130 loss: 0.8662 time 0.97s
+Epoch 0/10 125/130 loss: 0.8664 time 0.97s
+Epoch 0/10 126/130 loss: 0.8657 time 0.97s
+Epoch 0/10 127/130 loss: 0.8651 time 0.97s
+Epoch 0/10 128/130 loss: 0.8651 time 0.97s
+Epoch 0/10 129/130 loss: 0.8653 time 0.97s
+Final training  0/9 loss: 0.8653 time 157.97s
+Val 0/10 0/64 , dice_tc: 0.0014911678 , dice_wt: 0.0052050846 , dice_et: 0.0 , time 31.98s
+Val 0/10 1/64 , dice_tc: 0.0014911678 , dice_wt: 0.0052050846 , dice_et: 0.0 , time 22.10s
+Val 0/10 2/64 , dice_tc: 0.0014911679 , dice_wt: 0.0052050846 , dice_et: 0.0 , time 22.12s
+Val 0/10 3/64 , dice_tc: 0.0014911678 , dice_wt: 0.0052050846 , dice_et: 0.0 , time 22.11s
+Val 0/10 4/64 , dice_tc: 0.0014911678 , dice_wt: 0.0052050846 , dice_et: 0.0 , time 22.12s
+Val 0/10 5/64 , dice_tc: 0.0014911677 , dice_wt: 0.005205084 , dice_et: 0.0 , time 22.08s
+Val 0/10 6/64 , dice_tc: 0.0014911677 , dice_wt: 0.005205084 , dice_et: 0.0 , time 22.10s
+Val 0/10 7/64 , dice_tc: 0.0014911677 , dice_wt: 0.005205084 , dice_et: 0.0 , time 22.09s
+Val 0/10 8/64 , dice_tc: 0.0014911677 , dice_wt: 0.005205084 , dice_et: 0.0 , time 22.09s
+Val 0/10 9/64 , dice_tc: 0.0014911677 , dice_wt: 0.005205084 , dice_et: 0.0 , time 22.11s
+Val 0/10 10/64 , dice_tc: 0.0014911677 , dice_wt: 0.005205084 , dice_et: 0.0 , time 22.07s
+Val 0/10 11/64 , dice_tc: 0.0014911677 , dice_wt: 0.005205084 , dice_et: 0.0 , time 22.09s
+Val 0/10 12/64 , dice_tc: 0.0014911678 , dice_wt: 0.005205084 , dice_et: 0.0 , time 22.05s
+Val 0/10 13/64 , dice_tc: 0.0014911678 , dice_wt: 0.005205084 , dice_et: 0.0 , time 22.08s
+Val 0/10 14/64 , dice_tc: 0.0014911679 , dice_wt: 0.0052050846 , dice_et: 0.0 , time 22.09s
+Val 0/10 15/64 , dice_tc: 0.0014911679 , dice_wt: 0.0052050846 , dice_et: 0.0 , time 22.07s
+Val 0/10 16/64 , dice_tc: 0.0014911679 , dice_wt: 0.0052050846 , dice_et: 0.0 , time 22.09s
+Val 0/10 17/64 , dice_tc: 0.001491168 , dice_wt: 0.005205085 , dice_et: 0.0 , time 22.06s
+Val 0/10 18/64 , dice_tc: 0.001491168 , dice_wt: 0.005205085 , dice_et: 0.0 , time 22.05s
+Val 0/10 19/64 , dice_tc: 0.001491168 , dice_wt: 0.005205085 , dice_et: 0.0 , time 22.08s
+Val 0/10 20/64 , dice_tc: 0.001491168 , dice_wt: 0.005205085 , dice_et: 0.0 , time 22.08s
+Val 0/10 21/64 , dice_tc: 0.001491168 , dice_wt: 0.0052050855 , dice_et: 0.0 , time 22.08s
+Val 0/10 22/64 , dice_tc: 0.0014911679 , dice_wt: 0.0052050855 , dice_et: 0.0 , time 22.05s
+Val 0/10 23/64 , dice_tc: 0.0014911679 , dice_wt: 0.0052050855 , dice_et: 0.0 , time 22.06s
+Val 0/10 24/64 , dice_tc: 0.0014911678 , dice_wt: 0.0052050855 , dice_et: 0.0 , time 22.08s
+Val 0/10 25/64 , dice_tc: 0.0014911678 , dice_wt: 0.005205085 , dice_et: 0.0 , time 22.06s
+Val 0/10 26/64 , dice_tc: 0.0014911677 , dice_wt: 0.005205085 , dice_et: 0.0 , time 22.08s
+Val 0/10 27/64 , dice_tc: 0.0014911677 , dice_wt: 0.0052050846 , dice_et: 0.0 , time 22.08s
+Val 0/10 28/64 , dice_tc: 0.0014911677 , dice_wt: 0.0052050846 , dice_et: 0.0 , time 22.07s
+Val 0/10 29/64 , dice_tc: 0.0014911677 , dice_wt: 0.0052050846 , dice_et: 0.0 , time 22.09s
+Val 0/10 30/64 , dice_tc: 0.0014911676 , dice_wt: 0.005205084 , dice_et: 0.0 , time 22.08s
+Val 0/10 31/64 , dice_tc: 0.0014911676 , dice_wt: 0.005205084 , dice_et: 0.0 , time 22.09s
+Val 0/10 32/64 , dice_tc: 0.0014911676 , dice_wt: 0.005205084 , dice_et: 0.0 , time 22.08s
+Val 0/10 33/64 , dice_tc: 0.0014911676 , dice_wt: 0.0052050836 , dice_et: 0.0 , time 22.09s
+Val 0/10 34/64 , dice_tc: 0.0014911675 , dice_wt: 0.0052050836 , dice_et: 0.0 , time 22.08s
+Val 0/10 35/64 , dice_tc: 0.0014911675 , dice_wt: 0.0052050836 , dice_et: 0.0 , time 22.09s
+Val 0/10 36/64 , dice_tc: 0.0014911675 , dice_wt: 0.0052050836 , dice_et: 0.0 , time 22.07s
+Val 0/10 37/64 , dice_tc: 0.0014911675 , dice_wt: 0.0052050836 , dice_et: 0.0 , time 22.06s
+Val 0/10 38/64 , dice_tc: 0.0014911675 , dice_wt: 0.005205083 , dice_et: 0.0 , time 22.08s
+Val 0/10 39/64 , dice_tc: 0.0014911673 , dice_wt: 0.005205083 , dice_et: 0.0 , time 22.08s
+Val 0/10 40/64 , dice_tc: 0.0014911673 , dice_wt: 0.005205083 , dice_et: 0.0 , time 22.08s
+Val 0/10 41/64 , dice_tc: 0.0014911673 , dice_wt: 0.005205083 , dice_et: 0.0 , time 22.08s
+Val 0/10 42/64 , dice_tc: 0.0014911673 , dice_wt: 0.005205083 , dice_et: 0.0 , time 22.07s
+Val 0/10 43/64 , dice_tc: 0.0014911673 , dice_wt: 0.005205083 , dice_et: 0.0 , time 22.07s
+Val 0/10 44/64 , dice_tc: 0.0014911673 , dice_wt: 0.0052050827 , dice_et: 0.0 , time 22.08s
+Val 0/10 45/64 , dice_tc: 0.0014911673 , dice_wt: 0.0052050827 , dice_et: 0.0 , time 22.04s
+Val 0/10 46/64 , dice_tc: 0.0014911672 , dice_wt: 0.0052050827 , dice_et: 0.0 , time 22.08s
+Val 0/10 47/64 , dice_tc: 0.0014911672 , dice_wt: 0.0052050827 , dice_et: 0.0 , time 22.05s
+Val 0/10 48/64 , dice_tc: 0.0014911672 , dice_wt: 0.0052050827 , dice_et: 0.0 , time 22.07s
+Val 0/10 49/64 , dice_tc: 0.0014911672 , dice_wt: 0.0052050827 , dice_et: 0.0 , time 22.06s
+Val 0/10 50/64 , dice_tc: 0.0014911672 , dice_wt: 0.005205083 , dice_et: 0.0 , time 22.04s
+Val 0/10 51/64 , dice_tc: 0.0014911672 , dice_wt: 0.005205083 , dice_et: 0.0 , time 22.08s
+Val 0/10 52/64 , dice_tc: 0.0014911672 , dice_wt: 0.0052050836 , dice_et: 0.0 , time 22.06s
+Val 0/10 53/64 , dice_tc: 0.0014911672 , dice_wt: 0.0052050836 , dice_et: 0.0 , time 22.06s
+Val 0/10 54/64 , dice_tc: 0.0014911672 , dice_wt: 0.005205084 , dice_et: 0.0 , time 22.06s
+Val 0/10 55/64 , dice_tc: 0.0014911672 , dice_wt: 0.005205084 , dice_et: 0.0 , time 22.04s
+Val 0/10 56/64 , dice_tc: 0.0014911671 , dice_wt: 0.0052050846 , dice_et: 0.0 , time 22.06s
+Val 0/10 57/64 , dice_tc: 0.0014911671 , dice_wt: 0.0052050846 , dice_et: 0.0 , time 22.05s
+Val 0/10 58/64 , dice_tc: 0.0014911671 , dice_wt: 0.0052050846 , dice_et: 0.0 , time 22.04s
+Val 0/10 59/64 , dice_tc: 0.0014911671 , dice_wt: 0.005205085 , dice_et: 0.0 , time 22.07s
+Val 0/10 60/64 , dice_tc: 0.0014911671 , dice_wt: 0.005205085 , dice_et: 0.0 , time 22.05s
+Val 0/10 61/64 , dice_tc: 0.0014911671 , dice_wt: 0.005205085 , dice_et: 0.0 , time 22.07s
+Val 0/10 62/64 , dice_tc: 0.0014911671 , dice_wt: 0.0052050855 , dice_et: 0.0 , time 22.06s
+Val 0/10 63/64 , dice_tc: 0.0014911671 , dice_wt: 0.0052050855 , dice_et: 0.0 , time 22.05s
+Final validation stats 0/9 , dice_tc: 0.0014911671 , dice_wt: 0.0052050855 , dice_et: 0.0 , Dice_Avg: 0.0022320843 , time 1422.74s
+new best (0.000000 --> 0.002232). 
+Saving checkpoint /tmp/tmpe062mkk1/model.pt
+Tue Jul  4 13:12:03 2023 Epoch: 1
+None of the inputs have requires_grad=True. Gradients will be None
+invalid value encountered in divide
+Epoch 1/10 0/130 loss: 0.9299 time 10.46s
+Epoch 1/10 1/130 loss: 0.8628 time 0.96s
+Epoch 1/10 2/130 loss: 0.8489 time 0.99s
+Epoch 1/10 3/130 loss: 0.8585 time 0.96s
+Epoch 1/10 4/130 loss: 0.8559 time 0.96s
+Epoch 1/10 5/130 loss: 0.8414 time 0.97s
+Epoch 1/10 6/130 loss: 0.8311 time 0.97s
+Epoch 1/10 7/130 loss: 0.8198 time 0.97s
+Epoch 1/10 8/130 loss: 0.8168 time 1.37s
+Epoch 1/10 9/130 loss: 0.8144 time 0.97s
+Epoch 1/10 10/130 loss: 0.8125 time 0.99s
+Epoch 1/10 11/130 loss: 0.8188 time 0.96s
+Epoch 1/10 12/130 loss: 0.8199 time 0.97s
+Epoch 1/10 13/130 loss: 0.8197 time 0.97s
+Epoch 1/10 14/130 loss: 0.8211 time 0.97s
+Epoch 1/10 15/130 loss: 0.8277 time 0.97s
+Epoch 1/10 16/130 loss: 0.8224 time 0.97s
+Epoch 1/10 17/130 loss: 0.8176 time 0.97s
+Epoch 1/10 18/130 loss: 0.8197 time 0.99s
+Epoch 1/10 19/130 loss: 0.8181 time 0.97s
+Epoch 1/10 20/130 loss: 0.8187 time 0.97s
+Epoch 1/10 21/130 loss: 0.8185 time 0.97s
+Epoch 1/10 22/130 loss: 0.8182 time 0.97s
+Epoch 1/10 23/130 loss: 0.8158 time 0.97s
+Epoch 1/10 24/130 loss: 0.8163 time 1.81s
+Epoch 1/10 25/130 loss: 0.8141 time 0.97s
+Epoch 1/10 26/130 loss: 0.8141 time 0.97s
+Epoch 1/10 27/130 loss: 0.8155 time 0.97s
+Epoch 1/10 28/130 loss: 0.8154 time 0.99s
+Epoch 1/10 29/130 loss: 0.8190 time 0.97s
+Epoch 1/10 30/130 loss: 0.8192 time 0.97s
+Epoch 1/10 31/130 loss: 0.8194 time 0.97s
+Epoch 1/10 32/130 loss: 0.8196 time 1.23s
+Epoch 1/10 33/130 loss: 0.8169 time 0.97s
+Epoch 1/10 34/130 loss: 0.8198 time 0.98s
+Epoch 1/10 35/130 loss: 0.8195 time 0.97s
+Epoch 1/10 36/130 loss: 0.8197 time 1.00s
+Epoch 1/10 37/130 loss: 0.8198 time 0.97s
+Epoch 1/10 38/130 loss: 0.8188 time 0.97s
+Epoch 1/10 39/130 loss: 0.8172 time 0.97s
+Epoch 1/10 40/130 loss: 0.8163 time 0.99s
+Epoch 1/10 41/130 loss: 0.8161 time 0.97s
+Epoch 1/10 42/130 loss: 0.8162 time 0.97s
+Epoch 1/10 43/130 loss: 0.8160 time 0.97s
+Epoch 1/10 44/130 loss: 0.8139 time 0.97s
+Epoch 1/10 45/130 loss: 0.8141 time 0.97s
+Epoch 1/10 46/130 loss: 0.8154 time 1.01s
+Epoch 1/10 47/130 loss: 0.8151 time 0.97s
+Epoch 1/10 48/130 loss: 0.8143 time 0.97s
+Epoch 1/10 49/130 loss: 0.8150 time 1.03s
+Epoch 1/10 50/130 loss: 0.8148 time 0.97s
+Epoch 1/10 51/130 loss: 0.8158 time 0.98s
+Epoch 1/10 52/130 loss: 0.8169 time 0.98s
+Epoch 1/10 53/130 loss: 0.8171 time 1.03s
+Epoch 1/10 54/130 loss: 0.8171 time 0.97s
+Epoch 1/10 55/130 loss: 0.8168 time 0.97s
+Epoch 1/10 56/130 loss: 0.8160 time 0.99s
+Epoch 1/10 57/130 loss: 0.8157 time 0.97s
+Epoch 1/10 58/130 loss: 0.8162 time 0.97s
+Epoch 1/10 59/130 loss: 0.8167 time 0.97s
+Epoch 1/10 60/130 loss: 0.8164 time 0.97s
+Epoch 1/10 61/130 loss: 0.8179 time 0.97s
+Epoch 1/10 62/130 loss: 0.8179 time 0.97s
+Epoch 1/10 63/130 loss: 0.8183 time 0.98s
+Epoch 1/10 64/130 loss: 0.8182 time 1.77s
+Epoch 1/10 65/130 loss: 0.8183 time 0.97s
+Epoch 1/10 66/130 loss: 0.8190 time 0.97s
+Epoch 1/10 67/130 loss: 0.8197 time 0.97s
+Epoch 1/10 68/130 loss: 0.8189 time 0.97s
+Epoch 1/10 69/130 loss: 0.8179 time 0.97s
+Epoch 1/10 70/130 loss: 0.8171 time 0.97s
+Epoch 1/10 71/130 loss: 0.8172 time 0.98s
+Epoch 1/10 72/130 loss: 0.8175 time 0.97s
+Epoch 1/10 73/130 loss: 0.8181 time 0.97s
+Epoch 1/10 74/130 loss: 0.8171 time 1.02s
+Epoch 1/10 75/130 loss: 0.8177 time 0.97s
+Epoch 1/10 76/130 loss: 0.8176 time 1.01s
+Epoch 1/10 77/130 loss: 0.8176 time 0.97s
+Epoch 1/10 78/130 loss: 0.8178 time 0.97s
+Epoch 1/10 79/130 loss: 0.8181 time 0.97s
+Epoch 1/10 80/130 loss: 0.8168 time 3.09s
+Epoch 1/10 81/130 loss: 0.8162 time 0.97s
+Epoch 1/10 82/130 loss: 0.8159 time 0.97s
+Epoch 1/10 83/130 loss: 0.8153 time 0.97s
+Epoch 1/10 84/130 loss: 0.8150 time 0.97s
+Epoch 1/10 85/130 loss: 0.8147 time 0.97s
+Epoch 1/10 86/130 loss: 0.8138 time 0.98s
+Epoch 1/10 87/130 loss: 0.8130 time 1.00s
+Epoch 1/10 88/130 loss: 0.8121 time 0.97s
+Epoch 1/10 89/130 loss: 0.8119 time 0.97s
+Epoch 1/10 90/130 loss: 0.8118 time 1.00s
+Epoch 1/10 91/130 loss: 0.8123 time 0.97s
+Epoch 1/10 92/130 loss: 0.8128 time 0.97s
+Epoch 1/10 93/130 loss: 0.8127 time 1.01s
+Epoch 1/10 94/130 loss: 0.8132 time 0.99s
+Epoch 1/10 95/130 loss: 0.8142 time 0.97s
+Epoch 1/10 96/130 loss: 0.8141 time 0.97s
+Epoch 1/10 97/130 loss: 0.8143 time 0.97s
+Epoch 1/10 98/130 loss: 0.8137 time 0.97s
+Epoch 1/10 99/130 loss: 0.8139 time 1.01s
+Epoch 1/10 100/130 loss: 0.8138 time 0.97s
+Epoch 1/10 101/130 loss: 0.8128 time 1.00s
+Epoch 1/10 102/130 loss: 0.8132 time 0.97s
+Epoch 1/10 103/130 loss: 0.8124 time 0.97s
+Epoch 1/10 104/130 loss: 0.8124 time 0.99s
+Epoch 1/10 105/130 loss: 0.8118 time 0.97s
+Epoch 1/10 106/130 loss: 0.8117 time 0.99s
+Epoch 1/10 107/130 loss: 0.8112 time 0.97s
+Epoch 1/10 108/130 loss: 0.8109 time 0.97s
+Epoch 1/10 109/130 loss: 0.8108 time 0.97s
+Epoch 1/10 110/130 loss: 0.8103 time 0.97s
+Epoch 1/10 111/130 loss: 0.8098 time 0.97s
+Epoch 1/10 112/130 loss: 0.8091 time 5.21s
+Epoch 1/10 113/130 loss: 0.8094 time 0.97s
+Epoch 1/10 114/130 loss: 0.8089 time 0.97s
+Epoch 1/10 115/130 loss: 0.8091 time 1.00s
+Epoch 1/10 116/130 loss: 0.8093 time 0.97s
+Epoch 1/10 117/130 loss: 0.8090 time 0.97s
+Epoch 1/10 118/130 loss: 0.8088 time 0.97s
+Epoch 1/10 119/130 loss: 0.8085 time 0.97s
+Epoch 1/10 120/130 loss: 0.8080 time 2.76s
+Epoch 1/10 121/130 loss: 0.8082 time 0.97s
+Epoch 1/10 122/130 loss: 0.8081 time 0.96s
+Epoch 1/10 123/130 loss: 0.8084 time 0.97s
+Epoch 1/10 124/130 loss: 0.8075 time 1.98s
+Epoch 1/10 125/130 loss: 0.8074 time 0.96s
+Epoch 1/10 126/130 loss: 0.8068 time 0.97s
+Epoch 1/10 127/130 loss: 0.8067 time 0.97s
+Epoch 1/10 128/130 loss: 0.8063 time 0.97s
+Epoch 1/10 129/130 loss: 0.8066 time 0.96s
+Final training  1/9 loss: 0.8066 time 147.79s
+slurmstepd: error: *** JOB 7639302 ON gra1155 CANCELLED AT 2023-07-04T13:17:48 ***
